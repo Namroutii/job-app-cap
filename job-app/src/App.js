@@ -1,12 +1,10 @@
 import "./App.css";
-import NavB from "./components/NavB";
-
+import Home from "./pages/home/Home";
 function App() {
   return (
     <div className="App">
-      <NavB />
+      <Home />
     </div>
   );
 }
-
 export default App;
