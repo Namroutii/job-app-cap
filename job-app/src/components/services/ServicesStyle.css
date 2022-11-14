@@ -1,0 +1,45 @@
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.3em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 25.25em;
+    box-shadow: 0 5px 25px rgba(80, 68, 252, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    transition: 0.7s ease;
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    
+    margin-left: -11px;
+    width: 373px;
+    height: 340px;
+}
+.card h2{
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(78,78,78);
+    font-size: 1.7em;
+    font-weight: 700;
+}
