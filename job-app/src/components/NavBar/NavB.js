@@ -3,7 +3,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import logo from "D:/study/year3/sem1/web/project/1_navbar/src/photos/logo1.png";
 import "./NavB.css";
 import { Link } from "react-router-dom";
 function nav() {
@@ -19,7 +18,7 @@ function nav() {
       <Container fluid>
         <Navbar.Brand href="#">
           <Link to="/home">
-            <img src={logo} id="logo" />
+            <img src="./images/logo.png" id="logo" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-"md"`} />
