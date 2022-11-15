@@ -7,6 +7,7 @@ import "./NavB.css";
 import { Link } from "react-router-dom";
 function nav() {
   return (
+    <section className="navbar">
     <Navbar
       key={"md"}
       bg="dark"
@@ -58,6 +59,7 @@ function nav() {
         </Navbar.Offcanvas>
       </Container>
     </Navbar>
+    </section>
   );
 }
 export default nav;

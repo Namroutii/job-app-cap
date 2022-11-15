@@ -2,6 +2,7 @@
     background-color: #052236;
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 
 .footer-motto {
