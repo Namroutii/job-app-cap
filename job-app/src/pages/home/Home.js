@@ -1,10 +1,18 @@
-import NavB from "../../components/NavBar/NavB";
+import NavBar from "../../components/NavBar/NavBar";
 import "./Home.css";
-function home() {
+import Footer from "../../components/Footer/Footer";
+import Card from "../../components/Services/Services";
+import Header from "../../components/Header/Header";
+import LoginForm from "../../components/Loginform/Loginform";
+function Home() {
   return (
-    <div>
-      <NavB />
+    <div id="home">
+      <NavBar />
+      <Header />
+      <Card />
+      <Footer />
+      <LoginForm />
     </div>
   );
 }
-export default home;
+export default Home;

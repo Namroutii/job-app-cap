@@ -5,9 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home/Home";
-import Add from "./pages/addCV/AddCV";
-import Get from "./pages/getCV/GetCV";
+import Home from "./pages/Home/Home";
+import AddCV from "./pages/AddCV/AddCV";
+import GetCV from "./pages/GetCV/GetCV";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,10 +15,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/home" index element={<Home />} />
-        <Route path="/add-cv" element={<Add />} />
-        <Route path="/get-cv" element={<Get />} />
+        <Route path="/add-cv" element={<AddCV />} />
+        <Route path="/get-cv" element={<GetCV />} />
       </Routes>
-      <App />
     </BrowserRouter>
   </React.StrictMode>
 );

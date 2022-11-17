@@ -1,14 +1,11 @@
 #logo{
-    width: 3cm;
+    width: 150px;
 }
 
-a:link { text-decoration: none; color: #c0c3c5;}
-a:visited { text-decoration: none; color: #c0c3c5;}
-a:hover { text-decoration: none; color: #c0c3c5;}
-a:active { text-decoration: none; color: #c0c3c5;}
-.drop_down{
-    color: black !important;
-}
+#navb > a:link { text-decoration: none; color: #c0c3c5;}
+#navb > a:visited { text-decoration: none; color: #c0c3c5;}
+#navb > a:hover { text-decoration: none; color: #c0c3c5;}
+#navb > a:active { text-decoration: none; color: #c0c3c5;}
 .drop_down > a:link { text-decoration: none !important; color: black !important;}
 .drop_down > a:visited { text-decoration: none !important; color: black !important;}
 .drop_down > a:hover { text-decoration: none !important; color: black !important;}
@@ -21,4 +18,7 @@ a:active { text-decoration: none; color: #c0c3c5;}
 .nav_canvas{
     max-width: 200px !important;
 }
+}
+#navb{
+    margin-bottom: 100px;
 }

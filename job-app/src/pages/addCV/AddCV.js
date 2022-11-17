@@ -1,10 +1,10 @@
-import NavB from "../../components/NavBar/NavB";
+import NavBar from "../../components/NavBar/NavBar";
 import "./AddCV.css";
-function addCV() {
+function AddCV() {
   return (
     <div>
-      <NavB />
+      <NavBar />
     </div>
   );
 }
-export default addCV;
+export default AddCV;
