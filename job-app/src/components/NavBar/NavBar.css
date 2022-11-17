@@ -19,6 +19,8 @@
     max-width: 200px !important;
 }
 }
-#navb{
+.navbar{
     margin-bottom: 100px;
+    background-color: #052236 !important;
+
 }

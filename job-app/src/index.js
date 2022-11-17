@@ -13,6 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Home />
       <Routes>
         <Route path="/home" index element={<Home />} />
         <Route path="/add-cv" element={<AddCV />} />

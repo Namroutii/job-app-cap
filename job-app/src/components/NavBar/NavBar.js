@@ -14,14 +14,7 @@ function NavBar() {
 
   return (
     <div id="navb">
-      <Navbar
-        key="md"
-        bg="dark"
-        variant="dark"
-        expand="md"
-        className="mb-3"
-        fixed="top"
-      >
+      <Navbar key="md" variant="dark" expand="md" className="mb-3" fixed="top">
         <Container fluid>
           <Navbar.Brand href="#">
             <Link to="/home">
