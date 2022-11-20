@@ -1,10 +1,12 @@
-import NavB from "../../components/NavBar/NavB";
+
+
 import "./Home.css";
-function home() {
+function Home() {
   return (
     <div>
-      <NavB />
+      
+      
     </div>
   );
 }
-export default home;
+export default Home;
