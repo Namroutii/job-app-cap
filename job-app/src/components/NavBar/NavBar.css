@@ -1,0 +1,30 @@
+.nav-brand{
+    color: #adb5bd; 
+    font-family: Garamond, serif;
+}
+#logo{
+    width: 130px;
+    
+}
+.nav-links:hover {
+    color: white;
+}
+
+.nav-links{
+    color: #a8b4c0;
+}
+.navbar{
+    background-color: #052236;
+}
+.navbar-nav .dropdown-menu{
+    background-color: #052236;
+}
+.navbar-nav .dropdown-item{
+    color: #adb5bd;
+}
+.dropdown-toggle::after{
+    color: #adb5bd;
+}
+.navbar-toggler{
+    color: #adb5bd;
+}

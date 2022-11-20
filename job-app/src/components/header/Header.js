@@ -1,5 +1,5 @@
 import ImageSlider from "./ImageSlider";
-const App = () => {
+const Header = () => {
     const slides = [
         { url: "./images/ff.jpg", title: "beach" },
         { url: "./images/6.jpg", title: "boat" },
@@ -14,7 +14,7 @@ const App = () => {
     };
     return (
         <div>
-        <h1 >Hire Me</h1>
+        
         <div style={containerStyles}>
             <ImageSlider slides={slides} />
         </div>
@@ -23,4 +23,4 @@ const App = () => {
     };
 
 
-    export default App;
+    export default Header;

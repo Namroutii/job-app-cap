@@ -1,9 +1,10 @@
-import NavB from "../../components/NavBar/NavB";
+
+import NavBar from "../../components/NavBar/NavBar";
 import "./GetCV.css";
 function getCV() {
   return (
     <div>
-      <NavB />
+      <NavBar />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 
 import "./ServicesStyle.css";
-const Card=()=>{
-
+const Services=()=>{
     return(
         <section className="cards" id="services">
             <h1 class="title">Services</h1>
@@ -19,7 +18,6 @@ const Card=()=>{
                 <div className="card">
                     <div className="imag">
                         <img src="./images/Filter.jpg" alt="..."  >
-
                         </img>
                     </div>
                     <div className="info">
@@ -30,7 +28,6 @@ const Card=()=>{
                 <div className="card">
                     <div className="imag">
                         <img src="./images/cv.jpg" alt="..."  >
-
                         </img>
                     </div>
                     <div className="info">
@@ -46,4 +43,4 @@ const Card=()=>{
     
     
     }
-    export default Card
+    export default Services;
