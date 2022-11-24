@@ -1,0 +1,43 @@
+.title {
+  font-size: 30px;
+  font-weight: 1000;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 80px;
+}
+.form-select {
+  margin-top: 10px;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.select {
+  width: 900px;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+select {
+  width: 920px;
+  padding: 10px;
+  background-color: rgb(235, 230, 230);
+  border-radius: 10px;
+}
+label {
+  font-size: large;
+  padding-top: 30px;
+}
+select:focus {
+  outline-color: rgb(32, 177, 255);
+}
+
+input {
+  width: 920px;
+  padding: 10px;
+  background-color: rgb(235, 230, 230);
+  border-radius: 10px;
+}
+.email-input {
+  width: 920px;
+  padding-left: 80px;
+  padding-top: 20px;
+}
