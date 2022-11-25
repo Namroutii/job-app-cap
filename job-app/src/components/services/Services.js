@@ -6,7 +6,7 @@ const Services = () => {
     <section className="cards" id="services">
       <h1 class="title">Services</h1>
       <div className="content">
-        <Link to="/add-cv" className="services-links">
+        <Link to="/get-cv" className="services-links">
           <div className="card">
             <div className="imag">
               <img src="./images/find.jpg" alt="..."></img>
@@ -40,7 +40,7 @@ const Services = () => {
             </div>
           </div>
         </Link>
-        <Link to="/get-cv" className="services-links">
+        <Link to="/add-cv" className="services-links">
           <div className="card">
             <div className="imag">
               <img src="./images/cv.jpg" alt="..."></img>
