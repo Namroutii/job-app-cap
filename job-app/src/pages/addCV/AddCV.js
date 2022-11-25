@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/footer/Footer";
 import Form from "../../components/forms/Form";
+
 import "./AddCV.css";
 import { useState } from "react";
 
@@ -17,10 +18,12 @@ function AddCV() {
       <NavBar /> <br />
       <div className="title">Add your CV Down here </div>
       <hr />
+      <form>
       <Form>Full Name</Form>
       <Form>Date of birth</Form>
       <Form>Address</Form>
       <Form>Phone Number</Form>
+
       <Form>Email</Form>
       <Form>Degree</Form>
       <div className="select">
@@ -82,6 +85,7 @@ function AddCV() {
           <button type="submit">submit</button>
         </div>
       )}
+      </form>
       <Footer />
     </div>
   );
