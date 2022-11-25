@@ -1,33 +1,18 @@
-
-
-import './Form.css';
-
-
-
+import "./Form.css";
 
 const Form = (props) => {
 
-
-
-
-   return (
-
-
-      <>
-         <div className='form'>
-            <label > {props.children} </label>
-            <input type="text" placeholder={props.children} required />
-         </div>
-
-
-      </>
-   )
-
-}
-
-
-
-
+  return (
+    <>
+      <form>
+        <div className="form-group">
+          <label> {props.children} </label> <br />
+          <input type="text" placeholder={props.children} required />
+        </div>
+      </form>
+    </>
+  );
+};
 
 
 export default Form;
