@@ -5,13 +5,17 @@
   text-align: left;
   
 }
+
 .form-group label {
+
   text-align: left;
   display: block;
 
   
 }
+
 .form-group input {
+
   border: none;
   background-color: rgb(235, 230, 230);
   width: 920px;
@@ -27,6 +31,7 @@
 }
 input:focus {
   outline-color: rgb(32, 177, 255);
+
 }
 
 @media screen and (max-width: 600px) {
@@ -47,3 +52,6 @@ input[type=text] {
           margin-top: 0;
         }
       }
+
+}
+
