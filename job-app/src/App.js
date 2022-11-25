@@ -10,7 +10,7 @@ import Home from "./pages/home/Home";
 //import AddCV from "./pages/addCV/AddCV"
 function App() {
   return (
-    <div>
+    <div >
       <Home />
     </div>
   );
