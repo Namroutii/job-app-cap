@@ -47,18 +47,7 @@ input:focus {
     width: 100%;
     margin-top: 0;
   }
-<<<<<<< HEAD
-    @media screen and (max-width: 600px) {
-      input[type=select] {
-          width: 100%;
-          margin-top: 0;
-        }
-      }
-
-
-=======
 }
->>>>>>> 9c3cc6791e14883a43a0f66854c132bd39dd8f88
 
 @media screen and (max-width: 600px) {
   input[type=select] {
