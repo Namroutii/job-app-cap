@@ -4,10 +4,12 @@
   padding-left: 80px;
   text-align: left;
 }
+
 .form label {
   text-align: left;
   display: block;
 }
+
 .form input {
   border: none;
   background-color: rgb(235, 230, 230);

@@ -5,6 +5,7 @@
   padding-top: 30px;
   padding-left: 80px;
 }
+
 .form-select {
   margin-top: 10px;
   max-width: 1000px;
@@ -16,16 +17,19 @@
   padding-left: 80px;
   padding-top: 20px;
 }
+
 select {
   width: 920px;
   padding: 10px;
   background-color: rgb(235, 230, 230);
   border-radius: 10px;
 }
+
 label {
   font-size: large;
   padding-top: 30px;
 }
+
 select:focus {
   outline-color: rgb(32, 177, 255);
 }
@@ -36,8 +40,26 @@ input {
   background-color: rgb(235, 230, 230);
   border-radius: 10px;
 }
+
 .email-input {
   width: 920px;
   padding-left: 80px;
   padding-top: 20px;
 }
+
+button {
+  width: 40%;
+  height: 48px;
+  background-color: rgb(32, 177, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.25);
+}
+
