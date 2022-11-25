@@ -23,8 +23,11 @@
     padding: 25px;
     margin: 25px;
     transition: 0.7s ease;
-    
+    height: 500px;
 }
+.services-links:link { text-decoration: none; color: black !important;}
+.services-links:visited { text-decoration: none; color: black !important;}
+.services-links:active { text-decoration: none; color: black !important;}
 
 .card:hover {
     transform: scale(1.1);
