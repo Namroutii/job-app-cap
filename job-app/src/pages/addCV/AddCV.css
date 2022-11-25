@@ -11,7 +11,7 @@
   text-align: left;
 }
 
-.select {
+.select-group {
   width: 900px;
   padding-left: 80px;
   padding-top: 20px;
@@ -36,8 +36,7 @@ input {
   background-color: rgb(235, 230, 230);
   border-radius: 10px;
 }
-.email-input {
-  width: 920px;
+
+.form-input{
   padding-left: 80px;
-  padding-top: 20px;
 }

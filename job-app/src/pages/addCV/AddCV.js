@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/footer/Footer";
 import Form from "../../components/forms/Form";
+
 import "./AddCV.css";
 import { useState } from "react";
 
@@ -18,10 +19,11 @@ function AddCV() {
       <NavBar /> <br />
       <div className=" title">Basic Information</div>
       <hr />
+      <form>
       <Form>Full Name</Form>
       <Form>Address</Form>
       <Form>Phone Number</Form>
-      <div className="email-input">
+      <div className="form-input">
         <label className="emailLabel"> Email</label> <br />
         <input type="email" placeholder="Email" className="email-input" />
       </div>
@@ -33,7 +35,7 @@ function AddCV() {
       <Form>Degree</Form>
       <Form>Soft skills</Form>
       <Form>LinkedIn URL</Form>
-      <div className="select">
+      <div className="select-group">
         <label> Department:</label> <br />
         <select onChange={(e) => handleShowSelect(e)}>
           <option selected>Select your job:</option>
@@ -55,6 +57,7 @@ function AddCV() {
           />
         </div>
       )}
+      </form>
       <Footer />
     </div>
   );
