@@ -3,7 +3,7 @@
   max-width: 1000px;
   padding-left: 80px;
   text-align: left;
-  
+
 }
 
 .form-group label {
@@ -11,7 +11,7 @@
   text-align: left;
   display: block;
 
-  
+
 }
 
 .form-group input {
@@ -25,33 +25,33 @@
   padding-left: 80px;
 }
 
-.form-group{
+.form-group {
 
   padding-left: 80px;
 }
+
 input:focus {
   outline-color: rgb(32, 177, 255);
 
 }
 
 @media screen and (max-width: 600px) {
-input[type=text] {
+  input[type=text] {
     width: 100%;
     margin-top: 0;
   }
 }
+
 @media screen and (max-width: 600px) {
   input[type=email] {
-      width: 100%;
-      margin-top: 0;
-    }
+    width: 100%;
+    margin-top: 0;
   }
-    @media screen and (max-width: 600px) {
-      input[type=select] {
-          width: 100%;
-          margin-top: 0;
-        }
-      }
-
 }
 
+@media screen and (max-width: 600px) {
+  input[type=select] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
