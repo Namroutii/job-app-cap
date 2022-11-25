@@ -1,0 +1,29 @@
+[
+  {
+    "full_name": "Osama sholi",
+    "birth_date": "1/1/2001",
+    "gender": "male",
+    "address": "nablus",
+    "specialty": "SEO",
+    "years_of_experience": "5",
+    "email": "osama.shouli2002@gmail.com"
+  },
+  {
+    "full_name": "1Osama sholi",
+    "birth_date": "11/1/2001",
+    "gender": "male",
+    "address": "nablus",
+    "specialty": "sometihing",
+    "years_of_experience": "7",
+    "email": "osama.shouli2000@gmail.com"
+  },
+  {
+    "full_name": "2Osama sholi",
+    "birth_date": "12/1/2001",
+    "gender": "male",
+    "address": "nablus",
+    "specialty": "else",
+    "years_of_experience": "10",
+    "email": "osama.shouli2001@gmail.com"
+  }
+]
