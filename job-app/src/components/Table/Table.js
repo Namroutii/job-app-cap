@@ -2,13 +2,13 @@ import { useState } from "react";
 import tableData1 from "./tableData1.json";
 import TableBody from "./TableBody";
 import TableHead from "./TableHead";
-
+import "./Table.css";
 const Table = () => {
   const [tableData, setTableData] = useState(tableData1);
 
   const columns = [
     { label: "Full Name", accessor: "full_name", sortable: true },
-    { label: "Birth Date", accessor: "birth_date", sortable: true },
+    { label: "Age", accessor: "birth_date", sortable: true },
     { label: "Gender", accessor: "gender", sortable: false },
     { label: "Address", accessor: "address", sortable: false },
     { label: "Specialty", accessor: "specialty", sortable: false },
@@ -18,6 +18,8 @@ const Table = () => {
       sortable: true,
     },
     { label: "Email", accessor: "email", sortable: false },
+    { label: "Submitted at", accessor: "submission_date", sortable: true },
+    { label: "Action", accessor: "action", sortable: false },
   ];
 
   const handleSorting = (sortField, sortOrder) => {
@@ -35,15 +37,21 @@ const Table = () => {
       setTableData(sorted);
     }
   };
+  const [message, setMessage] = useState("");
+  const searchValue = (event) => {
+    setMessage(event.target.value);
+  };
   return (
-    <div>
+    <div id="table-container">
+      <input
+        type="text"
+        id="name-search"
+        placeholder="Search for names.."
+        onChange={searchValue}
+      />
       <table className="table">
-        <caption>
-          Developers currently enrolled in this course, column headers are
-          sortable.
-        </caption>
         <TableHead columns={columns} handleSorting={handleSorting} />
-        <TableBody columns={columns} tableData={tableData} />
+        <TableBody columns={columns} tableData={tableData} keyword={message} />
       </table>
     </div>
   );
