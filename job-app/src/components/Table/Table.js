@@ -41,14 +41,29 @@ const Table = () => {
   const searchValue = (event) => {
     setMessage(event.target.value);
   };
+  const searchList = (event) => {
+    setMessage(event.target.value);
+  };
   return (
     <div id="table-container">
-      <input
-        type="text"
-        id="name-search"
-        placeholder="Search for names.."
-        onChange={searchValue}
-      />
+      <div id="above-table" className="stick">
+        <input
+          type="text"
+          id="name-search"
+          placeholder="Search for names.."
+          onChange={searchValue}
+        />
+        <form action="/action_page.php" method="get">
+          <input list="browsers" name="browser" id="dropdown" />
+          <datalist id="browsers">
+            <option value="Edge" />
+            <option value="Firefox" />
+            <option value="Chrome" />
+            <option value="Opera" />
+            <option value="Safari" />
+          </datalist>
+        </form>
+      </div>
       <table className="table">
         <TableHead columns={columns} handleSorting={handleSorting} />
         <TableBody columns={columns} tableData={tableData} keyword={message} />
