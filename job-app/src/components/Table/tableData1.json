@@ -1,32 +1,32 @@
 [
   {
     "full_name": "Osama sholi",
-    "birth_date": "5/1/2003",
+    "birth_date": "2003/1/5",
     "gender": "male",
     "address": "nablus",
-    "specialty": "SEO",
+    "occupation": "CEO",
     "years_of_experience": "5",
     "email": "osama.shouli2002@gmail.com",
-    "submission_date": "2/5/2020"
+    "submission_date": "2020/5/2"
   },
   {
     "full_name": "Khaled Yaseen",
-    "birth_date": "11/1/2004",
+    "birth_date": "2004/1/11",
     "gender": "male",
     "address": "nablus",
-    "specialty": "sometihing",
+    "occupation": "designer",
     "years_of_experience": "7",
     "email": "osama.shouli2000@gmail.com",
-    "submission_date": "5/10/2020"
+    "submission_date": "2020/10/5"
   },
   {
     "full_name": "Hamza Sholi",
-    "birth_date": "2/1/2000",
+    "birth_date": "2000/1/2",
     "gender": "male",
     "address": "nablus",
-    "specialty": "else",
+    "occupation": "security",
     "years_of_experience": "10",
     "email": "osama.shouli2001@gmail.com",
-    "submission_date": "1/4/2020"
+    "submission_date": "2020/4/1"
   }
 ]

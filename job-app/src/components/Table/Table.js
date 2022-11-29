@@ -11,7 +11,7 @@ const Table = () => {
     { label: "Age", accessor: "birth_date", sortable: true },
     { label: "Gender", accessor: "gender", sortable: false },
     { label: "Address", accessor: "address", sortable: false },
-    { label: "Specialty", accessor: "specialty", sortable: false },
+    { label: "Occupation", accessor: "occupation", sortable: false },
     {
       label: "Years of Experience",
       accessor: "years_of_experience",
@@ -38,11 +38,13 @@ const Table = () => {
     }
   };
   const [message, setMessage] = useState("");
+  const [Occupation, setOccupation] = useState("");
+
   const searchValue = (event) => {
     setMessage(event.target.value);
   };
   const searchList = (event) => {
-    setMessage(event.target.value);
+    setOccupation(event.target.value);
   };
   return (
     <div id="table-container">
@@ -53,20 +55,24 @@ const Table = () => {
           placeholder="Search for names.."
           onChange={searchValue}
         />
-        <form action="/action_page.php" method="get">
-          <input list="browsers" name="browser" id="dropdown" />
-          <datalist id="browsers">
-            <option value="Edge" />
-            <option value="Firefox" />
-            <option value="Chrome" />
-            <option value="Opera" />
-            <option value="Safari" />
-          </datalist>
-        </form>
+
+        <select name="Occupation" id="dropdown" onChange={searchList}>
+          <option value="all">All Occupations</option>
+          <option value="designer" >Designer</option>
+          <option value="security" >Security</option>
+          <option value="development" >Development</option>
+          <option value="accounting">Accounting</option>
+          <option value="ceo">CEO</option>
+        </select>
       </div>
       <table className="table">
         <TableHead columns={columns} handleSorting={handleSorting} />
-        <TableBody columns={columns} tableData={tableData} keyword={message} />
+        <TableBody
+          columns={columns}
+          tableData={tableData}
+          keyword={message}
+          occ={Occupation}
+        />
       </table>
     </div>
   );

@@ -1,8 +1,11 @@
-const TableBody = ({ tableData, columns, keyword }) => {
+const TableBody = ({ tableData, columns, keyword,occ }) => {
+  console.log(occ)
   return (
     <tbody>
       {tableData.map((data) => {
-        if (data["full_name"].toUpperCase().includes(keyword.toUpperCase()))
+        if ((data["full_name"].toUpperCase().includes(keyword.toUpperCase())))
+          console.log(data["occupation"])
+          if(data["occupation"].toLowerCase() == occ || occ == "all" || occ == "")
           return (
             <tr key={data.id}>
               {columns.map(({ accessor }) => {
@@ -15,19 +18,19 @@ const TableBody = ({ tableData, columns, keyword }) => {
                   );
                 if (accessor == "birth_date") {
                   let date = new Date();
-                  let age = date.getFullYear() - tData.slice(-4);
+                  let age = date.getFullYear() - tData.slice(0,4);
                   const ar = tData.split("/");
-                  const days = ar[0] + ar[1] * 30 + ar[2] * 30 * 12;
+                  const days = ar[0] * 30 * 12 + ar[1] * 30 + ar[2];
                   return (
                     <td key={accessor} className={accessor}>
                       <span id="days">{days}</span>
-                      {age}
+                      {age} 
                     </td>
                   );
                 }
                 if (accessor == "submission_date") {
                   const ar = tData.split("/");
-                  const days = ar[0] + ar[1] * 30 + ar[2] * 30 * 12;
+                  const days = ar[0] * 30 * 12 + ar[1] * 30 + ar[2];
                   return (
                     <td key={accessor} className={accessor}>
                       <span id="days">{days}</span>
