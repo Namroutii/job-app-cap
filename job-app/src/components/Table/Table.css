@@ -1,4 +1,3 @@
-
 .action button {
   background-color: inherit;
   border: 0px;
@@ -30,20 +29,20 @@ td {
   margin-bottom: 12px;
 }
 
-.table_container {
-  max-width: 750px;
-  margin: 0 auto;
-  overflow: auto;
+#table-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: 500px;
+  width: 100%;
 }
 
 .table {
   width: 100%;
-  border-spacing: 0;  
+  border-spacing: 0;
   box-sizing: border-box;
 }
-#table-container {
-  white-space: nowrap;overflow-x: auto;
-}
+
 .table th {
   background: #fff;
   padding: 8px 10px;
@@ -52,7 +51,6 @@ td {
   text-align: center;
   min-width: 100px;
 }
-
 .table th.up {
   background-image: url("../../../public/images/up_arrow.png");
 }
@@ -99,14 +97,61 @@ th.down {
 #sub-col {
   min-width: 135px;
 }
-#above-table{
+#above-table {
   display: flex;
-  position: sticky;
-  top: 0;
-
+  margin-left: 10px;
+  width: fit-content;
 }
-#dropdown{
-  margin-left: 20px;
+#dropdown {
   height: 50px;
   width: 200px;
+}
+#age-filter {
+  white-space: nowrap;
+  padding-bottom: 10px;
+  min-width: 180px;
+  height: 50px;
+}
+#age-filter input {
+  width: 50px;
+  height: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#age-bottom {
+  width: 159px;
+  height: 18px;
+  color: black;
+  display: flex;
+  font-size: 12px;
+  border-radius: 8px;
+}
+#max-age-button {
+  margin-left: 18px;
+}
+#min-age-button {
+  margin-left: 16px;
+}
+#address-search {
+  background-image: url("../../../public/images/search-icon.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 300px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-right: 10px;
+}
+#age-button {
+  height: 25px;
+  margin-left: 16px;
+  width: 55px;
+  background-color: rgba(87, 82, 82, 0.178);
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 2px;
+  cursor: pointer;
 }
