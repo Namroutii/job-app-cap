@@ -45,11 +45,12 @@ const Table = () => {
   const min = useRef(null);
   const max = useRef(null);
   const [address, setAddress] = useState("");
+  const [gender, setGender] = useState("");
 
   const searchValue = (event) => {
     setName(event.target.value);
   };
-  const searchList = (event) => {
+  const occupationList = (event) => {
     setOccupation(event.target.value);
   };
   const limitAgeSetter = () => {
@@ -58,6 +59,9 @@ const Table = () => {
   };
   const addressValue = (event) => {
     setAddress(event.target.value);
+  };
+  const genderList = (event) => {
+    setGender(event.target.value);
   };
 
   return (
@@ -68,7 +72,7 @@ const Table = () => {
           id="name-search"
           placeholder="Search for names.."
           onChange={searchValue}
-          className="col-sm-4"
+          className="col-sm-3"
         />
 
         <div id="age-filter" className="col-sm-1">
@@ -83,17 +87,28 @@ const Table = () => {
             <p id="max-age-button">max</p>
           </div>
         </div>
+        <select
+          name="gender"
+          id="gender-filter"
+          onChange={genderList}
+          className="col-sm-1"
+        >
+          <option value="all">All</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
         <input
           type="text"
           id="address-search"
           placeholder="Search for address.."
           onChange={addressValue}
-          className="col-sm-4"
+          className="col-sm-3"
         />
+
         <select
           name="Occupation"
-          id="dropdown"
-          onChange={searchList}
+          id="occupation-filter"
+          onChange={occupationList}
           className="col-sm-3"
         >
           <option value="all">All Occupations</option>
@@ -115,6 +130,7 @@ const Table = () => {
             minAge={minAge}
             maxAge={maxAge}
             address={address}
+            gender={gender}
           />
         </table>
       </div>

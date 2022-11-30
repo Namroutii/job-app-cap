@@ -26,14 +26,14 @@ td {
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 #table-container {
   display: flex;
   overflow-x: scroll;
   white-space: nowrap;
-  height: 500px;
+  height: 83vh;
   width: 100%;
 }
 
@@ -100,17 +100,20 @@ th.down {
 #above-table {
   display: flex;
   margin-left: 10px;
-  width: fit-content;
+  width: 99%;
 }
-#dropdown {
+#occupation-filter {
   height: 50px;
   width: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 #age-filter {
   white-space: nowrap;
   padding-bottom: 10px;
   min-width: 180px;
   height: 50px;
+  width: fit-content;
 }
 #age-filter input {
   width: 50px;
@@ -144,6 +147,7 @@ th.down {
   border: 1px solid #ddd;
   margin-bottom: 12px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 #age-button {
   height: 25px;
@@ -154,4 +158,28 @@ th.down {
   text-align: center;
   padding-top: 2px;
   cursor: pointer;
+}
+#gender-filter {
+  height: 50px;
+  width: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media only screen and (max-width: 575px) {
+  #above-table {
+    flex-direction: column;
+  }
+  #address-search,
+  #name-search,
+  #age-filter,
+  #gender-filter,
+  #occupation-filter {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #gender-filter {
+    margin-top: 10px;
+  }
 }
