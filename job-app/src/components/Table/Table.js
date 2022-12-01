@@ -7,13 +7,12 @@ import { useRef } from "react";
 
 const Table = () => {
   const [tableData, setTableData] = useState(tableData1);
-
   const columns = [
     { label: "Full Name", accessor: "full_name", sortable: true },
     { label: "Age", accessor: "birth_date", sortable: true },
     { label: "Gender", accessor: "gender", sortable: false },
     { label: "Address", accessor: "address", sortable: false },
-    { label: "Occupation", accessor: "occupation", sortable: false },
+    { label: "position", accessor: "position", sortable: false },
     {
       label: "Years of Experience",
       accessor: "years_of_experience",
@@ -39,7 +38,7 @@ const Table = () => {
     }
   };
   const [name, setName] = useState("");
-  const [Occupation, setOccupation] = useState("");
+  const [position, setposition] = useState("");
   const [minAge, setMinAge] = useState([]);
   const [maxAge, setMaxAge] = useState([]);
   const min = useRef(null);
@@ -50,8 +49,8 @@ const Table = () => {
   const searchValue = (event) => {
     setName(event.target.value);
   };
-  const occupationList = (event) => {
-    setOccupation(event.target.value);
+  const positionList = (event) => {
+    setposition(event.target.value);
   };
   const limitAgeSetter = () => {
     setMinAge(min.current.value);
@@ -106,12 +105,12 @@ const Table = () => {
         />
 
         <select
-          name="Occupation"
-          id="occupation-filter"
-          onChange={occupationList}
+          name="position"
+          id="position-filter"
+          onChange={positionList}
           className="col-sm-3"
         >
-          <option value="all">All Occupations</option>
+          <option value="all">All positions</option>
           <option value="designer">Designer</option>
           <option value="security">Security</option>
           <option value="development">Development</option>
@@ -126,7 +125,7 @@ const Table = () => {
             columns={columns}
             tableData={tableData}
             keyword={name}
-            occ={Occupation}
+            occ={position}
             minAge={minAge}
             maxAge={maxAge}
             address={address}

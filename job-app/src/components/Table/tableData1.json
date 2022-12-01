@@ -4,7 +4,7 @@
     "birth_date": "2000/07/10",
     "gender": "female",
     "address": "Samoa",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 14,
     "submission_date": "2015/04/7"
   },
@@ -13,7 +13,7 @@
     "birth_date": "1993/07/29",
     "gender": "male",
     "address": "Palau",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 37,
     "submission_date": "2022/11/23"
   },
@@ -22,7 +22,7 @@
     "birth_date": "1986/02/19",
     "gender": "male",
     "address": "India",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 41,
     "submission_date": "2018/06/19"
   },
@@ -31,7 +31,7 @@
     "birth_date": "1995/10/12",
     "gender": "female",
     "address": "Macedonia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 14,
     "submission_date": "2016/06/21"
   },
@@ -40,7 +40,7 @@
     "birth_date": "1971/01/29",
     "gender": "female",
     "address": "Tajikistan",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 43,
     "submission_date": "2005/12/2"
   },
@@ -49,7 +49,7 @@
     "birth_date": "2009/12/1",
     "gender": "female",
     "address": "American Samoa",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 35,
     "submission_date": "2008/08/14"
   },
@@ -58,7 +58,7 @@
     "birth_date": "1985/02/15",
     "gender": "female",
     "address": "Lithuania",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 29,
     "submission_date": "2009/01/26"
   },
@@ -67,7 +67,7 @@
     "birth_date": "1982/12/4",
     "gender": "female",
     "address": "Armenia",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 38,
     "submission_date": "2005/07/20"
   },
@@ -76,7 +76,7 @@
     "birth_date": "1986/08/5",
     "gender": "male",
     "address": "Norway",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 13,
     "submission_date": "2019/09/22"
   },
@@ -85,7 +85,7 @@
     "birth_date": "1983/09/17",
     "gender": "female",
     "address": "Brazil",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 46,
     "submission_date": "2015/10/9"
   },
@@ -94,7 +94,7 @@
     "birth_date": "1998/11/1",
     "gender": "male",
     "address": "Guam",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 42,
     "submission_date": "2001/12/29"
   },
@@ -103,7 +103,7 @@
     "birth_date": "1999/02/23",
     "gender": "male",
     "address": "Kazakhstan",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 48,
     "submission_date": "2008/09/17"
   },
@@ -112,7 +112,7 @@
     "birth_date": "1977/08/14",
     "gender": "female",
     "address": "Solomon Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 10,
     "submission_date": "2008/10/12"
   },
@@ -121,7 +121,7 @@
     "birth_date": "1985/07/21",
     "gender": "female",
     "address": "Honduras",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 16,
     "submission_date": "2011/05/4"
   },
@@ -130,7 +130,7 @@
     "birth_date": "1986/11/16",
     "gender": "female",
     "address": "Slovakia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 27,
     "submission_date": "2014/09/17"
   },
@@ -139,7 +139,7 @@
     "birth_date": "1981/04/3",
     "gender": "female",
     "address": "Peru",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 45,
     "submission_date": "2011/03/4"
   },
@@ -148,7 +148,7 @@
     "birth_date": "1980/10/4",
     "gender": "male",
     "address": "Jamaica",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 11,
     "submission_date": "2017/04/15"
   },
@@ -157,7 +157,7 @@
     "birth_date": "1973/02/11",
     "gender": "female",
     "address": "Zambia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 5,
     "submission_date": "2006/09/7"
   },
@@ -166,7 +166,7 @@
     "birth_date": "1971/03/23",
     "gender": "male",
     "address": "Georgia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 42,
     "submission_date": "2011/01/16"
   },
@@ -175,7 +175,7 @@
     "birth_date": "1976/09/30",
     "gender": "female",
     "address": "Saudi Arabia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 9,
     "submission_date": "2022/08/30"
   },
@@ -184,7 +184,7 @@
     "birth_date": "1974/01/7",
     "gender": "male",
     "address": "Cambodia",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 26,
     "submission_date": "2002/04/4"
   },
@@ -193,7 +193,7 @@
     "birth_date": "1996/01/23",
     "gender": "female",
     "address": "Antigua and Barbuda",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 29,
     "submission_date": "2008/06/25"
   },
@@ -202,7 +202,7 @@
     "birth_date": "1974/09/14",
     "gender": "male",
     "address": "Mauritius",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 4,
     "submission_date": "2010/03/9"
   },
@@ -211,7 +211,7 @@
     "birth_date": "1998/05/17",
     "gender": "male",
     "address": "Dominican Republic",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 20,
     "submission_date": "2019/12/22"
   },
@@ -220,7 +220,7 @@
     "birth_date": "1984/07/14",
     "gender": "female",
     "address": "Bhutan",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 25,
     "submission_date": "2005/10/28"
   },
@@ -229,7 +229,7 @@
     "birth_date": "1982/02/26",
     "gender": "male",
     "address": "Andorra",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 16,
     "submission_date": "2019/05/9"
   },
@@ -238,7 +238,7 @@
     "birth_date": "2003/08/21",
     "gender": "male",
     "address": "Vanuatu",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 41,
     "submission_date": "2023/11/7"
   },
@@ -247,7 +247,7 @@
     "birth_date": "1981/11/20",
     "gender": "female",
     "address": "France",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 44,
     "submission_date": "2011/04/28"
   },
@@ -256,7 +256,7 @@
     "birth_date": "1988/06/7",
     "gender": "male",
     "address": "Namibia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 48,
     "submission_date": "2023/10/19"
   },
@@ -265,7 +265,7 @@
     "birth_date": "2003/06/14",
     "gender": "male",
     "address": "Venezuela",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 28,
     "submission_date": "2019/04/15"
   },
@@ -274,7 +274,7 @@
     "birth_date": "1999/12/11",
     "gender": "male",
     "address": "Guadeloupe",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 44,
     "submission_date": "2009/10/6"
   },
@@ -283,7 +283,7 @@
     "birth_date": "1980/10/21",
     "gender": "female",
     "address": "Malawi",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 7,
     "submission_date": "2003/11/28"
   },
@@ -292,7 +292,7 @@
     "birth_date": "1987/03/1",
     "gender": "female",
     "address": "Yemen",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 35,
     "submission_date": "2008/10/28"
   },
@@ -301,7 +301,7 @@
     "birth_date": "1971/02/10",
     "gender": "female",
     "address": "Luxembourg",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 5,
     "submission_date": "2007/10/21"
   },
@@ -310,7 +310,7 @@
     "birth_date": "1987/09/5",
     "gender": "male",
     "address": "Guernsey",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 26,
     "submission_date": "2018/09/12"
   },
@@ -319,7 +319,7 @@
     "birth_date": "1975/09/17",
     "gender": "male",
     "address": "Libya",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 37,
     "submission_date": "2019/05/16"
   },
@@ -328,7 +328,7 @@
     "birth_date": "1990/04/29",
     "gender": "female",
     "address": "Palau",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 22,
     "submission_date": "2002/09/2"
   },
@@ -337,7 +337,7 @@
     "birth_date": "1972/07/18",
     "gender": "female",
     "address": "United Kingdom (Great Britain)",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 41,
     "submission_date": "2023/06/11"
   },
@@ -346,7 +346,7 @@
     "birth_date": "1975/10/18",
     "gender": "male",
     "address": "Guinea",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 32,
     "submission_date": "2012/10/26"
   },
@@ -355,7 +355,7 @@
     "birth_date": "2005/04/24",
     "gender": "male",
     "address": "Grenada",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 18,
     "submission_date": "2001/04/10"
   },
@@ -364,7 +364,7 @@
     "birth_date": "1974/07/26",
     "gender": "male",
     "address": "Lebanon",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 16,
     "submission_date": "2002/01/5"
   },
@@ -373,7 +373,7 @@
     "birth_date": "2009/08/30",
     "gender": "female",
     "address": "Togo",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 13,
     "submission_date": "2010/02/1"
   },
@@ -382,7 +382,7 @@
     "birth_date": "1977/02/18",
     "gender": "male",
     "address": "Greenland",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 25,
     "submission_date": "2008/12/12"
   },
@@ -391,7 +391,7 @@
     "birth_date": "1991/12/13",
     "gender": "male",
     "address": "China",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 18,
     "submission_date": "2017/10/2"
   },
@@ -400,7 +400,7 @@
     "birth_date": "1994/02/22",
     "gender": "male",
     "address": "Senegal",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 10,
     "submission_date": "2007/01/11"
   },
@@ -409,7 +409,7 @@
     "birth_date": "2006/10/22",
     "gender": "male",
     "address": "Guam",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 13,
     "submission_date": "2015/06/11"
   },
@@ -418,7 +418,7 @@
     "birth_date": "2004/05/16",
     "gender": "female",
     "address": "Central African Republic",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 39,
     "submission_date": "2006/08/1"
   },
@@ -427,7 +427,7 @@
     "birth_date": "1999/11/3",
     "gender": "female",
     "address": "South Sudan",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 16,
     "submission_date": "2014/12/3"
   },
@@ -436,7 +436,7 @@
     "birth_date": "2005/12/30",
     "gender": "female",
     "address": "Estonia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 28,
     "submission_date": "2018/01/23"
   },
@@ -445,7 +445,7 @@
     "birth_date": "2006/05/13",
     "gender": "female",
     "address": "Northern Mariana Islands",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 2,
     "submission_date": "2013/04/6"
   },
@@ -454,7 +454,7 @@
     "birth_date": "1980/04/18",
     "gender": "female",
     "address": "San Marino",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 15,
     "submission_date": "2011/06/20"
   },
@@ -463,7 +463,7 @@
     "birth_date": "1983/07/7",
     "gender": "male",
     "address": "Norway",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 30,
     "submission_date": "2018/01/23"
   },
@@ -472,7 +472,7 @@
     "birth_date": "1996/01/2",
     "gender": "male",
     "address": "Tokelau",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 19,
     "submission_date": "2011/08/24"
   },
@@ -481,7 +481,7 @@
     "birth_date": "1989/01/25",
     "gender": "male",
     "address": "Nicaragua",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 5,
     "submission_date": "2019/11/7"
   },
@@ -490,7 +490,7 @@
     "birth_date": "1973/02/24",
     "gender": "female",
     "address": "Germany",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 48,
     "submission_date": "2015/05/6"
   },
@@ -499,7 +499,7 @@
     "birth_date": "1993/08/5",
     "gender": "male",
     "address": "Saint Martin",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 33,
     "submission_date": "2006/01/28"
   },
@@ -508,7 +508,7 @@
     "birth_date": "1977/11/26",
     "gender": "female",
     "address": "Dominican Republic",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 41,
     "submission_date": "2017/03/8"
   },
@@ -517,7 +517,7 @@
     "birth_date": "1994/09/9",
     "gender": "male",
     "address": "Macedonia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 24,
     "submission_date": "2009/11/11"
   },
@@ -526,7 +526,7 @@
     "birth_date": "1994/09/17",
     "gender": "male",
     "address": "Gabon",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 8,
     "submission_date": "2007/10/26"
   },
@@ -535,7 +535,7 @@
     "birth_date": "1986/12/21",
     "gender": "female",
     "address": "Tanzania",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 50,
     "submission_date": "2023/02/25"
   },
@@ -544,7 +544,7 @@
     "birth_date": "2001/02/12",
     "gender": "female",
     "address": "Lithuania",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 33,
     "submission_date": "2012/06/16"
   },
@@ -553,7 +553,7 @@
     "birth_date": "1994/08/20",
     "gender": "female",
     "address": "Saint Vincent and The Grenadines",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 19,
     "submission_date": "2020/05/26"
   },
@@ -562,7 +562,7 @@
     "birth_date": "2010/03/23",
     "gender": "male",
     "address": "Kazakhstan",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 41,
     "submission_date": "2016/12/27"
   },
@@ -571,7 +571,7 @@
     "birth_date": "1994/02/19",
     "gender": "male",
     "address": "Austria",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 39,
     "submission_date": "2014/09/6"
   },
@@ -580,7 +580,7 @@
     "birth_date": "2010/01/3",
     "gender": "female",
     "address": "Antigua and Barbuda",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 33,
     "submission_date": "2012/05/30"
   },
@@ -589,7 +589,7 @@
     "birth_date": "2006/06/17",
     "gender": "female",
     "address": "Canada",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 25,
     "submission_date": "2003/07/28"
   },
@@ -598,7 +598,7 @@
     "birth_date": "1973/03/5",
     "gender": "male",
     "address": "Iran",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 46,
     "submission_date": "2014/04/28"
   },
@@ -607,7 +607,7 @@
     "birth_date": "1972/12/4",
     "gender": "male",
     "address": "Ireland",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 37,
     "submission_date": "2000/12/18"
   },
@@ -616,7 +616,7 @@
     "birth_date": "2005/09/5",
     "gender": "male",
     "address": "Cook Islands",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 49,
     "submission_date": "2023/01/22"
   },
@@ -625,7 +625,7 @@
     "birth_date": "2000/11/8",
     "gender": "female",
     "address": "Liechtenstein",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 48,
     "submission_date": "2003/09/23"
   },
@@ -634,7 +634,7 @@
     "birth_date": "2000/04/5",
     "gender": "female",
     "address": "Papua New Guinea",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 24,
     "submission_date": "2001/05/24"
   },
@@ -643,7 +643,7 @@
     "birth_date": "1988/01/17",
     "gender": "female",
     "address": "Saint Barthélemy",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 27,
     "submission_date": "2016/06/20"
   },
@@ -652,7 +652,7 @@
     "birth_date": "1978/12/20",
     "gender": "female",
     "address": "Argentina",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 49,
     "submission_date": "2013/02/8"
   },
@@ -661,7 +661,7 @@
     "birth_date": "1980/10/25",
     "gender": "male",
     "address": "Papua New Guinea",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 30,
     "submission_date": "2014/03/26"
   },
@@ -670,7 +670,7 @@
     "birth_date": "1976/11/27",
     "gender": "female",
     "address": "American Samoa",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 7,
     "submission_date": "2015/03/7"
   },
@@ -679,7 +679,7 @@
     "birth_date": "1993/10/27",
     "gender": "female",
     "address": "Slovakia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 30,
     "submission_date": "2020/09/27"
   },
@@ -688,7 +688,7 @@
     "birth_date": "2005/09/19",
     "gender": "male",
     "address": "Sri Lanka",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 38,
     "submission_date": "2006/10/23"
   },
@@ -697,7 +697,7 @@
     "birth_date": "2003/08/17",
     "gender": "female",
     "address": "Burundi",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 43,
     "submission_date": "2002/08/21"
   },
@@ -706,7 +706,7 @@
     "birth_date": "1972/11/18",
     "gender": "female",
     "address": "Norfolk Island",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 18,
     "submission_date": "2016/09/15"
   },
@@ -715,7 +715,7 @@
     "birth_date": "1983/05/16",
     "gender": "male",
     "address": "Kuwait",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 21,
     "submission_date": "2023/05/9"
   },
@@ -724,7 +724,7 @@
     "birth_date": "2002/11/25",
     "gender": "female",
     "address": "Greenland",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 49,
     "submission_date": "2023/07/9"
   },
@@ -733,7 +733,7 @@
     "birth_date": "1994/04/15",
     "gender": "male",
     "address": "Virgin Islands, British",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 27,
     "submission_date": "2011/06/4"
   },
@@ -742,7 +742,7 @@
     "birth_date": "1991/01/22",
     "gender": "male",
     "address": "Sudan",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 21,
     "submission_date": "2021/08/27"
   },
@@ -751,7 +751,7 @@
     "birth_date": "1990/08/12",
     "gender": "female",
     "address": "Laos",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 13,
     "submission_date": "2016/11/25"
   },
@@ -760,7 +760,7 @@
     "birth_date": "1991/09/22",
     "gender": "female",
     "address": "Western Sahara",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 28,
     "submission_date": "2015/06/7"
   },
@@ -769,7 +769,7 @@
     "birth_date": "1999/12/5",
     "gender": "male",
     "address": "Dominican Republic",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 12,
     "submission_date": "2016/07/31"
   },
@@ -778,7 +778,7 @@
     "birth_date": "1973/03/10",
     "gender": "female",
     "address": "Christmas Island",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 44,
     "submission_date": "2009/03/4"
   },
@@ -787,7 +787,7 @@
     "birth_date": "1982/09/14",
     "gender": "female",
     "address": "Dominican Republic",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 15,
     "submission_date": "2005/12/27"
   },
@@ -796,7 +796,7 @@
     "birth_date": "1971/04/27",
     "gender": "female",
     "address": "Peru",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 35,
     "submission_date": "2016/11/27"
   },
@@ -805,7 +805,7 @@
     "birth_date": "1987/05/7",
     "gender": "female",
     "address": "Netherlands",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 50,
     "submission_date": "2003/01/25"
   },
@@ -814,7 +814,7 @@
     "birth_date": "1987/04/18",
     "gender": "male",
     "address": "Singapore",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 39,
     "submission_date": "2015/05/30"
   },
@@ -823,7 +823,7 @@
     "birth_date": "1982/11/20",
     "gender": "male",
     "address": "Anguilla",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 17,
     "submission_date": "2019/03/31"
   },
@@ -832,7 +832,7 @@
     "birth_date": "1982/05/10",
     "gender": "female",
     "address": "Mali",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 41,
     "submission_date": "2008/04/2"
   },
@@ -841,7 +841,7 @@
     "birth_date": "1976/08/20",
     "gender": "male",
     "address": "Belarus",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 14,
     "submission_date": "2011/05/21"
   },
@@ -850,7 +850,7 @@
     "birth_date": "1998/12/7",
     "gender": "male",
     "address": "American Samoa",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 6,
     "submission_date": "2013/10/17"
   },
@@ -859,7 +859,7 @@
     "birth_date": "1976/09/1",
     "gender": "female",
     "address": "Jamaica",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 16,
     "submission_date": "2008/06/2"
   },
@@ -868,7 +868,7 @@
     "birth_date": "1986/11/24",
     "gender": "female",
     "address": "Liechtenstein",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 27,
     "submission_date": "2016/09/26"
   },
@@ -877,7 +877,7 @@
     "birth_date": "1981/06/14",
     "gender": "female",
     "address": "Germany",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 23,
     "submission_date": "2019/05/10"
   },
@@ -886,7 +886,7 @@
     "birth_date": "2006/07/28",
     "gender": "female",
     "address": "Isle of Man",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 17,
     "submission_date": "2018/12/14"
   },
@@ -895,7 +895,7 @@
     "birth_date": "2004/11/27",
     "gender": "male",
     "address": "Dominican Republic",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 42,
     "submission_date": "2020/03/11"
   },
@@ -904,7 +904,7 @@
     "birth_date": "2001/03/11",
     "gender": "female",
     "address": "Yemen",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 17,
     "submission_date": "2022/02/23"
   },
@@ -913,7 +913,7 @@
     "birth_date": "1970/11/3",
     "gender": "female",
     "address": "Palestine, State of",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 10,
     "submission_date": "2005/08/23"
   },
@@ -922,7 +922,7 @@
     "birth_date": "2005/07/23",
     "gender": "male",
     "address": "Spain",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 15,
     "submission_date": "2004/07/9"
   },
@@ -931,7 +931,7 @@
     "birth_date": "1984/11/18",
     "gender": "female",
     "address": "Bonaire, Sint Eustatius and Saba",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 6,
     "submission_date": "2021/10/5"
   },
@@ -940,7 +940,7 @@
     "birth_date": "1983/05/5",
     "gender": "female",
     "address": "Latvia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 38,
     "submission_date": "2006/01/23"
   },
@@ -949,7 +949,7 @@
     "birth_date": "1977/08/23",
     "gender": "male",
     "address": "South Georgia and The South Sandwich Islands",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 46,
     "submission_date": "2022/03/9"
   },
@@ -958,7 +958,7 @@
     "birth_date": "1977/03/3",
     "gender": "male",
     "address": "Cape Verde",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 6,
     "submission_date": "2003/04/4"
   },
@@ -967,7 +967,7 @@
     "birth_date": "1993/08/9",
     "gender": "female",
     "address": "Saint Vincent and The Grenadines",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 18,
     "submission_date": "2005/10/3"
   },
@@ -976,7 +976,7 @@
     "birth_date": "1996/02/1",
     "gender": "female",
     "address": "Niger",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 50,
     "submission_date": "2019/08/1"
   },
@@ -985,7 +985,7 @@
     "birth_date": "2000/10/5",
     "gender": "male",
     "address": "Northern Mariana Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 29,
     "submission_date": "2011/12/28"
   },
@@ -994,7 +994,7 @@
     "birth_date": "1977/08/30",
     "gender": "male",
     "address": "British Indian Ocean Territory",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 22,
     "submission_date": "2021/02/1"
   },
@@ -1003,7 +1003,7 @@
     "birth_date": "1992/11/12",
     "gender": "female",
     "address": "Mauritania",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 41,
     "submission_date": "2003/05/18"
   },
@@ -1012,7 +1012,7 @@
     "birth_date": "2002/03/25",
     "gender": "female",
     "address": "South Georgia and The South Sandwich Islands",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 41,
     "submission_date": "2021/12/31"
   },
@@ -1021,7 +1021,7 @@
     "birth_date": "1992/12/31",
     "gender": "female",
     "address": "Tonga",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 8,
     "submission_date": "2006/10/25"
   },
@@ -1030,7 +1030,7 @@
     "birth_date": "1982/01/22",
     "gender": "male",
     "address": "French Southern Territories",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 16,
     "submission_date": "2016/01/8"
   },
@@ -1039,7 +1039,7 @@
     "birth_date": "2005/05/13",
     "gender": "female",
     "address": "Hong Kong",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 8,
     "submission_date": "2016/09/19"
   },
@@ -1048,7 +1048,7 @@
     "birth_date": "2002/01/29",
     "gender": "male",
     "address": "Svalbard and Jan Mayen Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 33,
     "submission_date": "2022/11/20"
   },
@@ -1057,7 +1057,7 @@
     "birth_date": "1996/04/1",
     "gender": "female",
     "address": "Central African Republic",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 46,
     "submission_date": "2018/02/13"
   },
@@ -1066,7 +1066,7 @@
     "birth_date": "1994/01/8",
     "gender": "male",
     "address": "Japan",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 36,
     "submission_date": "2023/03/28"
   },
@@ -1075,7 +1075,7 @@
     "birth_date": "1973/10/9",
     "gender": "female",
     "address": "Tokelau",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 14,
     "submission_date": "2003/10/15"
   },
@@ -1084,7 +1084,7 @@
     "birth_date": "2002/11/29",
     "gender": "female",
     "address": "Saint Kitts and Nevis",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 14,
     "submission_date": "2020/09/13"
   },
@@ -1093,7 +1093,7 @@
     "birth_date": "2008/10/31",
     "gender": "female",
     "address": "Panama",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 19,
     "submission_date": "2009/09/20"
   },
@@ -1102,7 +1102,7 @@
     "birth_date": "1991/05/19",
     "gender": "male",
     "address": "Åland Islands",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 20,
     "submission_date": "2022/06/24"
   },
@@ -1111,7 +1111,7 @@
     "birth_date": "2007/02/14",
     "gender": "male",
     "address": "Cuba",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 14,
     "submission_date": "2002/06/8"
   },
@@ -1120,7 +1120,7 @@
     "birth_date": "2004/02/17",
     "gender": "female",
     "address": "Slovakia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 38,
     "submission_date": "2022/03/12"
   },
@@ -1129,7 +1129,7 @@
     "birth_date": "1982/05/19",
     "gender": "male",
     "address": "Albania",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 48,
     "submission_date": "2019/05/3"
   },
@@ -1138,7 +1138,7 @@
     "birth_date": "1995/06/15",
     "gender": "male",
     "address": "Montserrat",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 5,
     "submission_date": "2022/03/8"
   },
@@ -1147,7 +1147,7 @@
     "birth_date": "1973/08/22",
     "gender": "male",
     "address": "Slovakia",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 12,
     "submission_date": "2016/05/9"
   },
@@ -1156,7 +1156,7 @@
     "birth_date": "1988/11/21",
     "gender": "male",
     "address": "Chile",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 3,
     "submission_date": "2023/03/24"
   },
@@ -1165,7 +1165,7 @@
     "birth_date": "2005/07/4",
     "gender": "male",
     "address": "Guyana",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 10,
     "submission_date": "2015/12/16"
   },
@@ -1174,7 +1174,7 @@
     "birth_date": "1982/01/11",
     "gender": "male",
     "address": "Mauritania",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 32,
     "submission_date": "2019/02/2"
   },
@@ -1183,7 +1183,7 @@
     "birth_date": "1985/11/25",
     "gender": "male",
     "address": "Norway",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 20,
     "submission_date": "2016/03/9"
   },
@@ -1192,7 +1192,7 @@
     "birth_date": "1993/02/18",
     "gender": "female",
     "address": "Qatar",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 18,
     "submission_date": "2003/10/14"
   },
@@ -1201,7 +1201,7 @@
     "birth_date": "2009/06/23",
     "gender": "male",
     "address": "Vanuatu",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 29,
     "submission_date": "2010/04/17"
   },
@@ -1210,7 +1210,7 @@
     "birth_date": "1996/05/28",
     "gender": "male",
     "address": "Cayman Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 6,
     "submission_date": "2014/03/11"
   },
@@ -1219,7 +1219,7 @@
     "birth_date": "1979/05/19",
     "gender": "female",
     "address": "Tajikistan",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 25,
     "submission_date": "2001/08/3"
   },
@@ -1228,7 +1228,7 @@
     "birth_date": "1993/12/4",
     "gender": "female",
     "address": "Macedonia",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 40,
     "submission_date": "2016/10/20"
   },
@@ -1237,7 +1237,7 @@
     "birth_date": "1985/10/1",
     "gender": "male",
     "address": "Netherlands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 1,
     "submission_date": "2014/07/14"
   },
@@ -1246,7 +1246,7 @@
     "birth_date": "1998/06/20",
     "gender": "female",
     "address": "Korea, South",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 38,
     "submission_date": "2019/11/22"
   },
@@ -1255,7 +1255,7 @@
     "birth_date": "1981/06/30",
     "gender": "male",
     "address": "Benin",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 10,
     "submission_date": "2019/09/24"
   },
@@ -1264,7 +1264,7 @@
     "birth_date": "2001/06/28",
     "gender": "male",
     "address": "Bouvet Island",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 39,
     "submission_date": "2001/07/17"
   },
@@ -1273,7 +1273,7 @@
     "birth_date": "1984/03/19",
     "gender": "female",
     "address": "Saint Lucia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 35,
     "submission_date": "2014/06/25"
   },
@@ -1282,7 +1282,7 @@
     "birth_date": "1986/08/18",
     "gender": "female",
     "address": "Germany",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 18,
     "submission_date": "2005/10/31"
   },
@@ -1291,7 +1291,7 @@
     "birth_date": "1988/01/18",
     "gender": "male",
     "address": "Colombia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 50,
     "submission_date": "2017/12/29"
   },
@@ -1300,7 +1300,7 @@
     "birth_date": "2000/02/15",
     "gender": "female",
     "address": "Australia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 47,
     "submission_date": "2013/08/26"
   },
@@ -1309,7 +1309,7 @@
     "birth_date": "1988/02/1",
     "gender": "female",
     "address": "Jamaica",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 21,
     "submission_date": "2008/01/7"
   },
@@ -1318,7 +1318,7 @@
     "birth_date": "1982/03/29",
     "gender": "female",
     "address": "Congo, the Democratic Republic of the",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 8,
     "submission_date": "2010/12/7"
   },
@@ -1327,7 +1327,7 @@
     "birth_date": "1990/06/17",
     "gender": "male",
     "address": "Turks and Caicos Islands",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 20,
     "submission_date": "2016/01/18"
   },
@@ -1336,7 +1336,7 @@
     "birth_date": "1986/11/29",
     "gender": "female",
     "address": "Bermuda",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 21,
     "submission_date": "2021/09/1"
   },
@@ -1345,7 +1345,7 @@
     "birth_date": "1979/09/11",
     "gender": "male",
     "address": "Belgium",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 40,
     "submission_date": "2008/11/25"
   },
@@ -1354,7 +1354,7 @@
     "birth_date": "1975/06/9",
     "gender": "female",
     "address": "Croatia",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 10,
     "submission_date": "2009/01/4"
   },
@@ -1363,7 +1363,7 @@
     "birth_date": "1976/12/12",
     "gender": "male",
     "address": "Egypt",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 48,
     "submission_date": "2010/03/1"
   },
@@ -1372,7 +1372,7 @@
     "birth_date": "2009/04/17",
     "gender": "female",
     "address": "Panama",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 2,
     "submission_date": "2014/03/14"
   },
@@ -1381,7 +1381,7 @@
     "birth_date": "1972/05/26",
     "gender": "female",
     "address": "Samoa",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 27,
     "submission_date": "2015/06/18"
   },
@@ -1390,7 +1390,7 @@
     "birth_date": "1977/09/28",
     "gender": "female",
     "address": "Anguilla",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 25,
     "submission_date": "2005/07/27"
   },
@@ -1399,7 +1399,7 @@
     "birth_date": "2008/05/8",
     "gender": "female",
     "address": "Belize",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 36,
     "submission_date": "2010/09/6"
   },
@@ -1408,7 +1408,7 @@
     "birth_date": "1984/08/12",
     "gender": "female",
     "address": "Hungary",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 12,
     "submission_date": "2020/10/27"
   },
@@ -1417,7 +1417,7 @@
     "birth_date": "1988/08/20",
     "gender": "male",
     "address": "French Southern Territories",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 32,
     "submission_date": "2010/03/10"
   },
@@ -1426,7 +1426,7 @@
     "birth_date": "1974/05/30",
     "gender": "female",
     "address": "Marshall Islands",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 10,
     "submission_date": "2020/01/18"
   },
@@ -1435,7 +1435,7 @@
     "birth_date": "1993/08/21",
     "gender": "male",
     "address": "Liechtenstein",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 5,
     "submission_date": "2023/05/3"
   },
@@ -1444,7 +1444,7 @@
     "birth_date": "1994/03/29",
     "gender": "female",
     "address": "Belize",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 32,
     "submission_date": "2011/03/6"
   },
@@ -1453,7 +1453,7 @@
     "birth_date": "2005/12/9",
     "gender": "female",
     "address": "Barbados",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 44,
     "submission_date": "2005/08/15"
   },
@@ -1462,7 +1462,7 @@
     "birth_date": "1989/02/9",
     "gender": "male",
     "address": "Saint Helena, Ascension and Tristan da Cunha",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 4,
     "submission_date": "2016/04/4"
   },
@@ -1471,7 +1471,7 @@
     "birth_date": "1977/10/21",
     "gender": "male",
     "address": "Djibouti",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 11,
     "submission_date": "2020/08/26"
   },
@@ -1480,7 +1480,7 @@
     "birth_date": "1985/09/15",
     "gender": "female",
     "address": "Greece",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 15,
     "submission_date": "2013/05/9"
   },
@@ -1489,7 +1489,7 @@
     "birth_date": "1974/08/28",
     "gender": "female",
     "address": "Italy",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 33,
     "submission_date": "2021/10/21"
   },
@@ -1498,7 +1498,7 @@
     "birth_date": "1973/12/14",
     "gender": "female",
     "address": "South Sudan",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 23,
     "submission_date": "2021/01/28"
   },
@@ -1507,7 +1507,7 @@
     "birth_date": "1972/07/30",
     "gender": "male",
     "address": "Cyprus",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 0,
     "submission_date": "2004/09/11"
   },
@@ -1516,7 +1516,7 @@
     "birth_date": "1987/06/1",
     "gender": "female",
     "address": "Egypt",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 30,
     "submission_date": "2016/02/22"
   },
@@ -1525,7 +1525,7 @@
     "birth_date": "1983/11/11",
     "gender": "male",
     "address": "France",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 4,
     "submission_date": "2004/05/1"
   },
@@ -1534,7 +1534,7 @@
     "birth_date": "2007/05/28",
     "gender": "female",
     "address": "Papua New Guinea",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 4,
     "submission_date": "2003/05/3"
   },
@@ -1543,7 +1543,7 @@
     "birth_date": "1992/11/17",
     "gender": "male",
     "address": "Holy See (Vatican City State)",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 33,
     "submission_date": "2012/01/23"
   },
@@ -1552,7 +1552,7 @@
     "birth_date": "2001/11/29",
     "gender": "female",
     "address": "Åland Islands",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 3,
     "submission_date": "2014/01/18"
   },
@@ -1561,7 +1561,7 @@
     "birth_date": "1973/02/6",
     "gender": "female",
     "address": "Niger",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 8,
     "submission_date": "2010/10/16"
   },
@@ -1570,7 +1570,7 @@
     "birth_date": "1972/01/7",
     "gender": "male",
     "address": "Sierra Leone",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 32,
     "submission_date": "2001/11/22"
   },
@@ -1579,7 +1579,7 @@
     "birth_date": "2009/10/13",
     "gender": "male",
     "address": "Jersey",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 41,
     "submission_date": "2018/09/26"
   },
@@ -1588,7 +1588,7 @@
     "birth_date": "2004/03/25",
     "gender": "female",
     "address": "Norway",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 22,
     "submission_date": "2002/01/21"
   },
@@ -1597,7 +1597,7 @@
     "birth_date": "1997/03/10",
     "gender": "female",
     "address": "Ethiopia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 22,
     "submission_date": "2016/10/10"
   },
@@ -1606,7 +1606,7 @@
     "birth_date": "2008/12/15",
     "gender": "female",
     "address": "Western Sahara",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 34,
     "submission_date": "2023/10/16"
   },
@@ -1615,7 +1615,7 @@
     "birth_date": "2010/03/26",
     "gender": "female",
     "address": "Dominica",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 1,
     "submission_date": "2008/03/2"
   },
@@ -1624,7 +1624,7 @@
     "birth_date": "1986/01/28",
     "gender": "female",
     "address": "Swaziland",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 16,
     "submission_date": "2016/10/10"
   },
@@ -1633,7 +1633,7 @@
     "birth_date": "1992/02/2",
     "gender": "male",
     "address": "Nepal",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 19,
     "submission_date": "2009/02/18"
   },
@@ -1642,7 +1642,7 @@
     "birth_date": "2008/11/24",
     "gender": "female",
     "address": "Timor-Leste",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 47,
     "submission_date": "2001/07/21"
   },
@@ -1651,7 +1651,7 @@
     "birth_date": "1986/01/6",
     "gender": "female",
     "address": "Montenegro",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 37,
     "submission_date": "2022/02/2"
   },
@@ -1660,7 +1660,7 @@
     "birth_date": "1985/05/14",
     "gender": "female",
     "address": "Algeria",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 47,
     "submission_date": "2011/11/18"
   },
@@ -1669,7 +1669,7 @@
     "birth_date": "1975/01/21",
     "gender": "male",
     "address": "Congo (Brazzaville)",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 38,
     "submission_date": "2021/08/24"
   },
@@ -1678,7 +1678,7 @@
     "birth_date": "1989/04/22",
     "gender": "male",
     "address": "Malta",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 37,
     "submission_date": "2023/08/31"
   },
@@ -1687,7 +1687,7 @@
     "birth_date": "1989/05/16",
     "gender": "male",
     "address": "Ukraine",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 27,
     "submission_date": "2007/11/9"
   },
@@ -1696,7 +1696,7 @@
     "birth_date": "1979/07/17",
     "gender": "female",
     "address": "Myanmar",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 5,
     "submission_date": "2014/10/19"
   },
@@ -1705,7 +1705,7 @@
     "birth_date": "2010/08/16",
     "gender": "male",
     "address": "Kyrgyzstan",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 49,
     "submission_date": "2014/04/25"
   },
@@ -1714,7 +1714,7 @@
     "birth_date": "2001/04/19",
     "gender": "male",
     "address": "Åland Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 21,
     "submission_date": "2010/03/28"
   },
@@ -1723,7 +1723,7 @@
     "birth_date": "1996/01/3",
     "gender": "male",
     "address": "Azerbaijan",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 21,
     "submission_date": "2004/04/3"
   },
@@ -1732,7 +1732,7 @@
     "birth_date": "2001/10/17",
     "gender": "male",
     "address": "Hungary",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 39,
     "submission_date": "2022/12/23"
   },
@@ -1741,7 +1741,7 @@
     "birth_date": "1991/08/15",
     "gender": "female",
     "address": "Mongolia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 2,
     "submission_date": "2022/09/29"
   },
@@ -1750,7 +1750,7 @@
     "birth_date": "2001/05/6",
     "gender": "male",
     "address": "Argentina",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 47,
     "submission_date": "2008/05/6"
   },
@@ -1759,7 +1759,7 @@
     "birth_date": "2006/10/20",
     "gender": "male",
     "address": "Moldova",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 17,
     "submission_date": "2002/06/27"
   },
@@ -1768,7 +1768,7 @@
     "birth_date": "2009/04/30",
     "gender": "female",
     "address": "Oman",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 39,
     "submission_date": "2018/01/17"
   },
@@ -1777,7 +1777,7 @@
     "birth_date": "1990/01/15",
     "gender": "male",
     "address": "Angola",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 12,
     "submission_date": "2014/02/6"
   },
@@ -1786,7 +1786,7 @@
     "birth_date": "1991/01/24",
     "gender": "female",
     "address": "Pakistan",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 41,
     "submission_date": "2013/02/5"
   },
@@ -1795,7 +1795,7 @@
     "birth_date": "1990/11/30",
     "gender": "male",
     "address": "Oman",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 46,
     "submission_date": "2023/04/12"
   },
@@ -1804,7 +1804,7 @@
     "birth_date": "1979/11/14",
     "gender": "male",
     "address": "Namibia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 31,
     "submission_date": "2021/06/17"
   },
@@ -1813,7 +1813,7 @@
     "birth_date": "1982/10/19",
     "gender": "female",
     "address": "Brunei",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 43,
     "submission_date": "2004/01/21"
   },
@@ -1822,7 +1822,7 @@
     "birth_date": "1992/05/6",
     "gender": "male",
     "address": "Cape Verde",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 3,
     "submission_date": "2023/11/4"
   },
@@ -1831,7 +1831,7 @@
     "birth_date": "2000/03/31",
     "gender": "male",
     "address": "Austria",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 2,
     "submission_date": "2007/04/20"
   },
@@ -1840,7 +1840,7 @@
     "birth_date": "1995/11/22",
     "gender": "female",
     "address": "Canada",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 2,
     "submission_date": "2011/06/9"
   },
@@ -1849,7 +1849,7 @@
     "birth_date": "2007/11/18",
     "gender": "male",
     "address": "Guernsey",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 23,
     "submission_date": "2016/10/18"
   },
@@ -1858,7 +1858,7 @@
     "birth_date": "1980/04/9",
     "gender": "female",
     "address": "Qatar",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 46,
     "submission_date": "2019/11/21"
   },
@@ -1867,7 +1867,7 @@
     "birth_date": "1988/04/9",
     "gender": "male",
     "address": "Armenia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 4,
     "submission_date": "2001/06/14"
   },
@@ -1876,7 +1876,7 @@
     "birth_date": "2003/04/22",
     "gender": "male",
     "address": "Macedonia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 20,
     "submission_date": "2019/09/20"
   },
@@ -1885,7 +1885,7 @@
     "birth_date": "1974/12/7",
     "gender": "male",
     "address": "Timor-Leste",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 21,
     "submission_date": "2019/08/23"
   },
@@ -1894,7 +1894,7 @@
     "birth_date": "1991/05/19",
     "gender": "male",
     "address": "Uganda",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 19,
     "submission_date": "2008/04/19"
   },
@@ -1903,7 +1903,7 @@
     "birth_date": "1997/02/15",
     "gender": "male",
     "address": "Curaçao",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 44,
     "submission_date": "2008/09/25"
   },
@@ -1912,7 +1912,7 @@
     "birth_date": "1990/08/31",
     "gender": "male",
     "address": "Trinidad and Tobago",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 46,
     "submission_date": "2019/10/17"
   },
@@ -1921,7 +1921,7 @@
     "birth_date": "1992/12/20",
     "gender": "male",
     "address": "Latvia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 17,
     "submission_date": "2018/01/23"
   },
@@ -1930,7 +1930,7 @@
     "birth_date": "1985/01/26",
     "gender": "female",
     "address": "Costa Rica",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 29,
     "submission_date": "2014/07/3"
   },
@@ -1939,7 +1939,7 @@
     "birth_date": "2000/07/4",
     "gender": "female",
     "address": "Italy",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 7,
     "submission_date": "2007/09/20"
   },
@@ -1948,7 +1948,7 @@
     "birth_date": "1981/07/23",
     "gender": "male",
     "address": "Saint Barthélemy",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 2,
     "submission_date": "2009/12/28"
   },
@@ -1957,7 +1957,7 @@
     "birth_date": "1988/09/24",
     "gender": "male",
     "address": "Morocco",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 12,
     "submission_date": "2011/02/15"
   },
@@ -1966,7 +1966,7 @@
     "birth_date": "1984/12/3",
     "gender": "female",
     "address": "Micronesia",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 18,
     "submission_date": "2008/04/18"
   },
@@ -1975,7 +1975,7 @@
     "birth_date": "1977/09/25",
     "gender": "male",
     "address": "Afghanistan",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 12,
     "submission_date": "2010/09/19"
   },
@@ -1984,7 +1984,7 @@
     "birth_date": "1976/11/2",
     "gender": "male",
     "address": "American Samoa",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 17,
     "submission_date": "2008/06/5"
   },
@@ -1993,7 +1993,7 @@
     "birth_date": "2008/01/30",
     "gender": "male",
     "address": "Gambia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 16,
     "submission_date": "2015/01/10"
   },
@@ -2002,7 +2002,7 @@
     "birth_date": "1978/05/21",
     "gender": "female",
     "address": "Macao",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 14,
     "submission_date": "2003/08/16"
   },
@@ -2011,7 +2011,7 @@
     "birth_date": "1996/02/14",
     "gender": "female",
     "address": "Comoros",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 4,
     "submission_date": "2021/07/8"
   },
@@ -2020,7 +2020,7 @@
     "birth_date": "1993/12/28",
     "gender": "female",
     "address": "Sudan",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 4,
     "submission_date": "2009/01/21"
   },
@@ -2029,7 +2029,7 @@
     "birth_date": "1977/03/15",
     "gender": "male",
     "address": "Switzerland",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 23,
     "submission_date": "2022/01/5"
   },
@@ -2038,7 +2038,7 @@
     "birth_date": "1980/06/30",
     "gender": "male",
     "address": "Suriname",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 27,
     "submission_date": "2012/03/3"
   },
@@ -2047,7 +2047,7 @@
     "birth_date": "1977/05/4",
     "gender": "female",
     "address": "Western Sahara",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 1,
     "submission_date": "2008/05/26"
   },
@@ -2056,7 +2056,7 @@
     "birth_date": "1989/01/13",
     "gender": "female",
     "address": "Iran",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 10,
     "submission_date": "2021/03/26"
   },
@@ -2065,7 +2065,7 @@
     "birth_date": "1971/03/25",
     "gender": "male",
     "address": "Saudi Arabia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 22,
     "submission_date": "2006/03/30"
   },
@@ -2074,7 +2074,7 @@
     "birth_date": "1993/04/29",
     "gender": "female",
     "address": "Belgium",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 15,
     "submission_date": "2020/01/12"
   },
@@ -2083,7 +2083,7 @@
     "birth_date": "2000/01/6",
     "gender": "female",
     "address": "Denmark",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 14,
     "submission_date": "2023/10/24"
   },
@@ -2092,7 +2092,7 @@
     "birth_date": "1983/04/21",
     "gender": "female",
     "address": "Tuvalu",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 40,
     "submission_date": "2005/11/6"
   },
@@ -2101,7 +2101,7 @@
     "birth_date": "1997/07/12",
     "gender": "male",
     "address": "Jersey",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 2,
     "submission_date": "2005/05/14"
   },
@@ -2110,7 +2110,7 @@
     "birth_date": "2005/11/25",
     "gender": "male",
     "address": "Heard Island and Mcdonald Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 50,
     "submission_date": "2003/03/4"
   },
@@ -2119,7 +2119,7 @@
     "birth_date": "2006/01/17",
     "gender": "female",
     "address": "Lesotho",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 2,
     "submission_date": "2008/04/9"
   },
@@ -2128,7 +2128,7 @@
     "birth_date": "1998/11/21",
     "gender": "female",
     "address": "Syria",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 37,
     "submission_date": "2009/02/1"
   },
@@ -2137,7 +2137,7 @@
     "birth_date": "1985/01/9",
     "gender": "male",
     "address": "Martinique",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 23,
     "submission_date": "2016/02/14"
   },
@@ -2146,7 +2146,7 @@
     "birth_date": "1988/06/2",
     "gender": "female",
     "address": "Argentina",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 29,
     "submission_date": "2011/03/10"
   },
@@ -2155,7 +2155,7 @@
     "birth_date": "1993/08/27",
     "gender": "female",
     "address": "Liberia",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 25,
     "submission_date": "2014/02/18"
   },
@@ -2164,7 +2164,7 @@
     "birth_date": "1977/12/11",
     "gender": "male",
     "address": "Panama",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 34,
     "submission_date": "2005/12/4"
   },
@@ -2173,7 +2173,7 @@
     "birth_date": "1982/10/30",
     "gender": "female",
     "address": "Puerto Rico",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 31,
     "submission_date": "2008/03/26"
   },
@@ -2182,7 +2182,7 @@
     "birth_date": "1973/09/24",
     "gender": "male",
     "address": "Guyana",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 47,
     "submission_date": "2014/09/28"
   },
@@ -2191,7 +2191,7 @@
     "birth_date": "1990/08/15",
     "gender": "male",
     "address": "Senegal",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 4,
     "submission_date": "2002/12/22"
   },
@@ -2200,7 +2200,7 @@
     "birth_date": "2001/01/4",
     "gender": "female",
     "address": "Guatemala",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 31,
     "submission_date": "2008/03/31"
   },
@@ -2209,7 +2209,7 @@
     "birth_date": "1986/05/17",
     "gender": "female",
     "address": "Iraq",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 36,
     "submission_date": "2002/09/18"
   },
@@ -2218,7 +2218,7 @@
     "birth_date": "1985/09/22",
     "gender": "male",
     "address": "Andorra",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 30,
     "submission_date": "2007/05/14"
   },
@@ -2227,7 +2227,7 @@
     "birth_date": "2001/08/30",
     "gender": "female",
     "address": "Ethiopia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 9,
     "submission_date": "2012/02/24"
   },
@@ -2236,7 +2236,7 @@
     "birth_date": "2001/02/28",
     "gender": "female",
     "address": "Hungary",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 20,
     "submission_date": "2019/12/14"
   },
@@ -2245,7 +2245,7 @@
     "birth_date": "1972/02/28",
     "gender": "female",
     "address": "Qatar",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 20,
     "submission_date": "2015/10/12"
   },
@@ -2254,7 +2254,7 @@
     "birth_date": "1978/09/3",
     "gender": "male",
     "address": "Bolivia",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 45,
     "submission_date": "2010/09/19"
   },
@@ -2263,7 +2263,7 @@
     "birth_date": "1983/11/12",
     "gender": "female",
     "address": "South Georgia and The South Sandwich Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 44,
     "submission_date": "2013/04/12"
   },
@@ -2272,7 +2272,7 @@
     "birth_date": "1989/11/24",
     "gender": "male",
     "address": "Bahamas",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 9,
     "submission_date": "2012/09/21"
   },
@@ -2281,7 +2281,7 @@
     "birth_date": "1994/07/4",
     "gender": "male",
     "address": "Brazil",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 8,
     "submission_date": "2020/11/5"
   },
@@ -2290,7 +2290,7 @@
     "birth_date": "1987/08/5",
     "gender": "female",
     "address": "Korea, North",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 16,
     "submission_date": "2006/10/22"
   },
@@ -2299,7 +2299,7 @@
     "birth_date": "1982/12/28",
     "gender": "female",
     "address": "Iceland",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 46,
     "submission_date": "2013/04/20"
   },
@@ -2308,7 +2308,7 @@
     "birth_date": "1984/05/30",
     "gender": "male",
     "address": "Nauru",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 43,
     "submission_date": "2001/10/26"
   },
@@ -2317,7 +2317,7 @@
     "birth_date": "1974/07/16",
     "gender": "male",
     "address": "Finland",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 41,
     "submission_date": "2010/07/6"
   },
@@ -2326,7 +2326,7 @@
     "birth_date": "1999/09/27",
     "gender": "female",
     "address": "Niger",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 6,
     "submission_date": "2008/08/24"
   },
@@ -2335,7 +2335,7 @@
     "birth_date": "1988/10/12",
     "gender": "male",
     "address": "Zimbabwe",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 2,
     "submission_date": "2007/09/17"
   },
@@ -2344,7 +2344,7 @@
     "birth_date": "1971/04/29",
     "gender": "male",
     "address": "Burundi",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 42,
     "submission_date": "2011/04/19"
   },
@@ -2353,7 +2353,7 @@
     "birth_date": "2000/03/25",
     "gender": "female",
     "address": "Falkland Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 29,
     "submission_date": "2015/03/1"
   },
@@ -2362,7 +2362,7 @@
     "birth_date": "1974/01/22",
     "gender": "female",
     "address": "Heard Island and Mcdonald Islands",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 39,
     "submission_date": "2019/09/6"
   },
@@ -2371,7 +2371,7 @@
     "birth_date": "1998/05/16",
     "gender": "female",
     "address": "Saint Helena, Ascension and Tristan da Cunha",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 35,
     "submission_date": "2003/01/11"
   },
@@ -2380,7 +2380,7 @@
     "birth_date": "1997/03/25",
     "gender": "male",
     "address": "Italy",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 9,
     "submission_date": "2008/05/28"
   },
@@ -2389,7 +2389,7 @@
     "birth_date": "1975/08/29",
     "gender": "female",
     "address": "Guadeloupe",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 19,
     "submission_date": "2001/11/9"
   },
@@ -2398,7 +2398,7 @@
     "birth_date": "1991/10/28",
     "gender": "female",
     "address": "Norfolk Island",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 36,
     "submission_date": "2012/11/19"
   },
@@ -2407,7 +2407,7 @@
     "birth_date": "1987/10/22",
     "gender": "male",
     "address": "Saint Lucia",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 18,
     "submission_date": "2008/07/9"
   },
@@ -2416,7 +2416,7 @@
     "birth_date": "1990/02/16",
     "gender": "male",
     "address": "Malawi",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 47,
     "submission_date": "2016/03/9"
   },
@@ -2425,7 +2425,7 @@
     "birth_date": "1999/10/1",
     "gender": "female",
     "address": "Liechtenstein",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 49,
     "submission_date": "2019/08/12"
   },
@@ -2434,7 +2434,7 @@
     "birth_date": "2007/02/12",
     "gender": "female",
     "address": "Netherlands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 22,
     "submission_date": "2017/05/31"
   },
@@ -2443,7 +2443,7 @@
     "birth_date": "1972/05/11",
     "gender": "female",
     "address": "Mauritius",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 12,
     "submission_date": "2019/12/12"
   },
@@ -2452,7 +2452,7 @@
     "birth_date": "2004/11/28",
     "gender": "male",
     "address": "United Kingdom (Great Britain)",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 19,
     "submission_date": "2014/06/21"
   },
@@ -2461,7 +2461,7 @@
     "birth_date": "1986/10/3",
     "gender": "male",
     "address": "Somalia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 34,
     "submission_date": "2002/08/3"
   },
@@ -2470,7 +2470,7 @@
     "birth_date": "1991/09/25",
     "gender": "female",
     "address": "Equatorial Guinea",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 37,
     "submission_date": "2001/08/14"
   },
@@ -2479,7 +2479,7 @@
     "birth_date": "1975/04/24",
     "gender": "male",
     "address": "Japan",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 35,
     "submission_date": "2008/05/14"
   },
@@ -2488,7 +2488,7 @@
     "birth_date": "1978/06/26",
     "gender": "female",
     "address": "French Polynesia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 28,
     "submission_date": "2003/12/29"
   },
@@ -2497,7 +2497,7 @@
     "birth_date": "1983/02/13",
     "gender": "male",
     "address": "Austria",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 5,
     "submission_date": "2015/12/16"
   },
@@ -2506,7 +2506,7 @@
     "birth_date": "2007/06/16",
     "gender": "male",
     "address": "Reunion",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 4,
     "submission_date": "2012/01/6"
   },
@@ -2515,7 +2515,7 @@
     "birth_date": "2003/10/7",
     "gender": "female",
     "address": "Isle of Man",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 40,
     "submission_date": "2004/03/12"
   },
@@ -2524,7 +2524,7 @@
     "birth_date": "1998/03/29",
     "gender": "female",
     "address": "Serbia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 37,
     "submission_date": "2014/09/12"
   },
@@ -2533,7 +2533,7 @@
     "birth_date": "1987/10/21",
     "gender": "male",
     "address": "Sao Tome and Principe",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 48,
     "submission_date": "2013/10/6"
   },
@@ -2542,7 +2542,7 @@
     "birth_date": "1979/09/9",
     "gender": "male",
     "address": "Burkina Faso",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 1,
     "submission_date": "2003/01/18"
   },
@@ -2551,7 +2551,7 @@
     "birth_date": "1988/01/12",
     "gender": "female",
     "address": "Norway",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 13,
     "submission_date": "2009/07/31"
   },
@@ -2560,7 +2560,7 @@
     "birth_date": "1984/06/23",
     "gender": "male",
     "address": "French Polynesia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 24,
     "submission_date": "2014/01/21"
   },
@@ -2569,7 +2569,7 @@
     "birth_date": "1998/04/23",
     "gender": "male",
     "address": "Central African Republic",
-    "occupation": "CEO",
+    "position": "CEO",
     "years_of_experience": 10,
     "submission_date": "2004/08/8"
   },
@@ -2578,7 +2578,7 @@
     "birth_date": "2005/12/21",
     "gender": "male",
     "address": "Fiji",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 44,
     "submission_date": "2022/03/1"
   },
@@ -2587,7 +2587,7 @@
     "birth_date": "1987/01/18",
     "gender": "female",
     "address": "Myanmar",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 24,
     "submission_date": "2001/09/24"
   },
@@ -2596,7 +2596,7 @@
     "birth_date": "1972/08/21",
     "gender": "male",
     "address": "Estonia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 21,
     "submission_date": "2003/04/19"
   },
@@ -2605,7 +2605,7 @@
     "birth_date": "1982/11/27",
     "gender": "male",
     "address": "Madagascar",
-    "occupation": "designer",
+    "position": "designer",
     "years_of_experience": 31,
     "submission_date": "2001/08/4"
   },
@@ -2614,7 +2614,7 @@
     "birth_date": "2006/03/16",
     "gender": "male",
     "address": "Syria",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 46,
     "submission_date": "2020/08/29"
   },
@@ -2623,7 +2623,7 @@
     "birth_date": "2000/12/28",
     "gender": "male",
     "address": "Serbia",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 0,
     "submission_date": "2023/05/1"
   },
@@ -2632,7 +2632,7 @@
     "birth_date": "1987/12/5",
     "gender": "male",
     "address": "Virgin Islands, British",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 20,
     "submission_date": "2012/11/25"
   },
@@ -2641,7 +2641,7 @@
     "birth_date": "1991/12/3",
     "gender": "male",
     "address": "Cambodia",
-    "occupation": "development",
+    "position": "development",
     "years_of_experience": 13,
     "submission_date": "2007/10/22"
   },
@@ -2650,7 +2650,7 @@
     "birth_date": "1989/06/21",
     "gender": "male",
     "address": "Aruba",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 33,
     "submission_date": "2012/06/16"
   },
@@ -2659,7 +2659,7 @@
     "birth_date": "1975/07/25",
     "gender": "male",
     "address": "Macedonia",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 37,
     "submission_date": "2020/03/5"
   },
@@ -2668,7 +2668,7 @@
     "birth_date": "1979/03/29",
     "gender": "female",
     "address": "Guinea-Bissau",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 13,
     "submission_date": "2013/01/3"
   },
@@ -2677,7 +2677,7 @@
     "birth_date": "1985/12/11",
     "gender": "male",
     "address": "Northern Mariana Islands",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 4,
     "submission_date": "2023/11/30"
   },
@@ -2686,7 +2686,7 @@
     "birth_date": "1974/01/2",
     "gender": "male",
     "address": "Panama",
-    "occupation": "security",
+    "position": "security",
     "years_of_experience": 2,
     "submission_date": "2012/08/16"
   },
@@ -2695,7 +2695,7 @@
     "birth_date": "1991/06/17",
     "gender": "female",
     "address": "Germany",
-    "occupation": "accounting",
+    "position": "accounting",
     "years_of_experience": 3,
     "submission_date": "2019/09/9"
   }

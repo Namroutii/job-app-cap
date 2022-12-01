@@ -8,12 +8,20 @@ const TableBody = ({
   address,
   gender,
 }) => {
+  const options = (event) => {
+    if (event.target.value == "display") {
+      alert("display CV");
+    } else if (event.target.value == "report") {
+      alert("reported");
+    }
+    event.target.value = "";
+  };
   return (
     <tbody>
       {tableData.map((data) => {
         if (data["full_name"].toUpperCase().includes(keyword.toUpperCase()))
           if (
-            data["occupation"].toLowerCase() == occ ||
+            data["position"].toLowerCase() == occ ||
             occ == "all" ||
             occ == ""
           ) {
@@ -40,7 +48,19 @@ const TableBody = ({
                         if (accessor == "action")
                           return (
                             <td key={accessor} className={accessor}>
-                              <button></button>
+                              <select
+                                name="options"
+                                id="options-button"
+                                onChange={options}
+                              >
+                                <option id="invisible-option"></option>
+                                <option value="display">
+                                  Display the Full CV
+                                </option>
+                                <option id="report" value="report">
+                                  Report
+                                </option>
+                              </select>
                             </td>
                           );
                         if (accessor == "birth_date") {
