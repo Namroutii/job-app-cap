@@ -1,10 +1,9 @@
 footer {
     background-color: #052236;
-    margin-top: 20px;
 }
 
 .footer-motto {
-    font-size: large;
+    font-size: medium;
     font-family: Georgia, serif;
     color: #cacfcf;
 }
@@ -16,8 +15,7 @@ footer {
 }
 
 .logo-motto {
-    margin: 2%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     flex:1;
     font-family: Georgia, serif;
     color: #cacfcf;
@@ -36,7 +34,7 @@ footer {
 }
 .loc,.email,.phone {
     color: #cacfcf;
-    font-size: x-large;
+    font-size:x-large;
     width: 100%;
     text-align: left;
 }
@@ -83,4 +81,3 @@ footer {
     color:#cacfcf;
     font-family: Georgia, serif;
 }
-
