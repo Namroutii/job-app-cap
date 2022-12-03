@@ -1,6 +1,7 @@
 import "./Footer.css";
 const Footer = () => {
     return (
+
     <footer className="p-1 text-center">
         <section id="contact-info" className="p-5">
             <div className="container">
@@ -28,6 +29,7 @@ const Footer = () => {
             <p className="lead copy-right">&copy; C.A.P. NNU </p>
         </div>
     </footer>
+
     )
 }
 export default Footer;

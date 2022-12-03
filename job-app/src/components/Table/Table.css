@@ -1,0 +1,197 @@
+.table .email {
+  color: black;
+}
+th,
+td {
+  width: 12.5%;
+}
+#name-search {
+  background-image: url("../../../public/images/search-icon.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 300px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+#table-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: 83vh;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.table th {
+  background: #fff;
+  padding: 8px 10px;
+  border-bottom: 1px solid #1a1a1a;
+  font-weight: bold;
+  text-align: center;
+  min-width: 100px;
+}
+.table th.up {
+  background-image: url("../../../public/images/up_arrow.png");
+}
+.table th.down {
+  background-image: url("../../../public/images/down_arrow.png");
+}
+.table th.default {
+  background-image: url("../../../public/images/default-arrows.png");
+}
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.table td {
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.table tbody tr:first-child td {
+  border-top: none;
+}
+
+.table tbody tr:nth-child(n) td {
+  background: #eff0f0;
+}
+
+.table tbody tr:nth-child(2n) td {
+  background: #fff;
+}
+.table td:not(.action) {
+  padding-top: 20px;
+}
+#xp-col {
+  min-width: 180px;
+  max-width: 190px;
+}
+#days {
+  display: none;
+}
+#sub-col {
+  min-width: 135px;
+}
+#above-table {
+  display: flex;
+  margin-left: 10px;
+  width: 99%;
+}
+#position-filter {
+  height: 50px;
+  width: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#age-filter {
+  white-space: nowrap;
+  padding-bottom: 10px;
+  min-width: 180px;
+  height: 50px;
+  width: fit-content;
+}
+#age-filter input {
+  width: 50px;
+  height: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#age-bottom {
+  width: 159px;
+  height: 18px;
+  color: black;
+  display: flex;
+  font-size: 12px;
+  border-radius: 8px;
+}
+#max-age-button {
+  margin-left: 18px;
+}
+#min-age-button {
+  margin-left: 16px;
+}
+#address-search {
+  background-image: url("../../../public/images/search-icon.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 300px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#age-button {
+  height: 25px;
+  margin-left: 16px;
+  width: 55px;
+  background-color: rgba(87, 82, 82, 0.178);
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 2px;
+  cursor: pointer;
+}
+#gender-filter {
+  height: 50px;
+  width: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media only screen and (max-width: 575px) {
+  #above-table {
+    flex-direction: column;
+  }
+  #address-search,
+  #name-search,
+  #age-filter,
+  #gender-filter,
+  #position-filter {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #gender-filter {
+    margin-top: 10px;
+  }
+}
+#options-button {
+  appearance: none;
+  height: 20px;
+  text-align: left;
+  background-color: inherit;
+  border: 0px;
+  background-image: url("../../../public/images/more-options.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  width: 50px;
+  background-position: center center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  outline: 0;
+  box-shadow: inherit;
+  margin-top: 15px;
+}
+#invisible-option {
+  display: none;
+}
+#report {
+  color: red;
+}

@@ -3,13 +3,16 @@ import "./Home.css";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
+
 import Services from "../../components/Services/Services";
 import AboutUs from "../../components/AboutUs/AboutUs";
+
 function Home() {
   return (
     <div>
       <NavBar />
       <Header />
+
       <AboutUs/>
       <div className="container">
         <div className="row">
@@ -34,6 +37,7 @@ function Home() {
       </div>
       </div>
       </div>
+
       <Footer />
     </div>
   );
