@@ -1,12 +1,4 @@
-.title {
-    display: flex;
-    justify-content: center;
-    color: rgb(0, 0, 0);
-    font-size: 2.3em;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 45px;
-}
+
 
 .content {
     display: flex;
@@ -17,13 +9,14 @@
 
 .card {
     background-color: #fff;
-    width: 25.25em;
+    width: 360px;
     box-shadow: 0 5px 25px rgba(80, 68, 252, 0.15);
     border-radius: 10px;
-    padding: 25px;
+    padding: 20px;
     margin: 25px;
     transition: 0.7s ease;
     height: 500px;
+    
 }
 .services-links:link { text-decoration: none; color: black !important;}
 .services-links:visited { text-decoration: none; color: black !important;}

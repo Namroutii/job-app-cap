@@ -1,6 +1,6 @@
 import NavBar from "../../components/NavBar/NavBar";
-import Footer from "../../components/footer/Footer";
-import Form from "../../components/forms/Form";
+import Footer from "../../components/Footer/Footer";
+import Form from "../../components/Forms/Form";
 
 import "./AddCV.css";
 import { useState } from "react";
