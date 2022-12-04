@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <section className="cards" id="services">
-      <h1 className="title">Services</h1>
+      <h1 class="title">Services</h1>
       <div className="content">
         <Link to="/get-cv" className="services-links">
           <div className="card">
