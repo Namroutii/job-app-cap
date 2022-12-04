@@ -15,10 +15,10 @@ root.render(
     <BrowserRouter>
       <Routes>
 
-        <Route path="/Home" index element={<Home />} />
-        <Route path="/Add-cv" element={<AddCV />} />
-        <Route path="/Get-cv" element={<Get />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/home" index element={<Home />} />
+        <Route path="/add-cv" element={<AddCV />} />
+        <Route path="/get-cv" element={<Get />} />
+        <Route path="/login" element={<Login />} />
 
       </Routes>
     </BrowserRouter>
