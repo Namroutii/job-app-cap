@@ -19,7 +19,7 @@ return(
                     </p>
 				</div>
 			</div>
-			<div class="image-section">
+			<div className="image-section">
 				<img src="https://sbdktechnologies.com/wp-content/uploads/2022/05/Job-Posting.jpg " alt=""/>
 			</div>
 		</div>
