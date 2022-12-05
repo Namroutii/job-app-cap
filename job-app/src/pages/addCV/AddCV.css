@@ -6,10 +6,11 @@
   padding-left: 80px;
 }
 
-.form-select {
+.select {
   margin-top: 10px;
   max-width: 1000px;
   text-align: left;
+  padding-left: 80px;
 }
 
 .select-group {
@@ -23,11 +24,13 @@ select {
   padding: 10px;
   background-color: rgb(235, 230, 230);
   border-radius: 10px;
+  padding-left: 80px;
 }
 
 label {
   font-size: large;
   padding-top: 30px;
+  
 }
 
 select:focus {
@@ -62,4 +65,17 @@ button {
 button:hover {
   transform: scale(1.25);
 }
+.form-date{
+  width: 1000px;
+  padding-left: 80px;
+  padding-top: 30px;
+}
 
+.dropdown-container {
+  padding-top: 20px;
+  width: 1000px;
+  padding-left: 80px;
+}
+.select-label{
+  padding-bottom: 20px;
+}
