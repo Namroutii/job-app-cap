@@ -15,11 +15,9 @@ footer {
 }
 
 .logo-motto {
-    /* margin-left: 5%; */
     flex:1;
     font-family: Georgia, serif;
     color: #cacfcf;
-
 }
 
 .footer-contact {
@@ -29,9 +27,7 @@ footer {
     flex-direction: column;
     margin:auto;
 }
-.socials{
-    flex:1;
-}
+
 .loc,.email,.phone {
     color: #cacfcf;
     font-size:x-large;
@@ -69,9 +65,6 @@ footer {
     color: white;
 }
 
-#list-group{
-    background-color: #052236;
-}
 .copy-right{
     color:#cacfcf;
     font-family: Georgia, serif;

@@ -2,18 +2,18 @@ import "./Footer.css";
 const Footer = () => {
     return (
     <footer className="text-center">
-        <section id="contact-info" className="p-1">
+        <section id="contact-info">
             <div className="container">
-                <div className="row g-4">
-                    <h2 className="text-center mb-3 contact-info-title">Contact Information </h2>
+                <div className="row">
+                    <h2 className="text-center contact-info-title">Contact Information </h2>
                     <div className="logo-motto col">
                         <img className="footer-logo " src="./images/Logo-Footer.png" alt=""></img>
                         <h5><span className="footer-motto">Trust is all you need </span></h5>
                     </div>
                     < div className="footer-contact col">
-                        <span className="p-1 fw-bold loc">Location: Nablus Rafidia st</span>
-                        <span className="p-1 fw-bold phone">Phone: 092355555</span>  
-                        <span className="p-1 fw-bold email">Email: hireme@gmail.com </span>
+                        <span className="fw-bold loc">Location: Nablus Rafidia st</span>
+                        <span className="fw-bold phone">Phone: 092355555</span>  
+                        <span className="fw-bold email">Email: hireme@gmail.com </span>
                     </div> 
                     <div className="col">
                         <div><h4 className="social-title">Social media:</h4></div>
