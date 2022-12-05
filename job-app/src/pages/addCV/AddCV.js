@@ -43,7 +43,7 @@ function AddCV() {
           <label className="select-label">Language</label>
           <Select
             options={optionList}
-            placeholder="Select color"
+            placeholder="Select Language"
             value={selectedOptions}
             onChange={handleSelect}
             isSearchable={true}

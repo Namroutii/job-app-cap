@@ -1,6 +1,6 @@
 
 import React from "react"
-import "./Loginform.css"
+import "./loginform.css"
 
 const LoginForm = () => {
 
