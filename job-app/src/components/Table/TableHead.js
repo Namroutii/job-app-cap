@@ -20,6 +20,31 @@ const TableHead = ({ columns, handleSorting }) => {
               ? "down"
               : "default"
             : "";
+          if (accessor == "years_of_experience") {
+            return (
+              <th
+                key={accessor}
+                onClick={sortable ? () => handleSortingChange(accessor) : null}
+                className={cl}
+                id="xp-col"
+              >
+                {label}
+              </th>
+            );
+          }
+          if (accessor == "submission_date") {
+            return (
+              <th
+                key={accessor}
+                onClick={sortable ? () => handleSortingChange(accessor) : null}
+                className={cl}
+                id="sub-col"
+              >
+                {label}
+              </th>
+            );
+          }
+
           return (
             <th
               key={accessor}
