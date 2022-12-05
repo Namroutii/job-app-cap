@@ -16,6 +16,7 @@ root.render(
       <Routes>
 
         <Route path="/home" index element={<Home />} />
+        <Route path="/"  element={<Home />} />
         <Route path="/add-cv" element={<AddCV />} />
         <Route path="/get-cv" element={<Get />} />
         <Route path="/login" element={<Login />} />
