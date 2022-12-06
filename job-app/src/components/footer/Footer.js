@@ -2,7 +2,7 @@ import "./Footer.css";
 const Footer = () => {
     return (
     <footer className="text-center">
-        <section id="contact-info">
+        <section id="contact-info" className="p-1">
             <div className="container">
                 <div className="row">
                     <h2 className="text-center contact-info-title">Contact Information </h2>
