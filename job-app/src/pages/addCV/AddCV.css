@@ -78,4 +78,19 @@ button:hover {
 }
 .select-label{
   padding-bottom: 20px;
+  padding-left: 80px;
+}
+.form-control{
+  width: 920px;
+
+}
+.form-number{
+  padding-left: 80px;
+}
+.form-floating{
+  padding-left: 80px;
+}
+p{
+  padding-left: 80px;
+  color: red;
 }
