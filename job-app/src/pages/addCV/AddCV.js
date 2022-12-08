@@ -21,6 +21,19 @@ function AddCV() {
   function handleSelect(data) {
     setSelectedOptions(data);
   }
+  const [number, setNumber] = useState("");
+  const [check, setCheck] = useState("");
+  const [email, setEmail] = useState("");
+  const [checkEm, setCheckEmail] = useState("");
+  const checkNumber = () => {
+    let stringNumber = String(number);
+    if (stringNumber.length !== 9) setCheck("error");
+    else setCheck("done");
+  };
+  const checkEmail = () => {
+    if (email.length < 10) setCheckEmail("error");
+    else setCheck("done");
+  };
 
   return (
     <div>
@@ -29,18 +42,44 @@ function AddCV() {
       <hr />
       <form>
         <Form>Full Name</Form>
+
+        <label className="select-label">Birth of Date</label>
         <div className="form-date">
-          <label className="select-label">Birth of Date</label>
+          <input type="date" className="form-control" />
+        </div>
+
+        <Form>Address</Form>
+
+        <div className="form-number">
+          <label>Phone Number</label>
           <input
-            type="date"
-            className="form-control"
+            className="form-control form-control-lg"
+            type="phone"
+            placeholder="NUMBER"
+            onChange={(e) => {
+              setNumber(e.target.value);
+              checkNumber();
+            }}
           />
         </div>
-        <Form>Address</Form>
-        <Form>Phone Number</Form>
-        <Form>Email</Form>
+        <p>{check}</p>
+        <label className="select-label">Email</label>
+        <div className="form-floating mb-3">
+          <input
+            type="email"
+            className="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+            onChange={(e) => {
+              setEmail(e.target.value);
+              checkEmail();
+            }}
+          />
+        </div>
+        <p>{checkEm}</p>
+
+        <label className="select-label">Language</label>
         <div className="dropdown-container">
-          <label className="select-label">Language</label>
           <Select
             options={optionList}
             placeholder="Select Language"
