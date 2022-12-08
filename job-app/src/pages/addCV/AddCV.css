@@ -30,7 +30,7 @@ select {
 label {
   font-size: large;
   padding-top: 30px;
-  
+
 }
 
 select:focus {
@@ -45,7 +45,7 @@ input {
 }
 
 
-.form-input{
+.form-input {
   width: 920px;
   padding-left: 80px;
 }
@@ -65,7 +65,8 @@ button {
 button:hover {
   transform: scale(1.25);
 }
-.form-date{
+
+.form-date {
   width: 1000px;
   padding-left: 80px;
   padding-top: 30px;
@@ -76,21 +77,25 @@ button:hover {
   width: 1000px;
   padding-left: 80px;
 }
-.select-label{
+
+.select-label {
   padding-bottom: 20px;
   padding-left: 80px;
 }
-.form-control{
+
+.form-control {
   width: 920px;
 
 }
-.form-number{
+
+.form-number {
   padding-left: 80px;
 }
-.form-floating{
+
+.form-floating {
   padding-left: 80px;
 }
-p{
+
+p {
   padding-left: 80px;
-  color: red;
 }
