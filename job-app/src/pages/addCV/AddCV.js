@@ -1,9 +1,17 @@
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/footer/Footer";
-import Form from "../../components/forms/Form";
+
 import "./AddCV.css";
+
 import { useState } from "react";
 import Select from "react-select";
+
+
+import Text from "../../components/Inputs/Text"
+import Email from "../../components/Inputs/Email"
+import Phone from "../../components/Inputs/Phone"
+
+
 
 function AddCV() {
   const [selectedOptions, setSelectedOptions] = useState("");
@@ -21,62 +29,28 @@ function AddCV() {
   function handleSelect(data) {
     setSelectedOptions(data);
   }
-  const [number, setNumber] = useState("");
-  const [check, setCheck] = useState("");
-  const [email, setEmail] = useState("");
-  const [checkEm, setCheckEmail] = useState("");
-  const checkNumber = () => {
-    let stringNumber = String(number);
-    if (stringNumber.length !== 9) setCheck("error");
-    else setCheck("done");
-  };
-  const checkEmail = () => {
-    if (email.length < 10) setCheckEmail("error");
-    else setCheck("done");
-  };
 
   return (
     <div>
-      <NavBar /> <br />
+      <NavBar /> <br /><br /><br />
       <div className="title">Add your CV Down here </div>
       <hr />
+
       <form>
-        <Form>Full Name</Form>
+
+
+        <Text>Full Name</Text>
+
+        <Email />
+        <Phone />
+        <Text>Address</Text>
+        <Text>Degree</Text>
+
 
         <label className="select-label">Birth of Date</label>
         <div className="form-date">
           <input type="date" className="form-control" />
         </div>
-
-        <Form>Address</Form>
-
-        <div className="form-number">
-          <label>Phone Number</label>
-          <input
-            className="form-control form-control-lg"
-            type="phone"
-            placeholder="NUMBER"
-            onChange={(e) => {
-              setNumber(e.target.value);
-              checkNumber();
-            }}
-          />
-        </div>
-        <p>{check}</p>
-        <label className="select-label">Email</label>
-        <div className="form-floating mb-3">
-          <input
-            type="email"
-            className="form-control"
-            id="floatingInput"
-            placeholder="name@example.com"
-            onChange={(e) => {
-              setEmail(e.target.value);
-              checkEmail();
-            }}
-          />
-        </div>
-        <p>{checkEm}</p>
 
         <label className="select-label">Language</label>
         <div className="dropdown-container">
@@ -89,7 +63,7 @@ function AddCV() {
             isMulti
           />
         </div>
-        <Form>Degree</Form>
+
         <div className="select">
           <label> Department:</label> <br />
           <select onChange={(e) => handleShowSelect(e)}>
@@ -102,12 +76,13 @@ function AddCV() {
         </div>
         {showSelect === "1" && (
           <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+
+            <Text>Career</Text>
+            <Text>Years of Experience</Text>
+            <Text>Soft skills</Text>
+            <Text>LinkedIn URL</Text>
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
@@ -116,45 +91,43 @@ function AddCV() {
           </div>
         )}
         {showSelect === "2" && (
-          <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+          <div><Text>Career</Text>
+            <Text>Years of Experience</Text>
+            <Text>Soft skills</Text>
+            <Text>LinkedIn URL</Text>
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
           </div>
         )}
         {showSelect === "3" && (
-          <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+          <div><Text>Career</Text>
+            <Text>Years of Experience</Text>
+            <Text>Soft skills</Text>
+            <Text>LinkedIn URL</Text>
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
           </div>
         )}
         {showSelect === "4" && (
-          <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+          <div><Text>Career</Text>
+            <Text>Years of Experience</Text>
+            <Text>Soft skills</Text>
+            <Text>LinkedIn URL</Text>
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
           </div>
         )}
       </form>
+
       <Footer />
     </div>
   );
