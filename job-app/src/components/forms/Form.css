@@ -35,23 +35,3 @@ input:focus {
 
 }
 
-@media screen and (max-width: 600px) {
-  input[type=text] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  input[type=email] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  input[type=select] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
