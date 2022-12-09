@@ -1,11 +1,11 @@
-import NavBar from "../../components/NavBar/NavBar";
 import "./GetCV.css";
 import Table from "../../components/Table/Table";
+import NavBarGetCvs from "../../components/NavBarGetCvs/NavBarGetCvs";
 function getCV() {
   return (
     <div>
       <div id="nav-bar">
-        <NavBar />
+        <NavBarGetCvs/>
       </div>
 
       <Table />

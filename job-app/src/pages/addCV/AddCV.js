@@ -1,9 +1,10 @@
-import NavBar from "../../components/NavBar/NavBar";
+
 import Footer from "../../components/footer/Footer";
 import Form from "../../components/forms/Form";
 import "./AddCV.css";
 import { useState } from "react";
 import Select from "react-select";
+import NavBarAddCvs from "../../components/NavBarAddCvs/NavBarAddCvs";
 
 function AddCV() {
   const [selectedOptions, setSelectedOptions] = useState("");
@@ -24,7 +25,7 @@ function AddCV() {
 
   return (
     <div>
-      <NavBar /> <br />
+      <NavBarAddCvs/> <br />
       <div className="title">Add your CV Down here </div>
       <hr />
       <form>

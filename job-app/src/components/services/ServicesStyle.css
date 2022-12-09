@@ -5,6 +5,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .card {
@@ -13,10 +14,9 @@
     box-shadow: 0 5px 25px rgba(80, 68, 252, 0.15);
     border-radius: 10px;
     padding: 20px;
-    margin: 25px;
+    margin: 49px;
     transition: 0.7s ease;
     height: 500px;
-    
 }
 .services-links:link { text-decoration: none; color: black !important;}
 .services-links:visited { text-decoration: none; color: black !important;}
@@ -36,4 +36,12 @@
     color: rgb(78,78,78);
     font-size: 1.7em;
     font-weight: 700;
+    
+}
+.info{
+    height: 262px;
+}
+.card p{
+    font-size: 17px;
+    
 }
