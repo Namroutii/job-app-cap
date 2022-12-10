@@ -1,3 +1,4 @@
+// import Charts from "../../components/AdminPanel/Charts";
 import NavBar from "../../components/NavBar/NavBar";
 
 
@@ -11,6 +12,7 @@ return(
 
     <div>
         <NavBar/>
+        {/* <Charts/> */}
     </div>
 )
 }
