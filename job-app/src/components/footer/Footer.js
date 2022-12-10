@@ -3,9 +3,8 @@ const Footer = () => {
   return (
     <footer className="text-center">
       <section id="contact-info">
-        <div className="container">
           <div className="row">
-            <h2 className="text-center contact-info-title">
+            <h2 className="text-center contact-info-title" id="contact">
               Contact Information{" "}
             </h2>
             <div className="logo-motto col">
@@ -33,7 +32,7 @@ const Footer = () => {
             </div>
             <p className="lead copy-right">&copy; C.A.P. NNU </p>
           </div>
-        </div>
+        
       </section>
     </footer>
   );
