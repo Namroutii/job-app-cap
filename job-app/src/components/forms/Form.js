@@ -1,7 +1,6 @@
 import "./Form.css";
 
 const Form = (props) => {
-
   return (
     <>
       <form>
@@ -13,6 +12,5 @@ const Form = (props) => {
     </>
   );
 };
-
 
 export default Form;

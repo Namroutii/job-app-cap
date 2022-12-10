@@ -1,0 +1,123 @@
+.table {
+  border-collapse: collapse;
+  border: none;
+  width: 1000px;
+}
+
+.tableRowHeader {
+  background-color: transparent;
+  transition: all 0.25s ease;
+  border-radius: 10px;
+}
+
+.tableHeader {
+  background-color: #f1f1f1;
+  padding: 12px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.tableHeader:first-child {
+  border-top-left-radius: 15px;
+}
+
+.tableHeader:last-child {
+  border-top-right-radius: 15px;
+}
+
+.tableRowItems {
+  cursor: auto;
+}
+
+.tableRowItems:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.tableCell {
+  padding: 12px;
+  font-size: 14px;
+  color: green;
+}
+
+#mainContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 50px;
+  height: 40vw;
+}
+#filters {
+  width: 250px;
+  height: fit-content;
+  background-color: #f9f9f9;
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 30px;
+}
+#moreInfo {
+  width: 60px;
+  font-size: 10px;
+  padding: 5px;
+  background-color: gray;
+  margin: 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 1270px) {
+  #mainContainer {
+    display: block;
+  }
+  .tableContainer {
+    width: 100%;
+  }
+  .table {
+    width: 100%;
+  }
+}
+#sortBy {
+  width: 100%;
+  text-align: start;
+  padding: 10px;
+  background-color: inherit;
+  border-width: 0px;
+}
+.filterComponent {
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filterComponent input {
+  width: fit-content;
+  margin-right: 5px;
+}
+.filterComponent label {
+  font-size: 15px;
+  padding: 0px;
+  width: 90%;
+}
+
+#sortByForm,
+#citiesForm,
+#positionForm {
+  overflow: hidden;
+
+  border-bottom: solid;
+  padding-bottom: 10px;
+  border-color: #082235;
+  border-width: 1px;
+  transition: height 1s, background-image 0.1s;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 170px 17px;
+}
+.filterHeaders {
+  font-size: 17px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
