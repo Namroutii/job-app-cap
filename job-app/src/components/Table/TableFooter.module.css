@@ -3,7 +3,6 @@
   font-weight: 500;
   text-align: left;
   font-size: 16px;
-  color: #2c3e50;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   display: flex;
@@ -25,12 +24,12 @@
 
 .activeButton {
   color: white;
-  background: #185adb;
+  background: #212529;
 }
 
 .inactiveButton {
-  color: #2c3e50;
-  background: #f9f9f9;
+  color: rgba(255, 255, 255, 0.205);
+  background: #2c3034;
 }
 #fullTableFooter {
   display: flex;
@@ -45,4 +44,21 @@
   margin-left: 4px;
   width: 50px;
   padding-top: 10px;
+  color: white;
+}
+
+.tableFooter::-webkit-scrollbar {
+  height: 4px;
+}
+
+.tableFooter::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tableFooter::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.tableFooter::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

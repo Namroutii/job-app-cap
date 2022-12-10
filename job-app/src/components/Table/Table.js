@@ -428,11 +428,37 @@ const Table = ({ data, rowsPerPage }) => {
         break;
     }
   };
+  const clearFilters = () => {
+    setAllCitiesChecked(true);
+    setJerusalem(true);
+    setBethlehem(true);
+    setBeit_Jala(true);
+    setBeit_Sahour(true);
+    setHebron(true);
+    setSabastia(true);
+    setJericho(true);
+    setRamallah(true);
+    setNablus(true);
+    setTulkarem(true);
+    setJenin(true);
+    setGaza(true);
+    setRafah(true);
+    setKhan_Younis(true);
+    setAllPosition(true);
+    setDesigner(true);
+    setDeveloper(true);
+    setAccountant(true);
+    setLeader(true);
+    setSecurity(true);
+  };
   return (
     <div id={styles.mainContainer}>
       <div id={styles.filters}>
-        <div className={styles.filterComponent}>
+        <div className={styles.filterComponent} id={styles.filterHead}>
           <p>Filter Results</p>
+          <p id={styles.clearFilters} onClick={clearFilters}>
+            Clear
+          </p>
         </div>
         <div className={styles.filterComponent}>
           <form
@@ -818,9 +844,9 @@ const Table = ({ data, rowsPerPage }) => {
         </div>
       </div>
       <div className={styles.tableContainer}>
-        <table className={styles.table}>
+        <table id={styles.table} className="table  table-striped">
           <thead className={styles.tableRowHeader}>
-            <tr>
+            <tr className="table-dark">
               <th className={styles.tableHeader}>Name</th>
               <th className={styles.tableHeader}>Age</th>
               <th className={styles.tableHeader}>City</th>
@@ -832,7 +858,7 @@ const Table = ({ data, rowsPerPage }) => {
           </thead>
           <tbody>
             {slice.map((el) => (
-              <tr className={styles.tableRowItems} key={el.id}>
+              <tr className="table-dark" key={el.id}>
                 <td className={styles.tableCell}>{el.name}</td>
                 <td className={styles.tableCell}>{el.age}</td>
                 <td className={styles.tableCell}>{el.city}</td>
@@ -846,6 +872,7 @@ const Table = ({ data, rowsPerPage }) => {
             ))}
           </tbody>
         </table>
+        <div id={styles.tableBottom}></div>
         <TableFooter
           range={range}
           slice={slice}

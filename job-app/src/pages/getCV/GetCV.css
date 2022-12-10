@@ -1,3 +1,17 @@
 #nav-bar {
   margin-bottom: 50px;
 }
+#get-cv-img {
+  width: 100%;
+  height: auto;
+}
+#get-cv-container {
+  background-color: #050505;
+  height: 120vw;
+  position: relative;
+}
+#get-cv-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
