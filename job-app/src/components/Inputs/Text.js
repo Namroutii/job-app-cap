@@ -1,6 +1,7 @@
-import "./Form.css";
+import "./Inputs.css";
+
 import { useState } from "react";
-const Form = (props) => {
+const Text = (props) => {
   const [name, setName] = useState("");
   const [check, setCheck] = useState("");
 
@@ -12,22 +13,24 @@ const Form = (props) => {
   return (
     <>
       <form>
-        <div className="form-group">
-          <label> {props.children} </label> <br />
+        <label className="label-form"> {props.children} </label>
+        <div className="form">
           <input
-            type="text"
+            className="fab-TextInput"
             placeholder={props.children}
-            required
             onChange={(e) => {
               setName(e.target.value);
               checkName();
             }}
+            required
+            type="text"
           />
+          <br />
         </div>
-        <p>{check}</p>
+        <span className="validation">{check}</span>
       </form>
     </>
   );
 };
 
-export default Form;
+export default Text;

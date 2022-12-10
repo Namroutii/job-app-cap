@@ -1,21 +1,17 @@
 .form {
   margin-top: 10px;
-  max-width: 1000px;
+  max-width: 900px;
   padding-left: 80px;
   text-align: left;
-
 }
 
-.form-group label {
-
+.label-form {
   text-align: left;
   display: block;
-
-
+  padding-left: 80px;
+  margin-bottom: 15px;
 }
-
 .form-group input {
-
   border: none;
   background-color: rgb(235, 230, 230);
   width: 920px;
@@ -26,12 +22,13 @@
 }
 
 .form-group {
-
   padding-left: 80px;
 }
 
 input:focus {
   outline-color: rgb(32, 177, 255);
-
 }
-
+.validation {
+  padding-left: 80px;
+  color: red;
+}

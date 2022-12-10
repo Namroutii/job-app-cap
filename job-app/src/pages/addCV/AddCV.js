@@ -1,48 +1,63 @@
 
 import Footer from "../../components/footer/Footer";
-import Form from "../../components/forms/Form";
 import "./AddCV.css";
 import { useState } from "react";
 import Select from "react-select";
 import NavBarAddCvs from "../../components/NavBarAddCvs/NavBarAddCvs";
+import Text from "../../components/Inputs/Text";
+import Email from "../../components/Inputs/Email";
+import Phone from "../../components/Inputs/Phone";
+import Date from "../../components/Inputs/Date";
+import Selects from "../../components/Inputs/Select";
+import Url from "../../components/Inputs/URL";
 
 function AddCV() {
   const [selectedOptions, setSelectedOptions] = useState("");
-  const [showSelect, setShowSelect] = useState("");
-  const handleShowSelect = (event) => {
-    const getUser = event.target.value;
-    setShowSelect(getUser);
-  };
+  function handleSelect(data) {
+    setSelectedOptions(data);
+  }
   const optionList = [
     { value: "English", label: "English" },
     { value: "Arabic", label: "Arabic" },
     { value: "Germany", label: "Germany" },
     { value: "Hebrew", label: "Hebrew" },
   ];
-  function handleSelect(data) {
-    setSelectedOptions(data);
-  }
-
+  const [showSelect, setShowSelect] = useState("");
+  const handleShowSelect = (event) => {
+    const getUser = event.target.value;
+    setShowSelect(getUser);
+  };
   return (
     <div>
       <NavBarAddCvs/> <br />
       <div className="title">Add your CV Down here </div>
       <hr />
       <form>
-        <Form>Full Name</Form>
-        <div className="form-date">
-          <label className="select-label">Birth of Date</label>
-          <input
-            type="date"
-            className="form-control"
-          />
+        <Text>Full Name</Text>
+        <Email />
+        <Phone>Phone Number</Phone>
+        <label className="label-form"> City:</label>
+        <div className="form">
+          <select className="form-select">
+            <option value={0}>Select your City:</option>
+            <option>Jerusalem</option>
+            <option>Ramallah</option>
+            <option>Nablus</option>
+            <option>Hebron</option>
+            <option>Jenin</option>
+            <option>Jericho</option>
+            <option>Bethlehem</option>
+            <option>Qalqilya</option>
+            <option>Tulkarm</option>
+          </select>
         </div>
-        <Form>Address</Form>
-        <Form>Phone Number</Form>
-        <Form>Email</Form>
-        <div className="dropdown-container">
-          <label className="select-label">Language</label>
+        <Text>Address</Text>
+        <Date />
+        <Selects />
+        <label className="label-form">Language</label>
+        <div className="form">
           <Select
+            className="fab-TextInput "
             options={optionList}
             placeholder="Select Language"
             value={selectedOptions}
@@ -51,11 +66,10 @@ function AddCV() {
             isMulti
           />
         </div>
-        <Form>Degree</Form>
-        <div className="select">
-          <label> Department:</label> <br />
-          <select onChange={(e) => handleShowSelect(e)}>
-            <option selected>Select your job:</option>
+        <label className="label-form"> Department:</label>
+        <div className="form">
+          <select className="form-select" onChange={(e) => handleShowSelect(e)}>
+            <option value={0}>Select your job:</option>
             <option value="1">Programmer </option>
             <option value="2">Accountant </option>
             <option value="3">Designer </option>
@@ -64,12 +78,12 @@ function AddCV() {
         </div>
         {showSelect === "1" && (
           <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+            <Text>Career</Text>
+            <Phone>Years</Phone>
+            <Text>Soft skills</Text>
+            <Url />
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
@@ -79,12 +93,12 @@ function AddCV() {
         )}
         {showSelect === "2" && (
           <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+            <Text>Career</Text>
+            <Text>Years of Experience</Text>
+            <Text>Soft skills</Text>
+            <Url />
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
@@ -92,12 +106,12 @@ function AddCV() {
         )}
         {showSelect === "3" && (
           <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+            <Text>Career</Text>
+            <Text>Years of Experience</Text>
+            <Text>Soft skills</Text>
+            <Url />
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
@@ -105,12 +119,12 @@ function AddCV() {
         )}
         {showSelect === "4" && (
           <div>
-            <Form>Career</Form>
-            <Form>Years of Experience</Form>
-            <Form>Soft skills</Form>
-            <Form>LinkedIn URL</Form>
-            <Form>Language</Form>
-            <Form>Skills</Form>
+            <Text>Career</Text>
+            <Text>Years of Experience</Text>
+            <Text>Soft skills</Text>
+            <Url />
+            <Text>Language</Text>
+            <Text>Skills</Text>
             <br />
             <br />
             <button type="submit">submit</button>
