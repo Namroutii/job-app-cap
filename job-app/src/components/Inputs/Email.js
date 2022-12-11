@@ -12,8 +12,8 @@ const Email = () => {
 
   return (
     <>
-          <label className="label-form">Email</label>
-    <div className="input">
+      <label className="label-form">Email</label>
+      <div className="input">
 
         <input
           type="email"
@@ -25,10 +25,10 @@ const Email = () => {
           }}
           required
         />
-<br/>
-      <span className="validation">{checkEm}</span>
+        <br />
+        <span className="validation">{checkEm}</span>
       </div>
-       </>
+    </>
   );
 };
 
