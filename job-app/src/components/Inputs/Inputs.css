@@ -1,34 +1,24 @@
-.form {
-  margin-top: 10px;
-  max-width: 900px;
-  padding-left: 80px;
-  text-align: left;
-}
-
-.label-form {
-  text-align: left;
-  display: block;
-  padding-left: 80px;
-  margin-bottom: 15px;
-}
-.form-group input {
-  border: none;
-  background-color: rgb(235, 230, 230);
-  width: 920px;
-  border-radius: 10px;
-  padding: 20px;
+.fab-TextInput{
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   font-size: 15px;
-  padding-left: 80px;
-}
+  background-color: white;
+  text-align: left;
 
-.form-group {
-  padding-left: 80px;
 }
-
-input:focus {
+.fab-TextInput:focus
+{
   outline-color: rgb(32, 177, 255);
+
 }
-.validation {
-  padding-left: 80px;
+.label-text{
+  margin-bottom: 5px;
+}
+.input{
+  padding-bottom: 20px;
+}
+.validation{
+  padding-left: 70px;
   color: red;
 }
