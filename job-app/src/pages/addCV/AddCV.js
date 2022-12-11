@@ -1,8 +1,9 @@
-import NavBar from "../../components/NavBar/NavBar";
+
 import Footer from "../../components/footer/Footer";
 import "./AddCV.css";
 import { useState } from "react";
 import Select from "react-select";
+import NavBarAddCvs from "../../components/NavBarAddCvs/NavBarAddCvs";
 import Text from "../../components/Inputs/Text";
 import Email from "../../components/Inputs/Email";
 import Phone from "../../components/Inputs/Phone";
@@ -28,6 +29,7 @@ function AddCV() {
   };
   return (
     <div>
+
       <NavBar />
 
       <div className="body">
