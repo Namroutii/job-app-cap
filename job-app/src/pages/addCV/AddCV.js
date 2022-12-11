@@ -30,7 +30,7 @@ function AddCV() {
   return (
     <div>
 
-      <NavBar />
+      <NavBarAddCvs />
 
       <div className="body">
         <br />
@@ -58,7 +58,7 @@ function AddCV() {
                   <option>Bethlehem</option>
                   <option>Qalqilya</option>
                   <option>Tulkarm</option>
-                </select> <br/>
+                </select> <br />
                 <Text>Address</Text>
                 <Date />
                 <Selects />
@@ -148,12 +148,12 @@ function AddCV() {
                   </div>
                 )}
               </div>
-              
+
             </form>
-            
+
           </div>
-          <br/>
-      <br/>
+          <br />
+          <br />
         </div>
       </div>
 
