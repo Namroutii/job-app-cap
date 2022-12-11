@@ -14,22 +14,20 @@ const Phone = (props) => {
 
   return (
     <>
-      <form>
-        <label className="label-form">{props.children} </label>
-        <div className="form">
-          <input
-            className="fab-TextInput "
-            type="phone"
-            placeholder={props.children}
-            onChange={(e) => {
-              setNumber(e.target.value);
-              checkNumber();
-            }}
-            required
-          />
-        </div>
+      <label className="label-form">{props.children} </label>
+      <div className="input">
+        <input
+          className="fab-TextInput "
+          type="phone"
+          placeholder={props.children}
+          onChange={(e) => {
+            setNumber(e.target.value);
+            checkNumber();
+          }}
+          required
+        />
         <span className="validation">{check}</span>
-      </form>
+      </div>
     </>
   );
 };

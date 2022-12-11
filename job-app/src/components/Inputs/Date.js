@@ -4,7 +4,7 @@ const Date = () => {
   return (
     <>
       <label className="label-form">Birth of Date</label>
-      <div className="form">
+      <div className="input">
         <input
           calendar-picker="date"
           className="fab-TextInput "
