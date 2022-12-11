@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 import Footer from "../../components/footer/Footer";
 import "./AddCV.css";
 import { useState } from "react";
