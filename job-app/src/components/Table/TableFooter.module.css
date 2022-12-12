@@ -1,0 +1,66 @@
+.tableFooter {
+  padding: 8px 0px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 16px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  overflow-x: auto;
+  width: 1000px;
+  max-width: 500px;
+  height: fit-content;
+  margin-top: 15px;
+}
+
+.button {
+  border: none;
+  padding: 7px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-bottom: 0px;
+}
+
+.activeButton {
+  color: white;
+  background: #4088c5;
+}
+
+.inactiveButton {
+  color: rgba(255, 255, 255, 0.205);
+  background: #295984;
+}
+#fullTableFooter {
+  display: flex;
+  justify-content: center;
+}
+.flButton {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 50px;
+  height: fit-content;
+  color: white;
+}
+
+.tableFooter::-webkit-scrollbar {
+  height: 4px;
+}
+
+.tableFooter::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tableFooter::-webkit-scrollbar-thumb {
+  background: #4088c5;
+}
+
+.tableFooter::-webkit-scrollbar-thumb:hover {
+  background: #295984;
+}
