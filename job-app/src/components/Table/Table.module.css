@@ -1,0 +1,227 @@
+#table {
+  border-collapse: collapse;
+  border: none;
+  width: 1000px;
+  margin: 0px;
+}
+
+.tableRowHeader {
+  background-color: transparent;
+  transition: all 0.25s ease;
+  border-radius: 10px;
+}
+
+.tableHeader {
+  padding: 12px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 14px;
+}
+
+.tableHeader:first-child {
+  border-top-left-radius: 15px;
+}
+
+.tableHeader:last-child {
+  border-top-right-radius: 15px;
+}
+
+.tableRowItems {
+  cursor: auto;
+}
+
+.tableCell {
+  padding: 12px;
+  font-size: 14px;
+}
+
+#mainContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 50px;
+  height: 1300px;
+}
+#filters {
+  width: 250px;
+  height: fit-content;
+  background-color: #295984;
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: white;
+}
+#moreInfo {
+  width: 60px;
+  font-size: 10px;
+  padding: 5px;
+  background-color: #c99445;
+  margin: 0px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#table tr:nth-child(even) #moreInfo {
+  background-color: #ecb056;
+}
+
+#sortBy {
+  width: 100%;
+  text-align: start;
+  padding: 10px;
+  background-color: inherit;
+  border-width: 0px;
+}
+#filterHead {
+  white-space: nowrap;
+}
+.filterComponent {
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: white;
+}
+
+.filterComponent input {
+  width: fit-content;
+  margin-right: 5px;
+}
+.filterComponent label {
+  font-size: 15px;
+  padding: 0px;
+  width: fit-content;
+  color: rgba(255, 255, 255, 0.61);
+}
+
+#sortByForm,
+#citiesForm,
+#positionForm {
+  overflow: hidden;
+
+  border-bottom: solid;
+  padding-bottom: 10px;
+  border-color: #d19b49;
+  border-width: 1px;
+  transition: height 1s, background-image 0.1s;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 100% 17px;
+}
+.filterHeaders {
+  font-size: 17px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
+#clearFilters {
+  font-size: 13px;
+  margin-top: 4px;
+  cursor: pointer;
+  color: #d19b49;
+  float: right;
+}
+#tableBottom {
+  background-color: #212529;
+  height: 10px;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#table td {
+  color: rgba(255, 255, 255, 0.822);
+}
+.tableContainer {
+  display: flex;
+  overflow-x: auto;
+  height: fit-content;
+}
+
+@media only screen and (max-width: 1270px) {
+  #filters {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 150px;
+  }
+  #filterHead {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    table-layout: fixed;
+  }
+  .filterComponent {
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+    z-index: 10;
+  }
+  .filterComponent input {
+    margin-left: 10px;
+  }
+  .filterComponent form {
+    border-radius: 10px;
+  }
+  .filterHeaders {
+    text-align: center;
+  }
+  #filterBody {
+    display: flex;
+    width: 100%;
+  }
+  #mainContainer {
+    display: block;
+  }
+  #table {
+    width: 100%;
+    white-space: nowrap;
+  }
+  #scrollDiv {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  #filters {
+    width: 90%;
+  }
+  .filterComponent input {
+    width: 8px;
+    height: 10px;
+  }
+  .filterComponent label {
+    font-size: 10px;
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #filters {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.tableContainer::-webkit-scrollbar {
+  height: 1px;
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background: #4088c5;
+}
+
+.tableContainer::-webkit-scrollbar-thumb:hover {
+  background: #295984;
+}
