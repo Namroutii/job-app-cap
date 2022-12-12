@@ -1,81 +1,31 @@
-.title {
-  font-size: 30px;
-  font-weight: 1000;
-  text-align: left;
+
+header {
   padding-top: 30px;
-  padding-left: 80px;
+}
+.body{
+  background-image: url("../../../public/images/backgroud.jpeg");
 }
 
-.select {
-  margin-top: 10px;
-  max-width: 1000px;
-  text-align: left;
-  padding-left: 80px;
+.container1 {
+  max-width: 800px;
+  margin:  auto;
 }
-
-.select-group {
-  width: 900px;
-  padding-left: 80px;
-  padding-top: 20px;
-}
-
-select {
-  width: 920px;
-  padding: 10px;
-  background-color: rgb(235, 230, 230);
-  border-radius: 10px;
-  padding-left: 80px;
-}
-
-label {
-  font-size: large;
-  padding-top: 30px;
-  
-}
-
-select:focus {
-  outline-color: rgb(32, 177, 255);
-}
-
-input {
-  width: 920px;
-  padding: 10px;
-  background-color: rgb(235, 230, 230);
+.information-box {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
   border-radius: 10px;
 }
-
-
-.form-input{
-  width: 920px;
-  padding-left: 80px;
-}
-
-button {
-  width: 40%;
-  height: 48px;
-  background-color: rgb(32, 177, 255);
+.form-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  border-radius: 4px;
-  cursor: pointer;
+  flex-direction: column;
+  font-weight: bolder;
 }
-
-button:hover {
-  transform: scale(1.25);
+label{
+  font-size: 15px;
+  margin-bottom: 5px; 
 }
-.form-date{
-  width: 1000px;
-  padding-left: 80px;
-  padding-top: 30px;
-}
-
-.dropdown-container {
-  padding-top: 20px;
-  width: 1000px;
-  padding-left: 80px;
-}
-.select-label{
-  padding-bottom: 20px;
+.fab-SelectInput{
+  padding: 6px 10px;
+  font-size: 15px;
 }

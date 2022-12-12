@@ -4,29 +4,18 @@
 }
 #logo{
     width: 130px;
-    
 }
 .nav-links:hover {
     color: white;
 }
-
 .nav-links{
     color: #a8b4c0;
 }
 .navbar{
     background-color: #052236;
 }
-.navbar-nav .dropdown-menu{
-    background-color: #052236;
-    border: none;
-}
-.navbar-nav .dropdown-item{
-    color: #adb5bd;
-}
 .dropdown-toggle::after{
     color: #adb5bd;
-    
-    
 }
 .btn.navbar-toggler{
     padding: 0;
@@ -41,21 +30,4 @@
 .btn.navbar-toggler:hover{
     background-color: #052236;
     border-color: #052236;
-}
-.nav-login:hover{
-    background-color: #052236;
-}
-.nav-login{
-    color: #a8b4c0;
-    width: 7%;
-    height: 44px;
-    background-color: #052236;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-    border: none;
-    border-style: outset;
-    border-image: initial;
-    margin-right: 17px;
 }
