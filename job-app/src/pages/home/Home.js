@@ -12,8 +12,8 @@ function Home() {
     <div>
       <NavBar />
       <Header />
-
-      <AboutUs/>
+      
+      <AboutUs />
       <div className="container">
         <div className="row">
         <h1 className="title">Services</h1>

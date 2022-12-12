@@ -4,9 +4,7 @@ return(
     <div className="section" id="About">
 		<div className="container">
 			<div className="content-section">
-				<div className="title">
-					<h1>About Us</h1>
-				</div>
+			<h1 className="title">About Us</h1>
 				<div className="content">
 					<p>
                     HireMe Founded in 2022 by Osama,Ahmed,Emad,Dalia,Abd and Izz <br></br>
