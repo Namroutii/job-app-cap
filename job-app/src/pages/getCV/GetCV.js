@@ -15,6 +15,9 @@ function getCV() {
         id="get-cv-img"
       />
       <Table data={data} rowsPerPage={23} />
+      {
+        //<Footer />//<--
+      }
     </div>
   );
 }

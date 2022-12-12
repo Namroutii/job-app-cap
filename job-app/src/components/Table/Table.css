@@ -1,20 +1,24 @@
 .openedSortList {
   background-image: url("../../../public/images/opened-list-icon.png");
   height: 250px;
-  background-color: #212529;
+  background-color: #295984;
 }
 .closedList {
   background-image: url("../../../public/images/closed-list-icon.png");
   height: 40px;
-  background-color: #212529;
+  background-color: #295984;
 }
 .openedCityList {
   background-image: url("../../../public/images/opened-list-icon.png");
   height: 420px;
-  background-color: #212529;
+  background-color: #295984;
 }
 .openedPositionList {
   background-image: url("../../../public/images/opened-list-icon.png");
   height: 205px;
-  background-color: #212529;
+  background-color: #295984;
+}
+.table-dark {
+  --bs-table-bg: #235a86;
+  --bs-table-striped-bg: #3889c8;
 }

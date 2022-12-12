@@ -11,7 +11,7 @@ const TableFooter = ({ range, setPage, page, slice }) => {
   return (
     <div id={styles.fullTableFooter}>
       <p onClick={() => setPage(1)} className={styles.flButton}>
-        First
+        &#171;
       </p>
       <p
         onClick={() => {
@@ -19,7 +19,7 @@ const TableFooter = ({ range, setPage, page, slice }) => {
         }}
         className={styles.flButton}
       >
-        Previous
+        &#8249;
       </p>
       <div className={styles.tableFooter}>
         {range.map((el, index) => (
@@ -40,10 +40,10 @@ const TableFooter = ({ range, setPage, page, slice }) => {
         }}
         className={styles.flButton}
       >
-        Next
+        &#8250;
       </p>
       <p onClick={() => setPage(range.length)} className={styles.flButton}>
-        Last
+        &#187;
       </p>
     </div>
   );

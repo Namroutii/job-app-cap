@@ -41,12 +41,12 @@
   margin-right: auto;
   justify-content: center;
   margin-top: 50px;
-  height: 1500px;
+  height: 1300px;
 }
 #filters {
   width: 250px;
   height: fit-content;
-  background-color: #212529;
+  background-color: #295984;
   margin-right: 10px;
   border-radius: 20px;
   padding: 30px;
@@ -58,7 +58,7 @@
   width: 60px;
   font-size: 10px;
   padding: 5px;
-  background-color: #212529;
+  background-color: #c99445;
   margin: 0px;
   border-radius: 10px;
   text-align: center;
@@ -66,7 +66,7 @@
   cursor: pointer;
 }
 #table tr:nth-child(even) #moreInfo {
-  background-color: #2c3034;
+  background-color: #ecb056;
 }
 
 #sortBy {
@@ -83,6 +83,7 @@
   border-width: 1px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-color: white;
 }
 
 .filterComponent input {
@@ -103,7 +104,7 @@
 
   border-bottom: solid;
   padding-bottom: 10px;
-  border-color: #4c5155;
+  border-color: #d19b49;
   border-width: 1px;
   transition: height 1s, background-image 0.1s;
   background-size: 15px;
@@ -122,7 +123,7 @@
   font-size: 13px;
   margin-top: 4px;
   cursor: pointer;
-  color: #3b8ace;
+  color: #d19b49;
   float: right;
 }
 #tableBottom {
@@ -133,7 +134,7 @@
   border-bottom-right-radius: 15px;
 }
 #table td {
-  color: rgba(255, 255, 255, 0.61);
+  color: rgba(255, 255, 255, 0.822);
 }
 .tableContainer {
   display: flex;
@@ -195,9 +196,11 @@
   }
   .filterComponent input {
     width: 8px;
+    height: 10px;
   }
   .filterComponent label {
     font-size: 10px;
+    margin: 0px;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -216,9 +219,9 @@
 }
 
 .tableContainer::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #4088c5;
 }
 
 .tableContainer::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #295984;
 }

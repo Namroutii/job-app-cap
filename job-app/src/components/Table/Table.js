@@ -878,7 +878,7 @@ const Table = ({ data, rowsPerPage }) => {
                 </tr>
               ))}
             </tbody>
-          </table>{" "}
+          </table>
           <TableFooter
             range={range}
             slice={slice}
