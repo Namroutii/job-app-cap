@@ -1,14 +1,23 @@
 import "./GetCV.css";
 import Table from "../../components/Table/Table";
+import data from "../../data/CVsData";
+import Footer from "../../components/footer/Footer";
 import NavBarGetCvs from "../../components/NavBarGetCvs/NavBarGetCvs";
 function getCV() {
   return (
-    <div>
+    <div id="get-cv-container">
       <div id="nav-bar">
-        <NavBarGetCvs/>
+        <NavBarGetCvs />
       </div>
-
-      <Table />
+      <img
+        src="./images/get-cv-img.jpg
+    "
+        id="get-cv-img"
+      />
+      <Table data={data} rowsPerPage={23} />
+      {
+        //<Footer />//<--
+      }
     </div>
   );
 }

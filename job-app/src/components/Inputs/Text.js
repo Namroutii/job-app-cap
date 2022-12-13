@@ -12,23 +12,19 @@ const Text = (props) => {
 
   return (
     <>
-      <form>
-        <label className="label-form"> {props.children} </label>
-        <div className="form">
-          <input
-            className="fab-TextInput"
-            placeholder={props.children}
-            onChange={(e) => {
-              setName(e.target.value);
-              checkName();
-            }}
-            required
-            type="text"
-          />
-          <br />
-        </div>
-        <span className="validation">{check}</span>
-      </form>
+          <label className="label-text"> {props.children} </label>
+    <div className="input">
+      <input
+        className="fab-TextInput"
+        placeholder={props.children}
+        onChange={(e) => {
+          setName(e.target.value);
+          checkName();
+        }}
+        required
+        type="text"
+      /></div>
+      <span className="validation">{check}</span>
     </>
   );
 };
