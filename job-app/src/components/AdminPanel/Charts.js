@@ -14,6 +14,7 @@ const data = [
 
 export default function Charts() {
     return (
+        <section>
         <div className="row">
         <div className="col-md-12">
             {/* <h2>Charts with recharts library</h2> */}
@@ -54,5 +55,6 @@ export default function Charts() {
         </div>
 
         </div>
+        </section>
     )
 }

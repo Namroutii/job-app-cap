@@ -6,7 +6,12 @@ function AdminPanel(){
 return(
     <div>
         <NavBar/>
+        <br/>
+        <br/>
+        <br/>
+        <section>
         <Charts/>
+        </section>
     </div>
 )
 }
