@@ -7,7 +7,6 @@ header {
   background-color: #f6f6f6;
   /*background-image: url("../../../public/images/backgroud.jpeg");*/
 }
-
 .container1 {
 
   max-width: 1100px;
@@ -32,8 +31,13 @@ label {
   font-size: 15px;
   margin-bottom: 5px;
 }
-
-.fab-SelectInput {
-  padding: 6px 10px;
+.fab-SelectInput{
   font-size: 15px;
+  width: 80%;
 }
+.form-select{
+  width: 80%;
+}
+
+
+
