@@ -25,7 +25,7 @@ const Phone = (props) => {
             checkNumber();
           }}
           required
-        />
+        /> <br/>
         <span className="validation">{check}</span>
       </div>
     </>

@@ -25,6 +25,10 @@ label{
   margin-bottom: 5px; 
 }
 .fab-SelectInput{
-  padding: 6px 10px;
   font-size: 15px;
+  width: 80%;
 }
+.form-select{
+  width: 80%;
+}
+
