@@ -15,7 +15,8 @@
   padding: 12px;
   font-weight: 500;
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .tableHeader:first-child {
@@ -127,14 +128,18 @@
   float: right;
 }
 #tableBottom {
-  background-color: #212529;
-  height: 10px;
-  width: 100%;
+  background-color: #295984;
+}
+#tableBottom:last-child td:first-child {
   border-bottom-left-radius: 15px;
+}
+#tableBottom:last-child td:last-child {
   border-bottom-right-radius: 15px;
 }
+
 #table td {
-  color: rgba(255, 255, 255, 0.822);
+  color: #e2e2e2;
+  font-size: 14px;
 }
 .tableContainer {
   display: flex;
