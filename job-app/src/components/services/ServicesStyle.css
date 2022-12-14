@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     
 }
-.cardServices {
+.card-services {
     background-color: #fff;
     width: 360px;
     box-shadow: 0 5px 25px rgba(80, 68, 252, 0.15);
@@ -21,15 +21,15 @@
 .services-links:visited { text-decoration: none; color: black !important;}
 .services-links:active { text-decoration: none; color: black !important;}
 
-.cardServices:hover {
+.card-services:hover {
     transform: scale(1.1);
 }
 
-.cardServices img {
+.card-services img {
     width: 100%;
     height: 340px;
 }
-.cardServices h2{
+.card-services h2{
     text-align: center;
     margin-top: 12px;
     color: rgb(78,78,78);
@@ -37,10 +37,10 @@
     font-weight: 700;
 
 }
-.infoServices{
+.info-services{
     height: 262px;
 }
-.cardServices p{
+.card-services p{
     font-size: 17px;
     padding-left: 0px;
 }

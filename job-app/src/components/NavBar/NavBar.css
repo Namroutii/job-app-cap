@@ -1,34 +1,41 @@
-.nav-brand{
-    color: #adb5bd; 
+.nav-brand {
+    color: #adb5bd;
     font-family: Garamond, serif;
 }
-#logo{
+
+#logo {
     width: 130px;
-    
+
 }
+
 .nav-links:hover {
     color: white;
 }
 
-.nav-links{
+.nav-links {
     color: #a8b4c0;
 }
-.navbar{
+
+.navbar {
     background-color: #052236;
 }
-.navbar-nav .dropdown-menu{
+
+.navbar-nav .dropdown-menu {
     background-color: #052236;
     border: none;
 }
-.navbar-nav .dropdown-item{
+
+.navbar-nav .dropdown-item {
     color: #adb5bd;
 }
-.dropdown-toggle::after{
+
+.dropdown-toggle::after {
     color: #adb5bd;
-    
-    
+
+
 }
-.btn.navbar-toggler{
+
+.btn.navbar-toggler {
     padding: 0;
     border: none;
     height: 30px;
@@ -36,16 +43,19 @@
     margin: 0px;
     border-radius: 1px;
     font-size: 15px;
-    margin-right: 17px;
+    margin-right: 47px;
 }
-.btn.navbar-toggler:hover{
+
+.btn.navbar-toggler:hover {
     background-color: #052236;
     border-color: #052236;
 }
-.nav-login:hover{
+
+.nav-login:hover {
     background-color: #052236;
 }
-.nav-login{
+
+.nav-login {
     color: #a8b4c0;
     width: 7%;
     height: 44px;
@@ -57,5 +67,11 @@
     border: none;
     border-style: outset;
     border-image: initial;
-    margin-right: 17px;
+    margin-right: 52px;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-login {
+        border: none;
+    }
 }
