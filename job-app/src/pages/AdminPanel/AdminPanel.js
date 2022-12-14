@@ -1,6 +1,8 @@
+
 import AdminPanelCard from "../../components/AdminPanelCard/AdminPanelCard";
 import NavBar from "../../components/NavBar/NavBar";
 import "./AdminPanel.css";
+import Charts from "../../components/AdminPanel/Charts";
 function AdminPanel() {
     return (
 
@@ -25,7 +27,9 @@ function AdminPanel() {
                     </div>
                 </div>
             </div>
+             <Charts/>
         </div>
     )
+
 }
 export default AdminPanel;
