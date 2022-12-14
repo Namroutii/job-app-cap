@@ -1,4 +1,17 @@
 #get-cv-container {
-  background-color: #082235;
+  background-color: #e2e2e2;
   position: relative;
+}
+#get-cv-cover {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#get-cv-header {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.1vw;
+  color: #295984;
 }
