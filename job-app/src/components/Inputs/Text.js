@@ -23,9 +23,11 @@ const Text = (props) => {
           }}
           required
           type="text"
+
         /> <br/>
         <span className="validation">{check}</span>
       </div>
+
     </>
   );
 };

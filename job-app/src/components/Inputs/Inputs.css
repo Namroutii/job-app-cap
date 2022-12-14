@@ -1,21 +1,20 @@
-.fab-TextInput{
+.fab-TextInput {
   padding: 6px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 15px;
   background-color: white;
   text-align: left;
-
 }
-.fab-TextInput:focus
-{
+.fab-TextInput:focus {
   outline-color: rgb(32, 177, 255);
-
 }
-.label-text{
+
+.label-text {
   margin-bottom: 5px;
 }
-.input{
+
+.input {
   padding-bottom: 20px;
 }
 .validation{
@@ -33,3 +32,8 @@
   background-color: white;
   text-align: left;
 }
+.validation {
+  padding-left: 70px;
+  color: red;
+}
+

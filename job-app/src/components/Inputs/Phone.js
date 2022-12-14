@@ -8,9 +8,18 @@ const Phone = (props) => {
 
   const checkNumber = () => {
     let stringNumber = String(number);
-    if (stringNumber.length !== 9) setCheck("error");
+
+
+    if (!stringNumber.trim().match(/^05(6\d|9)[0-9]{7}$/))
+      setCheck("error");
     else setCheck("done");
+
+
+
+
+
   };
+
 
   return (
     <>

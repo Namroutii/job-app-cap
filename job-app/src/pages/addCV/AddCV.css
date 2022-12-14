@@ -1,28 +1,35 @@
-
 header {
   padding-top: 30px;
 }
-.body{
-  background-image: url("../../../public/images/backgroud.jpeg");
+
+.body {
+
+  background-color: #f6f6f6;
+  /*background-image: url("../../../public/images/backgroud.jpeg");*/
 }
 .container1 {
-  max-width: 800px;
-  margin:  auto;
+
+  max-width: 1100px;
+  margin: auto;
 }
+
 .information-box {
+  box-shadow: 0 3px 25px rgb(10, 48, 82);
   padding: 20px;
-  background-color: white;
+  background-color: rgb(221, 232, 237);
   margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
+
 .form-container {
   display: flex;
   flex-direction: column;
   font-weight: bolder;
 }
-label{
+
+label {
   font-size: 15px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 .fab-SelectInput{
   font-size: 15px;
@@ -31,4 +38,6 @@ label{
 .form-select{
   width: 80%;
 }
+
+
 
