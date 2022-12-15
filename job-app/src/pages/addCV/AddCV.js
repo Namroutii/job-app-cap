@@ -32,7 +32,41 @@ function AddCV() {
     { value: "Database Administration", label: "Database Administration" },
     { value: "Technical Services", label: "Technical Services" },
     { value: "Quality Assurance", label: "Quality Assurance" },
-    { value: "Ceo", label: "Ceo" },
+    { value: "SEO", label: "SEO" },
+  ];
+  const [selectedLanguage, setSelectedLanguage] = useState("");
+  function handleSelectLanguage(data) {
+    setSelectedLanguage(data);
+  }
+  const optionLanguage = [
+    { value: "C", label: "C" },
+    { value: "C++", label: "C++" },
+    { value: "C#", label: "C#" },
+    { value: "JavaScript", label: "JavaScript" },
+    { value: "SQL", label: "SQL" },
+    { value: "Python", label: "Python" },
+    { value: "Java", label: "Java" },
+    { value: "PHP", label: "PHP" },
+    { value: "Ruby", label: "Ruby" },
+  ];
+  const [selectedSoftware, setSelectedSoftware] = useState("");
+  function handleSelectSoftware(data) {
+    setSelectedSoftware(data);
+  }
+  const optionSoftware = [
+    { value: "Excel", label: "Excel" },
+    { value: "Google Sheet", label: "Google Sheet" },
+    { value: "BlackLine", label: "BlackLine" },
+    { value: "FloQast", label: "FloQast" },
+  ];
+  const [selectedSoftwareD, setSelectedSoftwareD] = useState("");
+  function handleSelectSoftwareD(data) {
+    setSelectedSoftwareD(data);
+  }
+  const optionSoftwareD = [
+    { value: "Adobe Photoshop", label: "Adobe Photoshop" },
+    { value: "Affinity Designer", label: "Affinity Designer" },
+    { value: "Adobe InDesign", label: "Adobe InDesign" },
   ];
 
   const [showSelect, setShowSelect] = useState("");
@@ -98,12 +132,12 @@ function AddCV() {
                   <option value="1">Information Technology </option>
                   <option value="2">Accountant </option>
                   <option value="3">Designer </option>
-                  <option value="4">Cyber security</option>
                 </select>{" "}
                 <br />
                 {showSelect === "1" && (
                   <div>
                     <URL>GitHub URL</URL> <br />
+                    <label className="label-form"> Select Job:</label>
                     <Select
                       className="fab-SelectInput"
                       options={optionJob}
@@ -114,6 +148,19 @@ function AddCV() {
                       isMulti
                     />{" "}
                     <br /> <br />
+                    <label className="label-form">
+                      {" "}
+                      Programing Language you are good at :
+                    </label>
+                    <Select
+                      className="fab-SelectInput"
+                      options={optionLanguage}
+                      placeholder="Select Programing Language"
+                      value={selectedLanguage}
+                      onChange={handleSelectLanguage}
+                      isSearchable={true}
+                      isMulti
+                    />{" "}
                     <br />
                     <br />
                     <Button />
@@ -124,6 +171,20 @@ function AddCV() {
                 {showSelect === "2" && (
                   <div>
                     <br />
+                    <label className="label-form">
+                      {" "}
+                      Software you are good at :
+                    </label>
+                    <Select
+                      className="fab-SelectInput"
+                      options={optionSoftware}
+                      placeholder="Select Software"
+                      value={selectedSoftware}
+                      onChange={handleSelectSoftware}
+                      isSearchable={true}
+                      isMulti
+                    />{" "}
+                    <br />
                     <br />
                     <Button />
                   </div>
@@ -131,13 +192,19 @@ function AddCV() {
                 {showSelect === "3" && (
                   <div>
                     <br />
-                    <br />
-                    <Button />
-                  </div>
-                )}
-                {showSelect === "4" && (
-                  <div>
-                    <br />
+                    <label className="label-form">
+                      {" "}
+                      Software you are good at :
+                    </label>
+                    <Select
+                      className="fab-SelectInput"
+                      options={optionSoftwareD}
+                      placeholder="Select Software"
+                      value={selectedSoftwareD}
+                      onChange={handleSelectSoftwareD}
+                      isSearchable={true}
+                      isMulti
+                    />{" "}
                     <br />
                     <Button />
                   </div>
