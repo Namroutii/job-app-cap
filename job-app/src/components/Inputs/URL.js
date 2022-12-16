@@ -1,11 +1,17 @@
 import React from "react";
-
-const Url = () => {
-  <>
-    <label className="label-form">LinkedIn</label>
+import "./Inputs.css";
+const URL = (props) => {
+return (
+    <>
+    <label className="label-form">{props.children} </label>
     <div className="input">
-      <input type="url" className="fab-TextInput " required />
+        <input
+        type="url"
+        className="fab-TextInput "
+        placeholder={props.children + " if you have"}
+        />
     </div>
-  </>;
+    </>
+);
 };
-export default Url;
+export default URL;

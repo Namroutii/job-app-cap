@@ -877,6 +877,15 @@ const Table = ({ data, rowsPerPage }) => {
                   </td>
                 </tr>
               ))}
+              <tr id={styles.tableBottom}>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
             </tbody>
           </table>
           <TableFooter

@@ -23,8 +23,11 @@ const Text = (props) => {
           }}
           required
           type="text"
-        /></div>
-      <span className="validation">{check}</span>
+
+        /> <br/>
+        <span className="validation">{check}</span>
+      </div>
+
     </>
   );
 };
