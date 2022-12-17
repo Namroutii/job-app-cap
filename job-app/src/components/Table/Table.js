@@ -29,10 +29,8 @@ const Table = ({ data, rowsPerPage }) => {
   const [sortForm, setSortForm] = useState(false);
   const [AllPositions, setAllPosition] = useState(true);
   const [Designer, setDesigner] = useState(AllPositions);
-  const [Developer, setDeveloper] = useState(AllPositions);
+  const [IT, setIT] = useState(AllPositions);
   const [Accountant, setAccountant] = useState(AllPositions);
-  const [Leader, setLeader] = useState(AllPositions);
-  const [Security, setSecurity] = useState(AllPositions);
   const [positionForm, setPositionForm] = useState(false);
   const [sortedBy, setSortedBy] = useState("");
   useEffect(() => {
@@ -54,8 +52,7 @@ const Table = ({ data, rowsPerPage }) => {
     )
       setAllCitiesChecked(true);
     else setAllCitiesChecked(false);
-    if (Designer && Developer && Accountant && Leader && Security)
-      setAllPosition(true);
+    if (Designer && IT && Accountant) setAllPosition(true);
     else setAllPosition(false);
   });
 
@@ -63,105 +60,26 @@ const Table = ({ data, rowsPerPage }) => {
     setTableData(data);
     let filteredData = [];
     data.map((row) => {
-      if (row.city == "Jerusalem" && Jerusalem) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-
-      if (row.city == "Bethlehem" && Bethlehem) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Beit Jala" && Beit_Jala) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Beit Sahour" && Beit_Sahour) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Hebron" && Hebron) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Sabastia" && Sabastia) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Jericho" && Jericho) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Ramallah & El-Bireh" && Ramallah) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Nablus" && Nablus) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Tulkarem" && Tulkarem) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Jenin" && Jenin) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Gaza" && Gaza) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Rafah" && Rafah) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
-      if (row.city == "Khan Younis" && Khan_Younis) {
-        if (row.position == "Designer" && Designer) filteredData.push(row);
-        if (row.position == "Developer" && Developer) filteredData.push(row);
-        if (row.position == "Accountant" && Accountant) filteredData.push(row);
-        if (row.position == "Leader" && Leader) filteredData.push(row);
-        if (row.position == "Security" && Security) filteredData.push(row);
-      }
+      let cFlag = false;
+      let rFlag = false;
+      if (row.city == "Jerusalem" && Jerusalem) cFlag = true;
+      if (row.city == "Bethlehem" && Bethlehem) cFlag = true;
+      if (row.city == "Beit Jala" && Beit_Jala) cFlag = true;
+      if (row.city == "Beit Sahour" && Beit_Sahour) cFlag = true;
+      if (row.city == "Hebron" && Hebron) cFlag = true;
+      if (row.city == "Sabastia" && Sabastia) cFlag = true;
+      if (row.city == "Jericho" && Jericho) cFlag = true;
+      if (row.city == "Ramallah & El-Bireh" && Ramallah) cFlag = true;
+      if (row.city == "Nablus" && Nablus) cFlag = true;
+      if (row.city == "Tulkarem" && Tulkarem) cFlag = true;
+      if (row.city == "Jenin" && Jenin) cFlag = true;
+      if (row.city == "Gaza" && Gaza) cFlag = true;
+      if (row.city == "Rafah" && Rafah) cFlag = true;
+      if (row.city == "Khan Younis" && Khan_Younis) cFlag = true;
+      if (row.position == "Designer" && Designer) rFlag = true;
+      if (row.position == "IT" && IT) rFlag = true;
+      if (row.position == "Accountant" && Accountant) rFlag = true;
+      if (cFlag && rFlag) filteredData.push(row);
     });
     setTableData(filteredData);
   }, [
@@ -180,10 +98,8 @@ const Table = ({ data, rowsPerPage }) => {
     Rafah,
     Khan_Younis,
     Designer,
-    Developer,
+    IT,
     Accountant,
-    Leader,
-    Security,
   ]);
 
   const refreshTable = async (event) => {
@@ -193,7 +109,6 @@ const Table = ({ data, rowsPerPage }) => {
 
     setPage(1);
   };
-  console.log(tableData);
   useEffect(() => {
     const sortedField = sortedBy;
     switch (sortedField) {
@@ -279,7 +194,6 @@ const Table = ({ data, rowsPerPage }) => {
         );
         break;
     }
-    refreshTable();
   }, [tableData, sortedBy]);
 
   const cityCheck = (event) => {
@@ -397,11 +311,11 @@ const Table = ({ data, rowsPerPage }) => {
           setDesigner(true);
         }
         break;
-      case "Developer":
-        if (Developer) {
-          setDeveloper(false);
+      case "IT":
+        if (IT) {
+          setIT(false);
         } else {
-          setDeveloper(true);
+          setIT(true);
         }
         break;
 
@@ -410,20 +324,6 @@ const Table = ({ data, rowsPerPage }) => {
           setAccountant(false);
         } else {
           setAccountant(true);
-        }
-        break;
-      case "Leader":
-        if (Leader) {
-          setLeader(false);
-        } else {
-          setLeader(true);
-        }
-        break;
-      case "Security":
-        if (Security) {
-          setSecurity(false);
-        } else {
-          setSecurity(true);
         }
         break;
     }
@@ -446,10 +346,8 @@ const Table = ({ data, rowsPerPage }) => {
     setKhan_Younis(true);
     setAllPosition(true);
     setDesigner(true);
-    setDeveloper(true);
+    setIT(true);
     setAccountant(true);
-    setLeader(true);
-    setSecurity(true);
   };
   return (
     <div id={styles.mainContainer}>
@@ -777,17 +675,13 @@ const Table = ({ data, rowsPerPage }) => {
                   if (AllPositions) {
                     setAllPosition(false);
                     setDesigner(false);
-                    setDeveloper(false);
+                    setIT(false);
                     setAccountant(false);
-                    setLeader(false);
-                    setSecurity(false);
                   } else {
                     setAllPosition(true);
                     setDesigner(true);
-                    setDeveloper(true);
+                    setIT(true);
                     setAccountant(true);
-                    setLeader(true);
-                    setSecurity(true);
                   }
                 }}
                 value="all"
@@ -808,12 +702,12 @@ const Table = ({ data, rowsPerPage }) => {
               <div className={styles.cities}>
                 <input
                   type="checkbox"
-                  id="Developer"
+                  id="IT"
                   onChange={positionCheck}
-                  value="Developer"
-                  checked={Developer}
+                  value="IT"
+                  checked={IT}
                 />
-                <label htmlFor="Developer">Developer</label>
+                <label htmlFor="IT">IT</label>
               </div>
               <div className={styles.cities}>
                 <input
@@ -824,26 +718,6 @@ const Table = ({ data, rowsPerPage }) => {
                   checked={Accountant}
                 />
                 <label htmlFor="Accountant">Accountant</label>
-              </div>
-              <div className={styles.cities}>
-                <input
-                  type="checkbox"
-                  id="Leader"
-                  onChange={positionCheck}
-                  value="Leader"
-                  checked={Leader}
-                />
-                <label htmlFor="Leader">Leader</label>
-              </div>
-              <div className={styles.cities}>
-                <input
-                  type="checkbox"
-                  id="Security"
-                  onChange={positionCheck}
-                  value="Security"
-                  checked={Security}
-                />
-                <label htmlFor="Security">Security</label>
               </div>
             </form>
           </div>
@@ -864,19 +738,298 @@ const Table = ({ data, rowsPerPage }) => {
               </tr>
             </thead>
             <tbody>
-              {slice.map((el) => (
-                <tr className="table-dark" key={el.id}>
-                  <td className={styles.tableCell}>{el.name}</td>
-                  <td className={styles.tableCell}>{el.age}</td>
-                  <td className={styles.tableCell}>{el.city}</td>
-                  <td className={styles.tableCell}>{el.position}</td>
-                  <td className={styles.tableCell}>{el.experience_years}</td>
-                  <td className={styles.tableCell}>{el.submittion_date}</td>
-                  <td className={styles.tableCell}>
-                    <p id={styles.moreInfo}>More info</p>
-                  </td>
-                </tr>
-              ))}
+              {slice.map((el) => {
+                let idH = "#r" + el.id;
+                let id = "r" + el.id.toString();
+
+                switch (el.position) {
+                  case "IT":
+                    return (
+                      <tr className="table-dark" key={el.id}>
+                        <td className={styles.tableCell}>{el.name}</td>
+                        <td className={styles.tableCell}>{el.age}</td>
+                        <td className={styles.tableCell}>{el.city}</td>
+                        <td className={styles.tableCell}>{el.position}</td>
+                        <td className={styles.tableCell}>
+                          {el.experience_years}
+                        </td>
+                        <td className={styles.tableCell}>
+                          {el.submittion_date}
+                        </td>
+                        <td className={styles.tableCell}>
+                          <button
+                            type="button"
+                            id={styles.moreInfo}
+                            className="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target={idH}
+                          >
+                            More Info
+                          </button>
+                          <div
+                            className="modal fade"
+                            id={id}
+                            tabindex="-1"
+                            aria-labelledby="exampleModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div className="modal-dialog modal-lg">
+                              <div className="modal-content">
+                                <div className="modal-header">
+                                  <button
+                                    type="button"
+                                    className="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                  ></button>
+                                </div>
+                                <div className="modal-body">
+                                  <div className={styles.fullCVHead}>
+                                    <h1 className={styles.fullCVName}>
+                                      {el.name}
+                                    </h1>
+                                    <p className={styles.fullCVPosition}>
+                                      {el.position}
+                                    </p>
+                                  </div>
+                                  <div className={styles.fullCVContact}>
+                                    <div className="row">
+                                      <div className="col">
+                                        Email: <a href="">{el.email}</a>
+                                      </div>
+                                      <p className="col">Phone: {el.phone}</p>
+                                    </div>
+                                    <div className="row">
+                                      <p className="col">
+                                        LinkedIn: <a href="">{el.linked_in}</a>
+                                      </p>
+                                      <p className="col">
+                                        Github: <a href="">{el.github}</a>
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Work History</h2>
+                                    {el.company}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Education</h2>
+                                    {el.degree}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Skills</h2>
+                                    {el.skills}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Languages</h2>
+                                    {el.languages}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Programming Languages</h2>
+                                    {el.programming_languages}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Specializing at</h2>
+                                    {el.it_job}
+                                  </div>
+                                </div>
+                                <div className="modal-footer"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                    break;
+
+                  case "Accountant":
+                    return (
+                      <tr className="table-dark" key={el.id}>
+                        <td className={styles.tableCell}>{el.name}</td>
+                        <td className={styles.tableCell}>{el.age}</td>
+                        <td className={styles.tableCell}>{el.city}</td>
+                        <td className={styles.tableCell}>{el.position}</td>
+                        <td className={styles.tableCell}>
+                          {el.experience_years}
+                        </td>
+                        <td className={styles.tableCell}>
+                          {el.submittion_date}
+                        </td>
+                        <td className={styles.tableCell}>
+                          <button
+                            type="button"
+                            id={styles.moreInfo}
+                            className="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target={idH}
+                          >
+                            More Info
+                          </button>
+                          <div
+                            className="modal fade"
+                            id={id}
+                            tabindex="-1"
+                            aria-labelledby="exampleModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div className="modal-dialog modal-lg">
+                              <div className="modal-content">
+                                <div className="modal-header">
+                                  <button
+                                    type="button"
+                                    className="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                  ></button>
+                                </div>
+                                <div className="modal-body">
+                                  <div className={styles.fullCVHead}>
+                                    <h1 className={styles.fullCVName}>
+                                      {el.name}
+                                    </h1>
+                                    <p className={styles.fullCVPosition}>
+                                      {el.position}
+                                    </p>
+                                  </div>
+                                  <div className={styles.fullCVContact}>
+                                    <div className="row">
+                                      <div className="col">
+                                        Email: <a href="">{el.email}</a>
+                                      </div>
+                                      <p className="col">Phone: {el.phone}</p>
+                                    </div>
+                                    <div className="row">
+                                      <p className="col">
+                                        LinkedIn: <a href="">{el.linked_in}</a>
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Work History</h2>
+                                    {el.company}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Education</h2>
+                                    {el.degree}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Skills</h2>
+                                    {el.skills}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Languages</h2>
+                                    {el.languages}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Softwares Used</h2>
+                                    {el.accountant_software}
+                                  </div>
+                                </div>
+                                <div className="modal-footer"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                    break;
+
+                  case "Designer":
+                    return (
+                      <tr className="table-dark" key={el.id}>
+                        <td className={styles.tableCell}>{el.name}</td>
+                        <td className={styles.tableCell}>{el.age}</td>
+                        <td className={styles.tableCell}>{el.city}</td>
+                        <td className={styles.tableCell}>{el.position}</td>
+                        <td className={styles.tableCell}>
+                          {el.experience_years}
+                        </td>
+                        <td className={styles.tableCell}>
+                          {el.submittion_date}
+                        </td>
+                        <td className={styles.tableCell}>
+                          <button
+                            type="button"
+                            id={styles.moreInfo}
+                            className="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target={idH}
+                          >
+                            More Info
+                          </button>
+                          <div
+                            className="modal fade"
+                            id={id}
+                            tabindex="-1"
+                            aria-labelledby="exampleModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div className="modal-dialog modal-lg">
+                              <div className="modal-content">
+                                <div className="modal-header">
+                                  <button
+                                    type="button"
+                                    className="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                  ></button>
+                                </div>
+                                <div className="modal-body">
+                                  <div className={styles.fullCVHead}>
+                                    <h1 className={styles.fullCVName}>
+                                      {el.name}
+                                    </h1>
+                                    <p className={styles.fullCVPosition}>
+                                      {el.position}
+                                    </p>
+                                  </div>
+                                  <div className={styles.fullCVContact}>
+                                    <div className="row">
+                                      <div className="col">
+                                        Email: <a href="">{el.email}</a>
+                                      </div>
+                                      <p className="col">Phone: {el.phone}</p>
+                                    </div>
+                                    <div className="row">
+                                      <p className="col">
+                                        LinkedIn: <a href="">{el.linked_in}</a>
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Work History</h2>
+                                    {el.company}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Education</h2>
+                                    {el.degree}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Skills</h2>
+                                    {el.skills}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Languages</h2>
+                                    {el.languages}
+                                  </div>
+                                  <div className={styles.fullCVBodyComponent}>
+                                    <h2>Softwares Used</h2>
+                                    {el.designer_software}
+                                  </div>
+                                </div>
+                                <div className="modal-footer"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                    break;
+                }
+              })}
               <tr id={styles.tableBottom}>
                 <td></td>
                 <td></td>

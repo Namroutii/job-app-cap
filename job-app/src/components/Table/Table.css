@@ -15,10 +15,20 @@
 }
 .openedPositionList {
   background-image: url("../../../public/images/opened-list-icon.png");
-  height: 220px;
+  height: 165px;
   background-color: #295984;
 }
 .table-dark {
   --bs-table-bg: #235a86;
   --bs-table-striped-bg: #3889c8;
+}
+.modal-header {
+  color: #235a86;
+}
+.modal {
+  color: black;
+}
+.modal h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
 }

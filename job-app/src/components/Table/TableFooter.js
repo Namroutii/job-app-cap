@@ -28,7 +28,10 @@ const TableFooter = ({ range, setPage, page, slice }) => {
             className={`${styles.button} ${
               page === el ? styles.activeButton : styles.inactiveButton
             }`}
-            onClick={() => setPage(el)}
+            onClick={() => {
+              setPage(el);
+              window.scrollTo({ top: 500, left: 0, behavior: "smooth" });
+            }}
           >
             {el}
           </p>
