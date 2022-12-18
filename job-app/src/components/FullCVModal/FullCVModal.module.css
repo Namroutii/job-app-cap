@@ -1,0 +1,43 @@
+.fullCVName {
+  font-size: 28px;
+}
+
+.fullCVPosition {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #4088c5;
+}
+.fullCVHead {
+  display: flex;
+}
+.fullCVContact {
+  font-size: 12px;
+  border-bottom: solid;
+  border-color: #d19b49;
+  border-width: 1px;
+  margin-top: 20px;
+}
+.fullCVContact a:link {
+  color: #295984;
+}
+.fullCVContact a:visited {
+  color: #295984;
+}
+.fullCVContact a:hover {
+  color: #295984;
+}
+.fullCVContact a:active {
+  color: #295984;
+}
+.fullCVBodyComponent {
+  border-bottom: solid;
+  border-color: #d19b49;
+  border-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  white-space: normal;
+}
+#phone {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

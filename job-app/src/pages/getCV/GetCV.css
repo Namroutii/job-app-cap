@@ -12,6 +12,20 @@
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2.1vw;
+  font-size: 35px;
   color: #295984;
+}
+#get-cv-cover img {
+  margin-top: 65px;
+}
+
+@media only screen and (max-width: 870px) {
+  #get-cv-header {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #get-cv-header {
+    font-size: 20px;
+  }
 }

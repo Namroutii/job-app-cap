@@ -1,0 +1,11 @@
+.modal-header {
+  color: #235a86;
+}
+.modal {
+  color: black;
+}
+
+.modal h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
