@@ -16,9 +16,8 @@ function getCV() {
       </div>
 
       <Table data={data} rowsPerPage={23} />
-      {
-        //<Footer />
-      }
+
+      <Footer />
     </div>
   );
 }
