@@ -24,7 +24,7 @@ function Header() {
           </div>
           <div className="carousel-item">
             <img
-              src="https://media.istockphoto.com/id/1256603011/photo/business-network-concept-customer-support-shaking-hands.jpg?s=612x612&w=0&k=20&c=uRYJ6c2EyNO92w0wQlCScEVwbdoyHaXzfIxw1q7zNLA="
+              src="./images/home-page-img.jpg"
               className="d-block w-100"
               alt="..."
             />
