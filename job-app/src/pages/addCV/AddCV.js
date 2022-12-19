@@ -1,4 +1,3 @@
-
 import Footer from "../../components/footer/Footer";
 import "./AddCV.css";
 import { useState } from "react";
@@ -9,7 +8,8 @@ import Email from "../../components/Inputs/Email";
 import Phone from "../../components/Inputs/Phone";
 import Date from "../../components/Inputs/Date";
 import Selects from "../../components/Inputs/Select";
-import Url from "../../components/Inputs/URL";
+import URL from "../../components/Inputs/URL";
+import Button from "../../components/forms/Button";
 
 function AddCV() {
   const [selectedOptions, setSelectedOptions] = useState("");
@@ -22,6 +22,53 @@ function AddCV() {
     { value: "Germany", label: "Germany" },
     { value: "Hebrew", label: "Hebrew" },
   ];
+  const [selectedJob, setSelectedJob] = useState("");
+  function handleSelectJob(data) {
+    setSelectedJob(data);
+  }
+  const optionJob = [
+    { value: "Data analysis", label: "Data analysis" },
+    { value: "Developer", label: "Developer" },
+    { value: "Database Administration", label: "Database Administration" },
+    { value: "Technical Services", label: "Technical Services" },
+    { value: "Quality Assurance", label: "Quality Assurance" },
+    { value: "SEO", label: "SEO" },
+  ];
+  const [selectedLanguage, setSelectedLanguage] = useState("");
+  function handleSelectLanguage(data) {
+    setSelectedLanguage(data);
+  }
+  const optionLanguage = [
+    { value: "C", label: "C" },
+    { value: "C++", label: "C++" },
+    { value: "C#", label: "C#" },
+    { value: "JavaScript", label: "JavaScript" },
+    { value: "SQL", label: "SQL" },
+    { value: "Python", label: "Python" },
+    { value: "Java", label: "Java" },
+    { value: "PHP", label: "PHP" },
+    { value: "Ruby", label: "Ruby" },
+  ];
+  const [selectedSoftware, setSelectedSoftware] = useState("");
+  function handleSelectSoftware(data) {
+    setSelectedSoftware(data);
+  }
+  const optionSoftware = [
+    { value: "Excel", label: "Excel" },
+    { value: "Google Sheet", label: "Google Sheet" },
+    { value: "BlackLine", label: "BlackLine" },
+    { value: "FloQast", label: "FloQast" },
+  ];
+  const [selectedSoftwareD, setSelectedSoftwareD] = useState("");
+  function handleSelectSoftwareD(data) {
+    setSelectedSoftwareD(data);
+  }
+  const optionSoftwareD = [
+    { value: "Adobe Photoshop", label: "Adobe Photoshop" },
+    { value: "Affinity Designer", label: "Affinity Designer" },
+    { value: "Adobe InDesign", label: "Adobe InDesign" },
+  ];
+
   const [showSelect, setShowSelect] = useState("");
   const handleShowSelect = (event) => {
     const getUser = event.target.value;
@@ -29,9 +76,7 @@ function AddCV() {
   };
   return (
     <div>
-
       <NavBarAddCvs />
-
       <div className="body">
         <br />
         <br />
@@ -58,10 +103,13 @@ function AddCV() {
                   <option>Bethlehem</option>
                   <option>Qalqilya</option>
                   <option>Tulkarm</option>
-                </select> <br />
+                </select>{" "}
+                <br /> <br />
                 <Text>Address</Text>
-                <Date />
-                <Selects />
+                <Date /> <br />
+                <URL>LinkedIn URL</URL> <br />
+                <Phone>Years of Experience</Phone>
+                <Selects /> <br />
                 <label className="label-form"> Language</label>
                 <Select
                   className="fab-SelectInput"
@@ -71,92 +119,103 @@ function AddCV() {
                   onChange={handleSelect}
                   isSearchable={true}
                   isMulti
-                />
+                />{" "}
+                <br /> <br />
+                <Text>Career</Text>
+                <Text> Skills</Text>
                 <label className="label-form"> Department:</label>
-
                 <select
                   className="form-select"
                   onChange={(e) => handleShowSelect(e)}
                 >
                   <option value={0}>Select your job:</option>
-                  <option value="1">Programmer </option>
+                  <option value="1">Information Technology </option>
                   <option value="2">Accountant </option>
                   <option value="3">Designer </option>
-                  <option value="4">Cyber security</option>
-                </select>
-
+                </select>{" "}
+                <br />
                 {showSelect === "1" && (
                   <div>
-                    <Text>Career</Text>
-                    <Phone>Years</Phone>
-                    <Text>Soft skills</Text>
-                    <Url />
-                    <Text>Language</Text>
-                    <Text>Skills</Text>
+                    <URL>GitHub URL</URL> <br />
+                    <label className="label-form"> Select Job:</label>
+                    <Select
+                      className="fab-SelectInput"
+                      options={optionJob}
+                      placeholder="Select Job"
+                      value={selectedJob}
+                      onChange={handleSelectJob}
+                      isSearchable={true}
+                      isMulti
+                    />{" "}
+                    <br /> <br />
+                    <label className="label-form">
+                      {" "}
+                      Programing Language you are good at :
+                    </label>
+                    <Select
+                      className="fab-SelectInput"
+                      options={optionLanguage}
+                      placeholder="Select Programing Language"
+                      value={selectedLanguage}
+                      onChange={handleSelectLanguage}
+                      isSearchable={true}
+                      isMulti
+                    />{" "}
                     <br />
                     <br />
-                    <button className="btn btn-primary" type="submit">
-                      submit
-                    </button>
+                    <Button />
                     <br />
                     <br />
                   </div>
                 )}
                 {showSelect === "2" && (
                   <div>
-                    <Text>Career</Text>
-                    <Text>Years of Experience</Text>
-                    <Text>Soft skills</Text>
-                    <Url />
-                    <Text>Language</Text>
-                    <Text>Skills</Text>
+                    <br />
+                    <label className="label-form">
+                      {" "}
+                      Software you are good at :
+                    </label>
+                    <Select
+                      className="fab-SelectInput"
+                      options={optionSoftware}
+                      placeholder="Select Software"
+                      value={selectedSoftware}
+                      onChange={handleSelectSoftware}
+                      isSearchable={true}
+                      isMulti
+                    />{" "}
                     <br />
                     <br />
-                    <button className="btn btn-primary" type="submit">
-                      submit
-                    </button>
+                    <Button />
                   </div>
                 )}
                 {showSelect === "3" && (
                   <div>
-                    <Text>Career</Text>
-                    <Text>Years of Experience</Text>
-                    <Text>Soft skills</Text>
-                    <Url />
-                    <Text>Language</Text>
-                    <Text>Skills</Text>
                     <br />
+                    <label className="label-form">
+                      {" "}
+                      Software you are good at :
+                    </label>
+                    <Select
+                      className="fab-SelectInput"
+                      options={optionSoftwareD}
+                      placeholder="Select Software"
+                      value={selectedSoftwareD}
+                      onChange={handleSelectSoftwareD}
+                      isSearchable={true}
+                      isMulti
+                    />{" "}
                     <br />
-                    <button className="btn btn-primary" type="submit">
-                      submit
-                    </button>
-                  </div>
-                )}
-                {showSelect === "4" && (
-                  <div>
-                    <Text>Career</Text>
-                    <Text>Years of Experience</Text>
-                    <Text>Soft skills</Text>
-                    <Url />
-                    <Text>Language</Text>
-                    <Text>Skills</Text>
-                    <br />
-                    <br />
-                    <button className="btn btn-primary" type="submit">
-                      submit
-                    </button>
+                    <Button />
                   </div>
                 )}
               </div>
-
             </form>
-
           </div>
           <br />
           <br />
         </div>
       </div>
-
       <Footer />
     </div>
   );

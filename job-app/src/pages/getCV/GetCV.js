@@ -9,14 +9,18 @@ function getCV() {
       <div id="nav-bar">
         <NavBarGetCvs />
       </div>
-      <img
-        src="./images/get-cv-img.jpg
+      <div id="get-cv-cover">
+        <img
+          src="./images/get-cv-img.jpg
     "
-        id="get-cv-img"
-      />
+          id="get-cv-img"
+        />
+        <h1 id="get-cv-header">Find Employees</h1>
+      </div>
+
       <Table data={data} rowsPerPage={23} />
       {
-        //<Footer />//<--
+        //<Footer />
       }
     </div>
   );

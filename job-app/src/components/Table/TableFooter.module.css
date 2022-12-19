@@ -46,7 +46,7 @@
   cursor: pointer;
   font-size: 50px;
   height: fit-content;
-  color: white;
+  color: #295984;
 }
 
 .tableFooter::-webkit-scrollbar {

@@ -7,8 +7,7 @@
     flex-wrap: wrap;
     
 }
-
-.card {
+.card-services {
     background-color: #fff;
     width: 360px;
     box-shadow: 0 5px 25px rgba(80, 68, 252, 0.15);
@@ -16,32 +15,32 @@
     padding: 20px;
     margin: 49px;
     transition: 0.7s ease;
-    height: 700px;
+    height: 689px;
 }
 .services-links:link { text-decoration: none; color: black !important;}
 .services-links:visited { text-decoration: none; color: black !important;}
 .services-links:active { text-decoration: none; color: black !important;}
 
-.card:hover {
+.card-services:hover {
     transform: scale(1.1);
 }
 
-.card img {
+.card-services img {
     width: 100%;
     height: 340px;
 }
-.card h2{
+.card-services h2{
     text-align: center;
     margin-top: 12px;
     color: rgb(78,78,78);
     font-size: 1.7em;
     font-weight: 700;
-    
+
 }
-.info{
+.info-services{
     height: 262px;
 }
-.card p{
+.card-services p{
     font-size: 17px;
-    
+    padding-left: 0px;
 }
