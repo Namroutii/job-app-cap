@@ -9,17 +9,9 @@ const Phone = (props) => {
   const checkNumber = () => {
     let stringNumber = String(number);
 
-
-    if (!stringNumber.trim().match(/^05(6\d|9)[0-9]{7}$/))
-      setCheck("error");
+    if (!stringNumber.trim().match(/^05(6\d|9)[0-9]{7}$/)) setCheck("error");
     else setCheck("done");
-
-
-
-
-
   };
-
 
   return (
     <>
@@ -34,7 +26,8 @@ const Phone = (props) => {
             checkNumber();
           }}
           required
-        /> <br/>
+        />{" "}
+        <br />
         <span className="validation">{check}</span>
       </div>
     </>
