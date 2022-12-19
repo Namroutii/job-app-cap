@@ -1,0 +1,20 @@
+.openedSortList {
+  background-image: url("../../../public/images/opened-list-icon.png");
+  height: 280px;
+  background-color: #295984;
+}
+.closedList {
+  background-image: url("../../../public/images/closed-list-icon.png");
+  height: 40px;
+  background-color: #295984;
+}
+.openedCityList {
+  background-image: url("../../../public/images/opened-list-icon.png");
+  height: 480px;
+  background-color: #295984;
+}
+.openedPositionList {
+  background-image: url("../../../public/images/opened-list-icon.png");
+  height: 165px;
+  background-color: #295984;
+}

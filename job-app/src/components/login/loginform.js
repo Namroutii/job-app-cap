@@ -1,9 +1,7 @@
-
 import React from "react"
 import "./loginform.css"
 
 const LoginForm = () => {
-
     return (
         <div className="cover">
             <h1>HireMe Login</h1>

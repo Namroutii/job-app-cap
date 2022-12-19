@@ -1,81 +1,43 @@
-.title {
-  font-size: 30px;
-  font-weight: 1000;
-  text-align: left;
+header {
   padding-top: 30px;
-  padding-left: 80px;
 }
 
-.select {
-  margin-top: 10px;
-  max-width: 1000px;
-  text-align: left;
-  padding-left: 80px;
+.body {
+
+  background-color: #f6f6f6;
+  /*background-image: url("../../../public/images/backgroud.jpeg");*/
+}
+.container1 {
+
+  max-width: 1100px;
+  margin: auto;
 }
 
-.select-group {
-  width: 900px;
-  padding-left: 80px;
-  padding-top: 20px;
+.information-box {
+  box-shadow: 0 3px 25px rgb(10, 48, 82);
+  padding: 20px;
+  background-color: rgb(221, 232, 237);
+  margin-top: 20px;
+  border-radius: 20px;
 }
 
-select {
-  width: 920px;
-  padding: 10px;
-  background-color: rgb(235, 230, 230);
-  border-radius: 10px;
-  padding-left: 80px;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
 }
 
 label {
-  font-size: large;
-  padding-top: 30px;
-  
+  font-size: 15px;
+  margin-bottom: 5px;
 }
-
-select:focus {
-  outline-color: rgb(32, 177, 255);
+.fab-SelectInput{
+  font-size: 15px;
+  width: 80%;
 }
-
-input {
-  width: 920px;
-  padding: 10px;
-  background-color: rgb(235, 230, 230);
-  border-radius: 10px;
+.form-select{
+  width: 80%;
 }
 
 
-.form-input{
-  width: 920px;
-  padding-left: 80px;
-}
 
-button {
-  width: 40%;
-  height: 48px;
-  background-color: rgb(32, 177, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  transform: scale(1.25);
-}
-.form-date{
-  width: 1000px;
-  padding-left: 80px;
-  padding-top: 30px;
-}
-
-.dropdown-container {
-  padding-top: 20px;
-  width: 1000px;
-  padding-left: 80px;
-}
-.select-label{
-  padding-bottom: 20px;
-}

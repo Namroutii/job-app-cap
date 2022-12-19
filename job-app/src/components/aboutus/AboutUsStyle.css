@@ -8,7 +8,7 @@
 .section{
 	width: 100%;
 	min-height: 650px;
-	background-color:#ddd;
+	
 }
 .container{
 	width: 80%;
@@ -29,8 +29,8 @@
 	height: auto;
 }
 .content-section .title{
-	text-transform: uppercase;
 	font-size: 28px;
+	margin-top: 120px;
 }
 .content-section .content p{
 	margin-top: 10px;
