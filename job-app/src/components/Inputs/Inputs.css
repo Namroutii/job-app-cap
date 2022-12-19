@@ -5,12 +5,10 @@
   font-size: 15px;
   background-color: white;
   text-align: left;
-
+  width: 100%;
 }
-
 .fab-TextInput:focus {
   outline-color: rgb(32, 177, 255);
-
 }
 
 .label-text {
@@ -20,8 +18,24 @@
 .input {
   padding-bottom: 20px;
 }
-
 .validation {
-  padding-left: 70px;
+  padding-left: 5px;
   color: red;
+}
+.date-input {
+  width: 100%;
+}
+.date-input input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: white;
+  text-align: left;
+}
+.validation {
+  color: red;
+}
+.input-date {
+  width: 125%;
 }

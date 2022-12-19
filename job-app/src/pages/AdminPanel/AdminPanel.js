@@ -25,8 +25,11 @@ function AdminPanel() {
                     </div>
                 </div>
             </div>
+
             <Charts />
-        </div>
+
+        
+
     )
 }
 export default AdminPanel;
