@@ -27,7 +27,7 @@ function AdminPanel() {
                     </div>
                 </div>
             </div>
-             <Charts/>
+            <Charts/>
         </div>
     )
 
