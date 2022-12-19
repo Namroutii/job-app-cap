@@ -1,8 +1,15 @@
 import styles from "./FullCVModal.module.css";
 import "./FullCVModal.css";
+import { useState } from "react";
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const FullCVModal = (props) => {
+  const [hiddenPopup, setHiddenPopup] = useState(true);
   const el = props.row;
   let id = "r" + el.id;
+  const popupTimer = async () => {
+    await delay(5000);
+    setHiddenPopup(true);
+  };
   switch (el.position) {
     case "IT":
       return (
@@ -72,7 +79,26 @@ const FullCVModal = (props) => {
                   <p> {el.it_job}</p>
                 </div>
               </div>
-              <div className="modal-footer"></div>
+              <div className="modal-footer">
+                <span
+                  className={hiddenPopup ? "hiddenPopup" : "visiblePopup"}
+                  onClick={() => {
+                    setHiddenPopup(true);
+                  }}
+                >
+                  The CV has been reported to the admins. Thanks for your
+                  feedback.
+                </span>
+                <button
+                  className={styles.reportButton}
+                  onClick={() => {
+                    setHiddenPopup(false);
+                    popupTimer();
+                  }}
+                >
+                  Report
+                </button>
+              </div>
             </div>
           </div>
         </div>

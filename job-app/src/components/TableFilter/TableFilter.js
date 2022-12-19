@@ -37,7 +37,7 @@ const TableFilter = (props) => {
   const [positionForm, setPositionForm] = useState(false);
   const [sortedBy, setSortedBy] = useState("");
   const entries = Object.entries(Cities);
-  const refreshTable = async (event) => {
+  const refreshTable = async () => {
     setPage(page + 1);
 
     await delay(1);

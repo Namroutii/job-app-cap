@@ -41,3 +41,10 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.reportButton {
+  background-color: rgb(247, 45, 45);
+  width: 70px;
+  border-radius: 20px;
+  color: white;
+  border-color: #295984;
+}
