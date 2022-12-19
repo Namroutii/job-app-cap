@@ -10,12 +10,19 @@ const TableFooter = ({ range, setPage, page, slice }) => {
   }, [slice, page, setPage]);
   return (
     <div id={styles.fullTableFooter}>
-      <p onClick={() => setPage(1)} className={styles.flButton}>
+      <p
+        onClick={() => {
+          setPage(1);
+          window.scrollTo({ top: 100, left: 0, behavior: "smooth" });
+        }}
+        className={styles.flButton}
+      >
         &#171;
       </p>
       <p
         onClick={() => {
           if (page != 1) setPage(page - 1);
+          window.scrollTo({ top: 100, left: 0, behavior: "smooth" });
         }}
         className={styles.flButton}
       >
@@ -28,7 +35,10 @@ const TableFooter = ({ range, setPage, page, slice }) => {
             className={`${styles.button} ${
               page === el ? styles.activeButton : styles.inactiveButton
             }`}
-            onClick={() => setPage(el)}
+            onClick={() => {
+              setPage(el);
+              window.scrollTo({ top: 100, left: 0, behavior: "smooth" });
+            }}
           >
             {el}
           </p>
@@ -37,12 +47,19 @@ const TableFooter = ({ range, setPage, page, slice }) => {
       <p
         onClick={() => {
           if (page != range.length) setPage(page + 1);
+          window.scrollTo({ top: 100, left: 0, behavior: "smooth" });
         }}
         className={styles.flButton}
       >
         &#8250;
       </p>
-      <p onClick={() => setPage(range.length)} className={styles.flButton}>
+      <p
+        onClick={() => {
+          setPage(range.length);
+          window.scrollTo({ top: 100, left: 0, behavior: "smooth" });
+        }}
+        className={styles.flButton}
+      >
         &#187;
       </p>
     </div>
