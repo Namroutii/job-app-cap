@@ -1,11 +1,37 @@
-.cards-adminPanel{
+.cards-adminPanel {
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
-    /* background-clip: border-box; */
     border: 1px solid #e3e6f0;
-    border-radius: 0.35rem;
+    border-radius: 5.6px;
+    height: 80px;
+    margin-bottom: 23px;
+}
+
+.col-8.AdminPanelCard {
+    width: 85.666667%;
+}
+
+.title-adminPanel {
+    padding-top: 17px;
+}
+
+.icon-adminPanel {
+    padding-top: 25px;
+}
+
+.col-2.icon-adminPanel {
+    width: 0%;
+}
+
+.reports {
+    font-size: 18px !important;
+
+}
+
+.icon-adminPanel {
+    font-size: larger;
 }
