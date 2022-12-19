@@ -1,139 +1,88 @@
-import { useState } from "react";
-import tableData1 from "./tableData1.json";
-import TableBody from "./TableBody";
-import TableHead from "./TableHead";
+import { useState, useEffect } from "react";
+import useTable from "./UseTable";
+import styles from "./Table.module.css";
+import TableFooter from "./TableFooter";
 import "./Table.css";
-import { useRef } from "react";
+import FullCVModal from "../FullCVModal/FullCVModal";
+import TableFilter from "../TableFilter/TableFilter";
 
-const Table = () => {
-  const [tableData, setTableData] = useState(tableData1);
-  const columns = [
-    { label: "Full Name", accessor: "full_name", sortable: true },
-    { label: "Age", accessor: "birth_date", sortable: true },
-    { label: "Gender", accessor: "gender", sortable: false },
-    { label: "Address", accessor: "address", sortable: false },
-    { label: "position", accessor: "position", sortable: false },
-    {
-      label: "Years of Experience",
-      accessor: "years_of_experience",
-      sortable: true,
-    },
-    { label: "Submitted at", accessor: "submission_date", sortable: true },
-    { label: "Action", accessor: "action", sortable: false },
-  ];
-
-  const handleSorting = (sortField, sortOrder) => {
-    if (sortField) {
-      const sorted = [...tableData].sort((a, b) => {
-        if (a[sortField] === null) return 1;
-        if (b[sortField] === null) return -1;
-        if (a[sortField] === null && b[sortField] === null) return 0;
-        return (
-          a[sortField].toString().localeCompare(b[sortField].toString(), "en", {
-            numeric: true,
-          }) * (sortOrder === "asc" ? 1 : -1)
-        );
-      });
-      setTableData(sorted);
-    }
-  };
-  const [name, setName] = useState("");
-  const [position, setposition] = useState("");
-  const [minAge, setMinAge] = useState([]);
-  const [maxAge, setMaxAge] = useState([]);
-  const min = useRef(null);
-  const max = useRef(null);
-  const [address, setAddress] = useState("");
-  const [gender, setGender] = useState("");
-
-  const searchValue = (event) => {
-    setName(event.target.value);
-  };
-  const positionList = (event) => {
-    setposition(event.target.value);
-  };
-  const limitAgeSetter = () => {
-    setMinAge(min.current.value);
-    setMaxAge(max.current.value);
-  };
-  const addressValue = (event) => {
-    setAddress(event.target.value);
-  };
-  const genderList = (event) => {
-    setGender(event.target.value);
-  };
+const Table = ({ data, rowsPerPage }) => {
+  const [page, setPage] = useState(1);
+  const [tableData, setTableData] = useState(data);
+  const { slice, range } = useTable(tableData, page, rowsPerPage);
 
   return (
-    <div id="table-filters">
-      <div id="above-table" className="row">
-        <input
-          type="text"
-          id="name-search"
-          placeholder="Search for names.."
-          onChange={searchValue}
-          className="col-sm-3"
-        />
+    <div id={styles.mainContainer}>
+      <TableFilter
+        tableData={tableData}
+        setTableData={setTableData}
+        data={data}
+        page={page}
+        setPage={setPage}
+      />
+      <div className={styles.tableContainer}>
+        <div id={styles.scrollDiv}>
+          <table id={styles.table} className="table  table-striped">
+            <thead className={styles.tableRowHeader}>
+              <tr className="table-dark">
+                <th className={styles.tableHeader}>Name</th>
+                <th className={styles.tableHeader}>Age</th>
+                <th className={styles.tableHeader}>City</th>
+                <th className={styles.tableHeader}>Position</th>
+                <th className={styles.tableHeader}>Experience Years</th>
+                <th className={styles.tableHeader}>Submitted at</th>
+                <th className={styles.tableHeader}></th>
+              </tr>
+            </thead>
+            <tbody>
+              {slice.map((el) => {
+                let idH = "#r" + el.id;
 
-        <div id="age-filter" className="col-sm-1">
-          <input type="number" min="10" step="1" ref={min} />
-          &#60; Age &#60;
-          <input type="number" min="11" step="1" ref={max} />
-          <div id="age-bottom">
-            <p id="min-age-button">min</p>
-            <div id="age-button" onClick={limitAgeSetter}>
-              Search
-            </div>
-            <p id="max-age-button">max</p>
-          </div>
-        </div>
-        <select
-          name="gender"
-          id="gender-filter"
-          onChange={genderList}
-          className="col-sm-1"
-        >
-          <option value="all">All</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
-        <input
-          type="text"
-          id="address-search"
-          placeholder="Search for address.."
-          onChange={addressValue}
-          className="col-sm-3"
-        />
+                return (
+                  <tr className="table-dark" key={el.id}>
+                    <td className={styles.tableCell}>{el.name}</td>
+                    <td className={styles.tableCell}>{el.age}</td>
+                    <td className={styles.tableCell}>{el.city}</td>
+                    <td className={styles.tableCell}>{el.position}</td>
+                    <td className={styles.tableCell}>{el.experience}</td>
+                    <td className={styles.tableCell}>{el.date}</td>
+                    <td className={styles.tableCell}>
+                      <button
+                        type="button"
+                        id={styles.moreInfo}
+                        className="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target={idH}
+                      >
+                        More Info
+                      </button>
 
-        <select
-          name="position"
-          id="position-filter"
-          onChange={positionList}
-          className="col-sm-3"
-        >
-          <option value="all">All positions</option>
-          <option value="designer">Designer</option>
-          <option value="security">Security</option>
-          <option value="development">Development</option>
-          <option value="accounting">Accounting</option>
-          <option value="ceo">CEO</option>
-        </select>
-      </div>
-      <div id="table-container">
-        <table className="table">
-          <TableHead columns={columns} handleSorting={handleSorting} />
-          <TableBody
-            columns={columns}
-            tableData={tableData}
-            keyword={name}
-            occ={position}
-            minAge={minAge}
-            maxAge={maxAge}
-            address={address}
-            gender={gender}
+                      <FullCVModal row={el} />
+                    </td>
+                  </tr>
+                );
+              })}
+              <tr id={styles.tableBottom}>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <TableFooter
+            range={range}
+            slice={slice}
+            setPage={setPage}
+            page={page}
           />
-        </table>
+        </div>
       </div>
     </div>
   );
 };
+
 export default Table;

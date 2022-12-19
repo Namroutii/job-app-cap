@@ -1,0 +1,113 @@
+#table {
+  border-collapse: collapse;
+  border: none;
+  width: 1000px;
+  margin: 0px;
+}
+
+.tableRowHeader {
+  background-color: transparent;
+  transition: all 0.25s ease;
+  border-radius: 10px;
+}
+
+.tableHeader {
+  padding: 12px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tableHeader:first-child {
+  border-top-left-radius: 15px;
+}
+
+.tableHeader:last-child {
+  border-top-right-radius: 15px;
+}
+
+.tableRowItems {
+  cursor: auto;
+}
+
+.tableCell {
+  padding: 12px;
+  font-size: 14px;
+}
+
+#mainContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 50px;
+  height: 1300px;
+}
+
+#moreInfo {
+  width: 60px;
+  font-size: 10px;
+  padding: 5px;
+  background-color: #c99445;
+  margin: 0px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border-width: 0px;
+}
+#table tr:nth-child(even) #moreInfo {
+  background-color: #ecb056;
+}
+
+#tableBottom {
+  background-color: #295984;
+}
+#tableBottom:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+#tableBottom:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+#table td {
+  color: #e2e2e2;
+  font-size: 14px;
+}
+.tableContainer {
+  display: flex;
+  overflow-x: auto;
+  height: fit-content;
+}
+
+@media only screen and (max-width: 1270px) {
+  #mainContainer {
+    display: block;
+  }
+  #table {
+    width: 100%;
+    white-space: nowrap;
+  }
+  #scrollDiv {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.tableContainer::-webkit-scrollbar {
+  height: 1px;
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background: #4088c5;
+}
+
+.tableContainer::-webkit-scrollbar-thumb:hover {
+  background: #295984;
+}
