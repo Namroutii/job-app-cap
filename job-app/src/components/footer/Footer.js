@@ -14,9 +14,9 @@ const Footer = () => {
                 </div>
                 <div className="col">
                     <div><p className="social-title">Social media:</p></div>
-                    <a href="#" className="fa fa-facebook"></a>
-                    <a href="#" className="fa fa-twitter"></a>
-                    <a href="#" className="fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/" className="fa fa-facebook"></a>
+                    <a href="https://twitter.com/login" className="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com" className="fa fa-linkedin"></a>
                 </div>
             </div>
 
