@@ -83,7 +83,7 @@ function AddCV() {
         <br />
         <div className="container1">
           <div className="information-box">
-            <header className="title"> Information </header>
+            <header className="title"> Add Your CV Here </header>
             <hr />
             <br />
             <form>
