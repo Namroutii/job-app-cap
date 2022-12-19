@@ -9,6 +9,7 @@ const Phone = (props) => {
   const checkNumber = () => {
     let stringNumber = String(number);
 
+
     if (props.children === "Phone Number") {
 
       if (stringNumber[0] === '0' && stringNumber[1] === '5' && (stringNumber[2] === '6' || stringNumber[2] === '9') && stringNumber.length === 9)
@@ -20,8 +21,8 @@ const Phone = (props) => {
         setCheck("Successful");
       else setCheck("Really!");
     }
-  };
 
+  };
 
   return (
     <>
@@ -36,7 +37,10 @@ const Phone = (props) => {
             checkNumber();
           }}
           required
-        /> <br />
+
+        />{" "}
+        <br />
+
         <span className="validation">{check}</span>
       </div>
     </>

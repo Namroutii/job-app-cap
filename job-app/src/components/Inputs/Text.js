@@ -16,10 +16,10 @@ const Text = (props) => {
 
   return (
     <>
-      <label className="label-text"> {props.children} </label>
+      <label  className="label-text "> {props.children} </label>
       <div className="input">
         <input
-          className="fab-TextInput"
+          className="fab-TextInput "
           placeholder={props.children}
           onChange={(e) => {
             setName(e.target.value);
@@ -27,7 +27,9 @@ const Text = (props) => {
           }}
           required
           type="text"
+
         /> <br />
+
         <span className="validation">{check}</span>
       </div>
     </>
