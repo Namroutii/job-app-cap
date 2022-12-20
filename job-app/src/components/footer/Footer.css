@@ -1,7 +1,7 @@
 footer {
     background-color: #052236;
     margin-top: 20px;
-    width:100%;
+    width:99%;
 }
 
 .content-elements{
@@ -72,9 +72,6 @@ footer {
     color: white;
 }
 
-#list-group{
-    background-color: #052236;
-}
 .copy-right{
     color:#cacfcf;
     font-family: Georgia, serif;
