@@ -12,7 +12,6 @@ function Home() {
     <div>
       <NavBar />
       <Header />
-
       <AboutUs />
       <div className="container">
         <div className="row">

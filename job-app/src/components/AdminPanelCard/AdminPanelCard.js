@@ -2,19 +2,20 @@
 import "./AdminPanelCard.css";
 
 
-
-function AdminPanelCard() {
+function AdminPanelCard(props) {
+  const classes = "title-adminPanel " + props.className
+  const border = "container-fluid " + props.border
   return (
     <section className="cards-adminPanel" id="adminPanel">
-      <div className="container-fluid">
+      <div className={border}>
         <div className="card-body-adminPanel">
           <div className="row">
-            <div className="col-8">
-              <div className="p title-adminPanel">Average age</div>
-              <div className="h4 reports">25</div>
+            <div className="col-8 AdminPanelCard">
+              <div className={classes}>{props.title}</div>
+              <div className="h5 reports">{props.reports}</div>
             </div>
             <div className="col-2 icon-adminPanel">
-              <i class="fa-regular fa-calendar-days"></i>
+              <i className={props.icon}></i>
             </div>
           </div>
         </div>

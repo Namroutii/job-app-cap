@@ -8,10 +8,12 @@ const Selects = () => {
 
         <select className="form-select">
           <option value={0}>Select your Degree:</option>
-          <option value="1">Associate  </option>
-          <option value="2">Bachelor's  </option>
-          <option value="3">Masters  </option>
-          <option value="4">Doctorate </option>
+          <option value="1">Bachelor  </option>
+          <option value="2">Below Tawjihi  </option>
+          <option value="3"> Tawjihi  </option>
+          <option value="4">Diploma  </option>
+          <option value="5">Master  </option>
+          <option value="6">Doctorate </option>
         </select>
       </div>
 

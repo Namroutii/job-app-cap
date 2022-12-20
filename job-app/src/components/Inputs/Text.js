@@ -6,16 +6,20 @@ const Text = (props) => {
   const [check, setCheck] = useState("");
 
   const checkName = () => {
-    if (name.length < 10) setCheck("error");
-    else setCheck("");
+    if (props.children === "Full Name") {
+
+      if (name.length < 10)
+        setCheck("");
+      else setCheck("");
+    }
   };
 
   return (
     <>
-      <label className="label-text"> {props.children} </label>
+      <label  className="label-text "> {props.children} </label>
       <div className="input">
         <input
-          className="fab-TextInput"
+          className="fab-TextInput "
           placeholder={props.children}
           onChange={(e) => {
             setName(e.target.value);
@@ -24,10 +28,10 @@ const Text = (props) => {
           required
           type="text"
 
-        /> <br/>
+        /> <br />
+
         <span className="validation">{check}</span>
       </div>
-
     </>
   );
 };

@@ -6,8 +6,8 @@ const Email = () => {
   const [checkEm, setCheckEmail] = useState("");
 
   const checkEmail = () => {
-    if (email.length < 10) setCheckEmail("error");
-    else setCheckEmail("done");
+    if (email.length < 10) setCheckEmail("");
+    else setCheckEmail("");
   };
 
   return (
