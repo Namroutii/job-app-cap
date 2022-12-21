@@ -10,6 +10,7 @@ import Date from "../../components/Inputs/Date";
 import Selects from "../../components/Inputs/Select";
 import URL from "../../components/Inputs/URL";
 import Button from "../../components/forms/Button";
+import NavBar from "../../components/NavBar/NavBar";
 
 function AddCV() {
   const [selectedOptions, setSelectedOptions] = useState("");
@@ -78,17 +79,30 @@ function AddCV() {
     <div>
       <NavBarAddCvs />
       <div className="body">
-        <br />
-        <br />
-        <br />
-        <div className="container1">
+        <div className="image-box">
+          <img
+            className="image-addCv"
+            src="https://www.wilsonsecurity.com.au/siteassets/security-stock-images/fotolia_80086639_subscription_monthly_m.jpg/PageHeaderDesktop-15857-1440-600-100-0,0"
+            alt=""
+          ></img>
+        </div>
+
+        <div className="title1-addCv p-3 mb-5 bg-body rounded">
+          * Career Application
+        </div>
+        <div className="title2-addCv p-3 mb-5 bg-body rounded">
+          * In order to ensure accuracy and ease of communication with Houdrtkm,
+          please fill out job application abide fully and clearly, and taking
+          into account the precision in it, and if there is any shortfall in
+          demand will have a wedge to not consider it.
+        </div>
+        <div className="container">
           <div className="information-box">
-
+          <form>
             <header className="addCv-title"> Add Your CV Here </header>
-
             <hr />
             <br />
-            <form>
+            
               <div className="form-container">
                 <Text>Full Name</Text>
                 <Email />
@@ -216,7 +230,7 @@ function AddCV() {
           </div>
           <br />
           <br />
-        </div>
+      </div>
       </div>
       <Footer />
     </div>
