@@ -18,6 +18,8 @@ footer {
     flex:1;
     font-family: Georgia, serif;
     color: #cacfcf;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-contact {
