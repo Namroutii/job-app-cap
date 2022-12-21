@@ -10,7 +10,7 @@
     justify-content: space-around;
 }
 
-input {
+.login-input {
     border: none;
     background-color: #F1F1E6;
     width: 75%;
@@ -20,7 +20,7 @@ input {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-input:focus {
+.login-input:focus {
     outline-color: #009BF9;
 }
 
