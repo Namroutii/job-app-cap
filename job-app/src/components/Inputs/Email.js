@@ -14,7 +14,6 @@ const Email = () => {
     <>
       <label className="label-form">Email</label>
       <div className="input">
-
         <input
           type="email"
           className="fab-TextInput "
