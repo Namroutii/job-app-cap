@@ -7,8 +7,8 @@ const LoginForm = () => {
 
             <h1 className="login-text">HireMe Login</h1>
 
-            <input type="text" placeholder="username" />
-            <input type="password" placeholder="password" />
+            <input className="login-input" type="text" placeholder="username" />
+            <input className="login-input" type="password" placeholder="password" />
 
             <div className="login-btn" >Login</div>
 
