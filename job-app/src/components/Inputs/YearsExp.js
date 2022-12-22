@@ -1,13 +1,14 @@
 import "./Inputs.css";
 import { useState } from "react";
 
-const Password = () => {
-    const [password, setPassword] = useState("");
+const YearsExp = (props) => {
+    const [yearsExp, setYearsExp] = useState("");
     const [switchClass, setSwitchClass] = useState(false);
 
+    const checkYearsExp = () => {
+        let stringYearsExp = String(yearsExp);
 
-    const checkPassword = () => {
-        if ((password.match(/^(?=.*[0-9])(?=.[a-zA-Z])([a-z_A-Z0-9]+)$/)) && (password.length > 8) && (password.length < 16)) {
+        if (stringYearsExp.length < 2) {
             setSwitchClass(true)
         }
         else {
@@ -17,27 +18,28 @@ const Password = () => {
 
     return (
         <>
-            <label className="label-form">Password</label>
+            <label for="yearsExp-input" className="label-form">{props.children} </label>
             <div className="input">
                 <input
-                    type="password"
+                    id="yearsExp-input"
                     className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
-                    placeholder="name@example.com"
+                    type="phone"
+                    placeholder={props.children}
                     onChange={(e) => {
-                        setPassword(e.target.value);
-                        checkPassword();
+                        setYearsExp(e.target.value);
+                        checkYearsExp();
                     }}
                     required
                 />
                 <div className="valid-feedback">
-                    Looks good!
+                    Successful
                 </div>
                 <div class="invalid-feedback">
-                    Please provide a valid Password. NOTE(Password must contain capital letters, small letters, numbers, and underscore ` _ ` and length between 8 and 16 digits).
+                    Please provide a valid number (Years of Experience must be not more than 2 digits, if there is not just enter ).
                 </div>
             </div>
         </>
     );
 };
 
-export default Password;
+export default YearsExp;
