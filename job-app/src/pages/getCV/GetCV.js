@@ -2,7 +2,7 @@ import "./GetCV.css";
 import Table from "../../components/Table/Table";
 import data from "../../data/CVsData";
 import Footer from "../../components/footer/Footer";
-import NavBarGetCvs from "../../components/NavBarGetCvs/NavBarGetCvs";
+import NavBarGetCvs from "../../components/NavigationBars/NavBarGetCvs";
 
 function getCV() {
   return (

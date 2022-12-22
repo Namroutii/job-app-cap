@@ -1,8 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import LoginForm from "../../components/login/loginform";
-import NavBarLogin from "../../components/NavBarLogin/NavBarLogin.";
+import NavBarLogin from "../../components/NavigationBars/NavBarLogin.";
 import "./Login.css"
-
 function Login() {
   return (
     <>
