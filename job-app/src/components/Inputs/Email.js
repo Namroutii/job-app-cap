@@ -3,29 +3,37 @@ import { useState } from "react";
 
 const Email = () => {
   const [email, setEmail] = useState("");
-  const [checkEm, setCheckEmail] = useState("");
+  const [switchClass, setSwitchClass] = useState(false);
 
   const checkEmail = () => {
-    if (email.length < 10) setCheckEmail("");
-    else setCheckEmail("");
+    if ((email.length > 0) && (email.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i))) {
+      setSwitchClass(true)
+    }
+    else {
+      setSwitchClass(false)
+    }
   };
 
   return (
     <>
-      <label className="label-form">Email</label>
+      <label for="email-input" className="label-form">Email</label>
       <div className="input">
         <input
+          id="email-input"
           type="email"
-          className="fab-TextInput "
+          className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
           placeholder="name@example.com"
           onChange={(e) => {
             setEmail(e.target.value);
             checkEmail();
           }}
-          required
-        />
-        <br />
-        <span className="validation">{checkEm}</span>
+          required />
+        <div className="valid-feedback">
+          We will keep you informed! Good luck
+        </div>
+        <div class="invalid-feedback">
+          Please provide a valid Email.
+        </div>
       </div>
     </>
   );
