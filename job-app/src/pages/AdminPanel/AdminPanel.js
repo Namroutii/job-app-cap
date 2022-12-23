@@ -40,7 +40,7 @@ function AdminPanel() {
     const maxCity = Math.max(...Object.values(city));
     const maxPosition = Math.max(...Object.values(position));
     const maxExperience = Math.max(...Object.values(experience));
-    function getObjKey(obj, value) {
+    function GetObjKey(obj, value) {
         return Object.keys(obj).find(key => obj[key] === value);
     }
     return (
@@ -54,13 +54,13 @@ function AdminPanel() {
                         <AdminPanelCard title="Age" reports={ageSum} className="text-first" border="border-left-first" icon="fa-regular fa-calendar-days" />
                     </div>
                     <div className="col-12 col-md-10 col-lg-6 col-xl-3">
-                        <AdminPanelCard title="City" reports={getObjKey(city, maxCity)} className="text-second" border="border-left-second" icon="fa-solid fa-city" />
+                        <AdminPanelCard title="City" reports={GetObjKey(city, maxCity)} className="text-second" border="border-left-second" icon="fa-solid fa-city" />
                     </div>
                     <div className="col-12 col-md-10 col-lg-6 col-xl-3">
-                        <AdminPanelCard title="Position" reports={getObjKey(position, maxPosition)} className="text-third" border="border-left-third" icon="fa-solid fa-user" />
+                        <AdminPanelCard title="Position" reports={GetObjKey(position, maxPosition)} className="text-third" border="border-left-third" icon="fa-solid fa-user" />
                     </div>
                     <div className="col-12 col-md-10 col-lg-6 col-xl-3">
-                        <AdminPanelCard title="Experience" reports={getObjKey(experience, maxExperience)} className="text-fourth" border="border-left-fourth" icon="fa-solid fa-file-csv" />
+                        <AdminPanelCard title="Experience" reports={GetObjKey(experience, maxExperience)} className="text-fourth" border="border-left-fourth" icon="fa-solid fa-file-csv" />
                     </div>
                 </div>
             </div>
