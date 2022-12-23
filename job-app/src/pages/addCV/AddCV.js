@@ -2,7 +2,7 @@ import Footer from "../../components/footer/Footer";
 import "./AddCV.css";
 import { useState } from "react";
 import Select from "react-select";
-import NavBarAddCvs from "../../components/NavBarAddCvs/NavBarAddCvs";
+import NavBarAddCvs from "../../components/NavigationBars/NavBarAddCvs";
 import Text from "../../components/Inputs/Text";
 import Email from "../../components/Inputs/Email";
 import Phone from "../../components/Inputs/Phone";

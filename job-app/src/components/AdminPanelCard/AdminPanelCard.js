@@ -1,7 +1,4 @@
-
 import "./AdminPanelCard.css";
-
-
 function AdminPanelCard(props) {
   const classes = "title-adminPanel " + props.className
   const border = "container-fluid " + props.border
