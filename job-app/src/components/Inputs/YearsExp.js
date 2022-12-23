@@ -18,7 +18,7 @@ const YearsExp = (props) => {
 
     return (
         <>
-            <label for="yearsExp-input" className="label-form">{props.children} </label>
+            <label htmlFor="yearsExp-input" className="label-form">{props.children} </label>
             <div className="input">
                 <input
                     id="yearsExp-input"
@@ -34,7 +34,7 @@ const YearsExp = (props) => {
                 <div className="valid-feedback">
                     Successful
                 </div>
-                <div class="invalid-feedback">
+                <div className="invalid-feedback">
                     Please provide a valid number (Years of Experience must be not more than 2 digits, if there is not just enter ).
                 </div>
             </div>

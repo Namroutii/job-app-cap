@@ -28,13 +28,18 @@
     width: 40%;
     height: 48px;
     background-color: #009BF9;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 1.5s;
+    border: none;
     border-radius: 12px;
+    font-size: 20px;
     cursor: pointer;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 .login-btn:hover {
@@ -66,5 +71,5 @@
 
 .login-text {
     color: #052236;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }

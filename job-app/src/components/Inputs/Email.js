@@ -16,7 +16,7 @@ const Email = () => {
 
   return (
     <>
-      <label for="email-input" className="label-form">Email</label>
+      <label htmlFor="email-input" className="label-form">Email</label>
       <div className="input">
         <input
           id="email-input"
@@ -29,9 +29,9 @@ const Email = () => {
           }}
           required />
         <div className="valid-feedback">
-          We will keep you informed! Good luck
+          We will keep you informed!
         </div>
-        <div class="invalid-feedback">
+        <div className="invalid-feedback">
           Please provide a valid Email.
         </div>
       </div>

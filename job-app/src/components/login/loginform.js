@@ -10,7 +10,7 @@ const LoginForm = () => {
             <input className="login-input" type="text" placeholder="username" />
             <input className="login-input" type="password" placeholder="password" />
 
-            <div className="login-btn" >Login</div>
+            <button className="login-btn" >Login</button>
 
             <p className="login-text">Or login using</p>
 
