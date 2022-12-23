@@ -17,12 +17,12 @@ const Password = () => {
 
     return (
         <>
-            <label className="label-form">Password</label>
+            <label htmlFor="password-input" className="label-form">Password</label>
             <div className="input">
                 <input
+                    id="password-input"
                     type="password"
                     className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
-                    placeholder="name@example.com"
                     onChange={(e) => {
                         setPassword(e.target.value);
                         checkPassword();
@@ -32,7 +32,7 @@ const Password = () => {
                 <div className="valid-feedback">
                     Looks good!
                 </div>
-                <div class="invalid-feedback">
+                <div className="invalid-feedback">
                     Please provide a valid Password. NOTE(Password must contain capital letters, small letters, numbers, and underscore ` _ ` and length between 8 and 16 digits).
                 </div>
             </div>

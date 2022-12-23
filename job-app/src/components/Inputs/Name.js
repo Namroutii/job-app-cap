@@ -17,7 +17,7 @@ const Name = (props) => {
     return (
         <>
             <div className="input">
-                <label for="name-input" className="form-label label-text">{props.children}</label>
+                <label htmlFor="name-input" className="form-label label-text">{props.children}</label>
                 <input type="text"
                     className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
                     id="name-input" placeholder={props.children}
@@ -29,7 +29,7 @@ const Name = (props) => {
                 <div className="valid-feedback">
                     Nice Name
                 </div>
-                <div class="invalid-feedback">
+                <div className="invalid-feedback">
                     Please provide a valid Name.
                 </div>
             </div>
