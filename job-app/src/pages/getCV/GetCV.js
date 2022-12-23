@@ -14,11 +14,9 @@ function getCV() {
         <img src="./images/get-cv-img.jpg" id="get-cv-img" />
         <h1 id="get-cv-header">Find Employees</h1>
       </div>
-
       <Table data={data} rowsPerPage={23} />
-      {
-        //<Footer />
-      }
+
+      <Footer />
     </div>
   );
 }

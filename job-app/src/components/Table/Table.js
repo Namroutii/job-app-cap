@@ -5,7 +5,7 @@ import TableFooter from "./TableFooter";
 import "./Table.css";
 import FullCVModal from "../FullCVModal/FullCVModal";
 import TableFilter from "../TableFilter/TableFilter";
-
+import ReportModal from "../ReportModal/ReportModal";
 const Table = ({ data, rowsPerPage }) => {
   const [page, setPage] = useState(1);
   const [tableData, setTableData] = useState(data);
@@ -56,6 +56,7 @@ const Table = ({ data, rowsPerPage }) => {
                       >
                         More Info
                       </button>
+                      <ReportModal />
 
                       <FullCVModal row={el} />
                     </td>

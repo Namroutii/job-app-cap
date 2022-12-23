@@ -1,0 +1,22 @@
+#hiddenPopup {
+  position: absolute;
+  visibility: hidden;
+  transition: 0;
+}
+#visiblePopup {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+  white-space: normal;
+  background-color: #ecb056;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: white;
+  font-size: 20px;
+}

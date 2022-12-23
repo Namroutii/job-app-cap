@@ -10,7 +10,9 @@ import Date from "../../components/Inputs/Date";
 import Selects from "../../components/Inputs/Select";
 import URL from "../../components/Inputs/URL";
 import Button from "../../components/forms/Button";
-import NavBar from "../../components/NavBar/NavBar";
+import Name from "../../components/Inputs/Name";
+import YearsExp from "../../components/Inputs/YearsExp";
+import URLva from "../../components/Inputs/URLva";
 
 function AddCV() {
   const [selectedOptions, setSelectedOptions] = useState("");
@@ -98,15 +100,18 @@ function AddCV() {
         </div>
         <div className="container">
           <div className="information-box">
-          <form>
-            <header className="addCv-title"> Add Your CV Here </header>
-            <hr />
-            <br />
-            
+            <form>
+              <header className="addCv-title"> Add Your CV Here </header>
+              <hr />
+              <br />
+
               <div className="form-container">
-                <Text>Full Name</Text>
+                <Name>Full Name</Name>
                 <Email />
                 <Phone>Phone Number</Phone>
+                <YearsExp>Years of Experience</YearsExp>
+                <URL>LinkedIn URL</URL> <br />
+
                 <label className="label-form"> City:</label>
                 <select className="form-select">
                   <option value={0}>Select your City:</option>
@@ -123,8 +128,6 @@ function AddCV() {
                 <br /> <br />
                 <Text>Address</Text>
                 <Date /> <br />
-                <URL>LinkedIn URL</URL> <br />
-                <Phone>Years of Experience</Phone>
                 <Selects /> <br />
                 <label className="label-form"> Language</label>
                 <Select
@@ -152,7 +155,7 @@ function AddCV() {
                 <br />
                 {showSelect === "1" && (
                   <div>
-                    <URL>GitHub URL</URL> <br />
+                    <URLva>GitHub URL</URLva> <br />
                     <label className="label-form"> Select Job:</label>
                     <Select
                       className="fab-SelectInput"
@@ -230,7 +233,7 @@ function AddCV() {
           </div>
           <br />
           <br />
-      </div>
+        </div>
       </div>
       <Footer />
     </div>

@@ -16,7 +16,7 @@ const Text = (props) => {
 
   return (
     <>
-      <label  className="label-text "> {props.children} </label>
+      <label className="label-text "> {props.children} </label>
       <div className="input">
         <input
           className="fab-TextInput "
