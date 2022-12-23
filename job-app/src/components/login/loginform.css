@@ -1,59 +1,44 @@
 .cover {
     background-color: white;
-    width: 90%;
+    width: 33%;
     height: 50%;
-    position: relative;
     border-radius: 50px;
-    box-shadow: 0 3px 25px rgb(156, 156, 156);
+    box-shadow: 0 3px 25px #052236;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-input {
+.login-input {
     border: none;
-    background-color: rgb(229, 226, 226);
-    width: 80%;
-    border-radius: 4px;
+    background-color: #F1F1E6;
+    width: 75%;
+    border-radius: 12px;
     text-align: center;
-    padding: 32px;
-    font-size: 20px;
+    padding: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-input:focus {
-    outline-color: rgb(32, 177, 255);
+.login-input:focus {
+    outline-color: #009BF9;
 }
 
 .login-btn {
     width: 40%;
     height: 48px;
-    background-color: rgb(32, 177, 255);
+    background-color: #009BF9;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 1s;
-    border-radius: 4px;
+    transition: 1.5s;
+    border-radius: 12px;
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .login-btn:hover {
     transform: scale(1.25);
-}
-
-.text {
-    position: relative;
-    bottom: 0.5%;
-}
-
-.google {
-    background-image: url("../../../public/images/google.png");
-}
-
-.facebook {
-    background-image: url("../../../public/images/facebook.png");
 }
 
 .alt-login {
@@ -64,17 +49,22 @@ input:focus {
 }
 
 .alt-login div {
-    width: 47.5%;
+    width: 40%;
     height: 90%;
-    border-radius: 4px;
-    background-color: black;
-    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
-h1,
-p {
+.google {
+    background-image: url("../../../public/images/google1.png");
+}
+
+.facebook {
+    background-image: url("../../../public/images/Facebook12.png");
+}
+
+.login-text {
+    color: #052236;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

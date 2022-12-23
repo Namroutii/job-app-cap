@@ -5,6 +5,7 @@
   font-size: 15px;
   background-color: white;
   text-align: left;
+  width: 100%;
 }
 .fab-TextInput:focus {
   outline-color: rgb(32, 177, 255);
@@ -17,14 +18,14 @@
 .input {
   padding-bottom: 20px;
 }
-.validation{
+.validation {
   padding-left: 5px;
   color: red;
 }
-.date-input{
-  width: 100%;
+.date-input {
+  width: 106.5%;
 }
-.date-input input{
+.date-input input {
   padding: 6px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -33,7 +34,8 @@
   text-align: left;
 }
 .validation {
-  padding-left: 70px;
   color: red;
 }
-
+.input-date {
+  width: 125%;
+}

@@ -6,15 +6,14 @@ const Email = () => {
   const [checkEm, setCheckEmail] = useState("");
 
   const checkEmail = () => {
-    if (email.length < 10) setCheckEmail("error");
-    else setCheckEmail("done");
+    if (email.length < 10) setCheckEmail("");
+    else setCheckEmail("");
   };
 
   return (
     <>
       <label className="label-form">Email</label>
       <div className="input">
-
         <input
           type="email"
           className="fab-TextInput "
