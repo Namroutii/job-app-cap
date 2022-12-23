@@ -16,7 +16,6 @@ const Email = () => {
 
   return (
     <>
-     
       <div className="input">
       <label htmlFor="email-input" className="label-form">Email</label>
         <input
@@ -30,7 +29,7 @@ const Email = () => {
           }}
           required />
         <div className="valid-feedback">
-          We will keep you informed! Good luck
+          We will keep you informed!
         </div>
         <div className="invalid-feedback">
           Please provide a valid Email.

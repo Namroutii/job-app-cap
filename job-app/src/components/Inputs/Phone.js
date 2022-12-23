@@ -25,7 +25,6 @@ const Phone = (props) => {
 
   return (
     <>
-      
       <div className="input">
       <label htmlFor="phone-input" className="label-form">{props.children} </label>
         <input

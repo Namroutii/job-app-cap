@@ -9,6 +9,7 @@ import AddCV from "./pages/addCV/AddCV";
 import Get from "./pages/getCV/GetCV";
 import Login from "./pages/login/Login";
 import AdminPanel from "./pages/AdminPanel/AdminPanel";
+import SignUp from "./pages/signUp/SignUp";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ root.render(
         <Route path="/get-cv" element={<Get />} />
         <Route path="/login" element={<Login />} />
         <Route path="/AdminPanel" element={<AdminPanel />} />
+        <Route path="/signUp" element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
