@@ -5,8 +5,9 @@ const Name = (props) => {
     const [name, setName] = useState("");
     const [switchClass, setSwitchClass] = useState(false);
 
+    const pattern = "^[A-Za-z]{3,16}$";
     const checkName = () => {
-        if (name.length >= 3) {
+        if (name.trim().match(pattern)) {
             setSwitchClass(true)
         }
         else {
@@ -30,7 +31,7 @@ const Name = (props) => {
                     Nice Name
                 </div>
                 <div className="invalid-feedback">
-                    Please provide a valid Name.
+                    The name should be 3-16 characters and shouldn't include any special character!
                 </div>
             </div>
         </>

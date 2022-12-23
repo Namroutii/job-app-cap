@@ -29,7 +29,7 @@ const Email = () => {
           }}
           required />
         <div className="valid-feedback">
-          We will keep you informed! Good luck
+          We will keep you informed!
         </div>
         <div className="invalid-feedback">
           Please provide a valid Email.
