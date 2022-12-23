@@ -2,40 +2,32 @@
   padding: 6px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 15px;
-  background-color: white;
-  text-align: left;
   width: 100%;
+  
 }
 .fab-TextInput:focus {
   outline-color: rgb(32, 177, 255);
 }
 
-.label-text {
-  margin-bottom: 5px;
-}
-
 .input {
-  padding-bottom: 20px;
+  padding-top: 20px;
+
 }
 .validation {
   padding-left: 5px;
   color: red;
 }
-.date-input {
-  width: 106.5%;
-}
+
 .date-input input {
-  padding: 6px 10px;
+  padding:  10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 15px;
   background-color: white;
   text-align: left;
 }
-.validation {
-  color: red;
+.fab-DateInput{
+  width: 100%;
+  outline-color: rgb(32, 177, 255);
 }
-.input-date {
-  width: 125%;
-}
+

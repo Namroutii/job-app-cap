@@ -16,8 +16,8 @@ const Email = () => {
 
   return (
     <>
-      <label htmlFor="email-input" className="label-form">Email</label>
       <div className="input">
+      <label htmlFor="email-input" className="label-form">Email</label>
         <input
           id="email-input"
           type="email"

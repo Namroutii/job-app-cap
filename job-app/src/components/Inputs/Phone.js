@@ -25,8 +25,8 @@ const Phone = (props) => {
 
   return (
     <>
-      <label htmlFor="phone-input" className="label-form">{props.children} </label>
       <div className="input">
+      <label htmlFor="phone-input" className="label-form">{props.children} </label>
         <input
           id="phone-input"
           className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
