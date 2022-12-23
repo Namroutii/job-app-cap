@@ -28,7 +28,6 @@ const Name = (props) => {
                     }}
                     required />
                 <div className="valid-feedback">
-                    Nice Name
                 </div>
                 <div className="invalid-feedback">
                     The name should be 3-16 characters and shouldn't include any special character!

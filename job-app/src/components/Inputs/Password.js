@@ -30,7 +30,7 @@ const Password = () => {
                     required
                 />
                 <div className="valid-feedback">
-                    Looks good! Now all you need to do now submit the form and Welcome to HireMe Family GoodLuck
+                    Looks good!
                 </div>
                 <div className="invalid-feedback">
                     Password should be 8-20 characters and include at least 1 letter, 1 number and 1 special character!
