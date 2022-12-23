@@ -77,6 +77,23 @@ function AddCV() {
     const getUser = event.target.value;
     setShowSelect(getUser);
   };
+
+  const [val, setVal] = useState([]);
+  const handleAdd = () => {
+    const abc = [...val, []];
+    setVal(abc);
+  };
+  const handleChange = (onChangeValue, i) => {
+    const inputDate = [...val];
+    inputDate[i] = onChangeValue.target.value;
+    setVal(inputDate);
+  };
+  const handleDelete = (i) => {
+    const deleteVal = [...val];
+    deleteVal.splice(i);
+    setVal(deleteVal);
+  };
+
   return (
     <div>
       <NavBarAddCvs />
@@ -88,7 +105,6 @@ function AddCV() {
             alt=""
           ></img>
         </div>
-
         <div className="title1-addCv p-3 mb-5 bg-body rounded">
           * Career Application
         </div>
@@ -98,141 +114,176 @@ function AddCV() {
           into account the precision in it, and if there is any shortfall in
           demand will have a wedge to not consider it.
         </div>
-        <div className="container">
-          <div className="information-box">
-            <form>
-              <header className="addCv-title"> Add Your CV Here </header>
-              <hr />
-              <br />
-
-              <div className="form-container">
-                <Name>Full Name</Name>
-                <Email />
-                <Phone>Phone Number</Phone>
-                <YearsExp>Years of Experience</YearsExp>
-                <URL>LinkedIn URL</URL> <br />
-
-                <label className="label-form"> City:</label>
-                <select className="form-select">
-                  <option value={0}>Select your City:</option>
-                  <option>Jerusalem</option>
-                  <option>Ramallah</option>
-                  <option>Nablus</option>
-                  <option>Hebron</option>
-                  <option>Jenin</option>
-                  <option>Jericho</option>
-                  <option>Bethlehem</option>
-                  <option>Qalqilya</option>
-                  <option>Tulkarm</option>
-                </select>{" "}
-                <br /> <br />
-                <Text>Address</Text>
-                <Date /> <br />
-                <Selects /> <br />
-                <label className="label-form"> Language</label>
-                <Select
-                  className="fab-SelectInput"
-                  options={optionList}
-                  placeholder="Select Language"
-                  value={selectedOptions}
-                  onChange={handleSelect}
-                  isSearchable={true}
-                  isMulti
-                />{" "}
-                <br /> <br />
-                <Text>Career</Text>
-                <Text> Skills</Text>
-                <label className="label-form"> Department:</label>
-                <select
-                  className="form-select"
-                  onChange={(e) => handleShowSelect(e)}
-                >
-                  <option value={0}>Select your job:</option>
-                  <option value="1">Information Technology </option>
-                  <option value="2">Accountant </option>
-                  <option value="3">Designer </option>
-                </select>{" "}
-                <br />
-                {showSelect === "1" && (
-                  <div>
-                    <URLva>GitHub URL</URLva> <br />
-                    <label className="label-form"> Select Job:</label>
-                    <Select
-                      className="fab-SelectInput"
-                      options={optionJob}
-                      placeholder="Select Job"
-                      value={selectedJob}
-                      onChange={handleSelectJob}
-                      isSearchable={true}
-                      isMulti
-                    />{" "}
-                    <br /> <br />
-                    <label className="label-form">
-                      {" "}
-                      Programing Language you are good at :
-                    </label>
-                    <Select
-                      className="fab-SelectInput"
-                      options={optionLanguage}
-                      placeholder="Select Programing Language"
-                      value={selectedLanguage}
-                      onChange={handleSelectLanguage}
-                      isSearchable={true}
-                      isMulti
-                    />{" "}
-                    <br />
-                    <br />
-                    <Button />
-                    <br />
-                    <br />
+        <div className="information-box">
+          <form>
+            <header className="addCv-title"> Add Your CV Here </header>
+            <hr />
+            <Name>Full Name</Name>
+            <Email />
+            <Phone>Phone Number</Phone>
+            <YearsExp>Years of Experience</YearsExp>
+            <URL>LinkedIn URL</URL>
+            <div className="input">
+              <label htmlFor="select-city" className="label-form">
+                
+                City:
+              </label>
+              <select id="select-city" className="form-select">
+                <option value={0}>Select your City:</option>
+                <option>Jerusalem</option>
+                <option>Ramallah</option>
+                <option>Nablus</option>
+                <option>Hebron</option>
+                <option>Jenin</option>
+                <option>Jericho</option>
+                <option>Bethlehem</option>
+                <option>Qalqilya</option>
+                <option>Tulkarm</option>
+              </select>
+            </div>
+            <Text>Address</Text>
+            <Date />
+            <Selects />
+            <div className="input">
+              <label className="label-form"> Language</label>
+              <Select
+                className="fab-SelectInput"
+                options={optionList}
+                placeholder="Select Language"
+                value={selectedOptions}
+                onChange={handleSelect}
+                isSearchable={true}
+                isMulti
+              />
+            </div>
+            <Text>Career</Text>
+            <label htmlFor="skills" className="label-texts ">
+              
+              Skills
+            </label>
+            <div className="input-group mb-3">
+              <input
+                id="skills"
+                type="text"
+                className="form-control"
+                placeholder="Skills"
+              />
+              <button
+                className="input-group-text"
+                type="button"
+                onClick={() => handleAdd()}
+              >
+                +
+              </button>
+            </div>
+            {val.map((data, i) => {
+              return (
+                <div>
+                  <div  className="input-group mb-3">
+                    <input
+                      type="text"
+                      onChange={(e) => handleChange(e, i)}
+                      className="form-control"
+                      placeholder="Skills"
+                    />
+                    <button
+                      className="input-group-text"
+                      type="button"
+                      onClick={() => handleDelete(i)}
+                    >
+                      X
+                    </button>
                   </div>
-                )}
-                {showSelect === "2" && (
-                  <div>
-                    <br />
-                    <label className="label-form">
-                      {" "}
-                      Software you are good at :
-                    </label>
-                    <Select
-                      className="fab-SelectInput"
-                      options={optionSoftware}
-                      placeholder="Select Software"
-                      value={selectedSoftware}
-                      onChange={handleSelectSoftware}
-                      isSearchable={true}
-                      isMulti
-                    />{" "}
-                    <br />
-                    <br />
-                    <Button />
-                  </div>
-                )}
-                {showSelect === "3" && (
-                  <div>
-                    <br />
-                    <label className="label-form">
-                      {" "}
-                      Software you are good at :
-                    </label>
-                    <Select
-                      className="fab-SelectInput"
-                      options={optionSoftwareD}
-                      placeholder="Select Software"
-                      value={selectedSoftwareD}
-                      onChange={handleSelectSoftwareD}
-                      isSearchable={true}
-                      isMulti
-                    />{" "}
-                    <br />
-                    <Button />
-                  </div>
-                )}
+                </div>
+              );
+            })}
+            <div className="input">
+              <label htmlFor="select-dep" className="label-form">
+                
+                Department:
+              </label>
+              <select
+                id="select-dep"
+                className="form-select"
+                onChange={(e) => handleShowSelect(e)}
+              >
+                <option value={0}>Select your job:</option>
+                <option value="1">Information Technology </option>
+                <option value="2">Accountant </option>
+                <option value="3">Designer </option>
+              </select>
+            </div>
+            {showSelect === "1" && (
+              <div>
+                <URLva>GitHub URL</URLva>
+                <div className="input">
+                  <label className="label-form"> Select Job:</label>
+                  <Select
+                    className="fab-SelectInput"
+                    options={optionJob}
+                    placeholder="Select Job"
+                    value={selectedJob}
+                    onChange={handleSelectJob}
+                    isSearchable={true}
+                    isMulti
+                  />
+                </div>
+                <div className="input">
+                  <label className="label-form">
+                    Programing Language you are good at :
+                  </label>
+                  <Select
+                    className="fab-SelectInput"
+                    options={optionLanguage}
+                    placeholder="Select Programing Language"
+                    value={selectedLanguage}
+                    onChange={handleSelectLanguage}
+                    isSearchable={true}
+                    isMulti
+                  />
+                </div>
+                <Button />
               </div>
-            </form>
-          </div>
-          <br />
-          <br />
+            )}
+            {showSelect === "2" && (
+              <div>
+                <div className="input">
+                  <label className="label-form">
+                    Software you are good at :
+                  </label>
+                  <Select
+                    className="fab-SelectInput"
+                    options={optionSoftware}
+                    placeholder="Select Software"
+                    value={selectedSoftware}
+                    onChange={handleSelectSoftware}
+                    isSearchable={true}
+                    isMulti
+                  />
+                </div>
+                <Button />
+              </div>
+            )}
+            {showSelect === "3" && (
+              <div>
+                <div className="input">
+                  <label className="label-form">
+                    Software you are good at :
+                  </label>
+                  <Select
+                    className="fab-SelectInput"
+                    options={optionSoftwareD}
+                    placeholder="Select Software"
+                    value={selectedSoftwareD}
+                    onChange={handleSelectSoftwareD}
+                    isSearchable={true}
+                    isMulti
+                  />
+                </div>
+                <Button />
+              </div>
+            )}
+          </form>
         </div>
       </div>
       <Footer />

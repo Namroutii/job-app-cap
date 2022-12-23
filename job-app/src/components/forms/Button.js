@@ -1,12 +1,16 @@
 import React from "react";
-import "./Button.css"
-const Button=()=> {
+import "./Button.css";
+const Button = () => {
   return (
     <div>
-      <button className="btn btn-primary" type="submit">
-        submit
-      </button>
+  
+        <div className="d-grid gap-2">
+          <button className="btn btn-primary" type="submit">
+            Submit
+          </button>
+        </div>
+      
     </div>
   );
-}
-export default Button
+};
+export default Button;

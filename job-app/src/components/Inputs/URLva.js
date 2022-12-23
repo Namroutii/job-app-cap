@@ -16,8 +16,10 @@ const URLva = (props) => {
 
     return (
         <>
-            <label for="urlVa-input" className="label-form">{props.children} </label>
+
+            
             <div className="input">
+            <label htmlFor="urlVa-input" className="label-form">{props.children} </label>
                 <input
                     id="urlVa-input"
                     type="url"
@@ -31,7 +33,7 @@ const URLva = (props) => {
                 <div className="valid-feedback">
                     Successful
                 </div>
-                <div class="invalid-feedback">
+                <div className="invalid-feedback">
                     Please provide a valid GitHub URL.
                 </div>
             </div>

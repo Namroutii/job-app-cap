@@ -25,8 +25,9 @@ const Phone = (props) => {
 
   return (
     <>
-      <label for="phone-input" className="label-form">{props.children} </label>
+      
       <div className="input">
+      <label htmlFor="phone-input" className="label-form">{props.children} </label>
         <input
           id="phone-input"
           className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
@@ -40,7 +41,7 @@ const Phone = (props) => {
         <div className="valid-feedback">
           Successful
         </div>
-        <div class="invalid-feedback">
+        <div className="invalid-feedback">
           Invalid phone number. "Phone number must start with 056 or 059 and has 10 digits."
         </div>
       </div>

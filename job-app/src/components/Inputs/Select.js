@@ -3,10 +3,10 @@ import "./Inputs.css";
 const Selects = () => {
   return (
     <>
-      <label className="label-form"> Degree:</label>
+      
       <div className="input">
-
-        <select className="form-select">
+      <label htmlFor="select-degree" className="label-form"> Degree:</label>
+        <select id="select-degree" className="form-select">
           <option value={0}>Select your Degree:</option>
           <option value="1">Bachelor  </option>
           <option value="2">Below Tawjihi  </option>
