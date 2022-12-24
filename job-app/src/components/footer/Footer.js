@@ -4,9 +4,13 @@ const Footer = () => {
         <footer className="text-center">
             <section id="contact-info">
                 <div className="row footer-body">
-                    <h2 className="text-center contact-info-title " id="contact">
-                        Contact Information{" "}
-                    </h2>
+                    <div className="socials">
+                        <a href="https://ar-ar.facebook.com/" className="fa fa-facebook"></a>
+                        <a href="https://twitter.com/i/flow/login" className="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/" className="fa fa-linkedin"></a>
+                        <a href="https://www.slack.com/" className="fa fa-slack"></a>
+                    </div>
+
                     <div className="logo-motto col">
                         <img className="footer-logo " src="./images/Logo-Footer.png" alt=""></img>
                         <h5>
@@ -19,12 +23,9 @@ const Footer = () => {
                         <span className="fw-bold email">Email: hireme@gmail.com </span>
                     </div>
                     <div className="col">
-                        <div>
-                            <h4 className="social-title">Social media:</h4>
-                        </div>
-                        <a href="https://ar-ar.facebook.com/" className="fa fa-facebook"></a>
-                        <a href="https://twitter.com/i/flow/login" className="fa fa-twitter"></a>
-                        <a href="https://www.linkedin.com/" className="fa fa-linkedin"></a>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d751.7271817053502!2d35.220692674590744!3d32.22736666315977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1671897002489!5m2!1sar!2s" 
+                            allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                     <p className="lead copy-right">&copy; C.A.P. NNU </p>
                 </div>
