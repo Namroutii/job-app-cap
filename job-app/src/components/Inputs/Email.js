@@ -1,7 +1,7 @@
 import "./Inputs.css";
 import { useState } from "react";
 
-const Email = () => {
+const Email = (props) => {
   const [email, setEmail] = useState("");
   const [switchClass, setSwitchClass] = useState(false);
 
@@ -19,6 +19,8 @@ const Email = () => {
       <div className="input">
       <label htmlFor="email-input" className="label-form">Email</label>
         <input
+        required
+        ref={props.refer}
           id="email-input"
           type="email"
           className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
@@ -27,7 +29,7 @@ const Email = () => {
             setEmail(e.target.value);
             checkEmail();
           }}
-          required />
+           />
         <div className="valid-feedback">
           We will keep you informed!
         </div>

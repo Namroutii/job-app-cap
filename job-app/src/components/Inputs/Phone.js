@@ -28,6 +28,8 @@ const Phone = (props) => {
       <div className="input">
       <label htmlFor="phone-input" className="label-form">{props.children} </label>
         <input
+        required
+        ref={props.refer}
           id="phone-input"
           className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
           type="phone"
@@ -36,7 +38,7 @@ const Phone = (props) => {
             setNumber(e.target.value);
             checkNumber();
           }}
-          required />
+          />
         <div className="valid-feedback">
           Successful
         </div>

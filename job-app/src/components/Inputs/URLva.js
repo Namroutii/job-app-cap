@@ -19,6 +19,8 @@ const URLva = (props) => {
             <div className="input">
             <label htmlFor="urlVa-input" className="label-form">{props.children} </label>
                 <input
+                required
+                ref={props.refer}
                     id="urlVa-input"
                     type="url"
                     className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
@@ -27,7 +29,7 @@ const URLva = (props) => {
                         setUrl(e.target.value);
                         checkUrl();
                     }}
-                    required />
+                     />
                 <div className="valid-feedback">
                     Successful
                 </div>

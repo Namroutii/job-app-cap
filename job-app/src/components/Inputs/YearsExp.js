@@ -21,6 +21,8 @@ const YearsExp = (props) => {
             <div className="input">
             <label htmlFor="yearsExp-input" className="label-form">{props.children} </label>
                 <input
+                required
+                ref={props.refer}
                     id="yearsExp-input"
                     className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
                     type="phone"
@@ -29,7 +31,7 @@ const YearsExp = (props) => {
                         setYearsExp(e.target.value);
                         checkYearsExp();
                     }}
-                    required
+                   
                 />
                 <div className="valid-feedback">
                     Successful
