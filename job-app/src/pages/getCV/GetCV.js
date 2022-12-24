@@ -9,10 +9,7 @@ function getCV() {
   const filteredData = data.filter(
     (obj1) => !deletedIds.some((obj2) => obj2[0].id === obj1.id)
   );
-  // const reportedIds = JSON.parse(localStorage.getItem("reportedCVs")) || [];
-  // const filteredData = data.filter((obj1) =>
-  //   reportedIds.some((obj2) => obj2.id === obj1.id)
-  // );
+
   return (
     <div id="get-cv-container">
       <div id="nav-bar">
