@@ -12,6 +12,7 @@ footer {
 .footer-logo {
     max-width: 100%;
     height: auto;
+    min-width: 120px;
 }
 
 .logo-motto {
@@ -87,4 +88,5 @@ footer {
 iframe{
     height: auto;
     width: 80%;
+    min-width: 200px;
 }
