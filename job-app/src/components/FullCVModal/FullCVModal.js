@@ -6,7 +6,8 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const FullCVModal = ({ row, forPage, tableData, setTableData }) => {
   const [deletePopup, setDeletePopup] = useState(true);
   const [denyPopup, setDenyPopup] = useState(true);
-  const [notDeleted, setNotDeleted] = useState(true);
+  const [deletedReport, setDeletedReport] = useState(false);
+
   const popupTimer = async () => {
     await delay(5000);
     setDenyPopup(true);
@@ -23,18 +24,17 @@ const FullCVModal = ({ row, forPage, tableData, setTableData }) => {
     localStorage.setItem("reportedCVs", JSON.stringify(reportedIds));
 
     setTableData(tableData.filter((obj) => obj.id !== row.id));
-    setNotDeleted(false);
-
     setDeletePopup(false);
     popupTimer();
+    setDeletedReport(true);
   };
   const denyHandler = () => {
     const filteredReportedIds = reportedIds.filter((obj) => obj.id !== row.id);
     localStorage.setItem("reportedCVs", JSON.stringify(filteredReportedIds));
     setTableData(tableData.filter((obj) => obj.id !== row.id));
-    setNotDeleted(false);
     setDenyPopup(false);
     popupTimer();
+    setDeletedReport(true);
   };
   const el = row;
   let id = "r" + el.id;
@@ -72,13 +72,12 @@ const FullCVModal = ({ row, forPage, tableData, setTableData }) => {
         </button>
       </div>
     );
-    let reportDetails = "There are No Details for This Report";
-    setTimeout(() => {
-      if (notDeleted && thisReport[0].details.length > 1)
-        reportDetails = thisReport[0].details[0];
-    }, 1000);
+    let reportDetails;
+    if (!deletedReport) {
+      reportDetails =
+        thisReport[0].details.length > 1 ? thisReport[0].details : "";
+    }
 
-    console.log(reportDetails);
     adminReportDetails = (
       <div className={styles.reportDetailsComponent}>
         <h2>Report Details</h2>
