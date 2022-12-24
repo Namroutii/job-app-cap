@@ -1,7 +1,7 @@
 import "./Footer.css";
 const Footer = () => {
     return (
-        <footer className="text-center">
+        <footer className="text-center ">
             <section id="contact-info">
                 <div className="row footer-body">
                     <div className="socials">
@@ -29,7 +29,6 @@ const Footer = () => {
                     </div>
                     <p className="lead copy-right">&copy; C.A.P. NNU </p>
                 </div>
-
             </section>
         </footer>
     );
