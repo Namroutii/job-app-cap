@@ -3,35 +3,35 @@ import { useState } from "react";
 
 const YearsExp = (props) => {
     const [yearsExp, setYearsExp] = useState("");
-    const [switchClass, setSwitchClass] = useState(false);
+    const [switchClass, setSwitchClass] = useState("form-control fab-TextInput");
+
+    const handleChange = (event) => {
+        setYearsExp(event.target.value);
+        checkYearsExp();
+    }
 
     const checkYearsExp = () => {
         let stringYearsExp = String(yearsExp);
-
         if (stringYearsExp.length < 2) {
-            setSwitchClass(true)
+            setSwitchClass("form-control fab-TextInput is-valid")
         }
         else {
-            setSwitchClass(false)
+            setSwitchClass("form-control fab-TextInput is-invalid")
         }
     };
-
     return (
         <>
             <div className="input">
-            <label htmlFor="yearsExp-input" className="label-form">{props.children} </label>
+                <label htmlFor="yearsExp-input" className="label-form">{props.children} </label>
                 <input
                 required
                 ref={props.refer}
                     id="yearsExp-input"
-                    className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
+                    className={switchClass}
                     type="phone"
                     placeholder={props.children}
-                    onChange={(e) => {
-                        setYearsExp(e.target.value);
-                        checkYearsExp();
-                    }}
-                   
+                    onChange={handleChange}
+                    required
                 />
                 <div className="valid-feedback">
                     Successful
