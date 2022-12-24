@@ -38,9 +38,9 @@
 	font-size: 18px;
 	line-height: 1.5;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
 	.container{
-	width: 80%;
+	width: 100%;
 	display: block;
 	margin:auto;
 	padding-top:50px;
@@ -50,20 +50,25 @@
 	width:100%;
 	display: block;
 	margin:auto;
+	height: 100%
+	
 }
 .image-section{
 	float:none;
+	display: none;
 	width:100%;
-	
+	/* bottom: -500px; */
 }
+
 .image-section img{
 	width: 100%;
-	height: auto;
-	display: block;
+	/* height: -40px; */
+	display: none;
 	margin:auto;
+	
 }
 .content-section .title{
 	text-align: center;
-	font-size: 19px;
+	font-size: 12px;
 }
 }
