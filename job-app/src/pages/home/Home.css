@@ -1,12 +1,7 @@
-.title {
-    display: flex;
-    justify-content: center;
+.services-title {
+    text-align: center;
     font-size: 28px;
     font-weight: 1000px;
-    margin-top: -30px;
-}
+    margin-bottom: 60px;
 
-h1.title {
-    margin-top: -21px;
-    margin-left: -1px;
 }
