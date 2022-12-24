@@ -3,25 +3,15 @@ import { Link } from "react-router-dom";
 
 const Services = (props) => {
   return (
-    <section className="cards-services" id="services">
-      
-      <div className="content">
-        <Link to={props.link} className="services-links">
-          <div className="card-services">
-            <div className="imag-services">
-              <img src={props.imag} alt="..."></img>
-            </div>
-
-            <div className="info-services">
-              <h2>{props.info}</h2>
-              <p>
-              {props.paragraph}
-              </p>
-            </div>
-          </div>
-        </Link>
-      </div>
-    </section>
+    <>
+      <section className="card cards-services h-100 ">
+        <Link to={props.link} className="services-links"><img src={props.imag} alt="..."></img></Link>
+        <div className="card-body">
+          <Link to={props.link} className="services-links"><h5 className="card-title">{props.info}</h5></Link>
+          <p className="card-text">{props.paragraph}</p>
+        </div>
+      </section>
+    </>
   );
 };
 export default Services;
