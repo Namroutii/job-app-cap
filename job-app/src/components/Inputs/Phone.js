@@ -5,6 +5,7 @@ const Phone = (props) => {
   const [number, setNumber] = useState("");
   const [switchClass, setSwitchClass] = useState(false);
 
+
   const checkNumber = () => {
     let stringNumber = String(number);
     /*
@@ -26,7 +27,7 @@ const Phone = (props) => {
   return (
     <>
       <div className="input">
-      <label htmlFor="phone-input" className="label-form">{props.children} </label>
+        <label htmlFor="phone-input" className="label-form">{props.children} </label>
         <input
           id="phone-input"
           className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}

@@ -40,34 +40,19 @@
     cursor: pointer;
     font-weight: bold;
     margin-top: 15px;
-    margin-bottom: 50px;
 }
 
 .login-btn:hover {
     transform: scale(1.25);
 }
 
-.alt-login {
-    width: 80%;
+.face-login {
+    width: 70%;
     height: 48px;
     display: flex;
-    justify-content: space-around;
-}
-
-.alt-login div {
-    width: 40%;
-    height: 90%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-
-.google {
-    background-image: url("../../../public/images/google1.png");
-}
-
-.facebook {
-    background-image: url("../../../public/images/Facebook12.png");
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .login-text {
