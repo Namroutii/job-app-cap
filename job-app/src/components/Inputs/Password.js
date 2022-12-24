@@ -1,7 +1,7 @@
 import "./Inputs.css";
 import { useState } from "react";
 
-const Password = () => {
+const Password = (props) => {
     const [password, setPassword] = useState("");
     const [switchClass, setSwitchClass] = useState("form-control fab-TextInput");
     const pattern = "^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$"
@@ -18,7 +18,7 @@ const Password = () => {
             <label htmlFor="password-input" className="label-form">Password</label>
             <div className="input">
                 <input
-                
+
                     id="password-input"
                     type="password"
                     className={switchClass}
@@ -26,6 +26,7 @@ const Password = () => {
                         setPassword(e.target.value);
                         checkPassword();
                     }}
+                    ref={props.refer}
                     required
                 />
                 <div className="valid-feedback">

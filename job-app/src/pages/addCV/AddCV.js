@@ -300,7 +300,7 @@ console.log(selectedOptions)
                     isMulti
                   />
                 </div>
-                <Button onClick={handleClick}/>
+                <Button/>
               </div>
             )}
             {showSelect === "Accountant" && (
@@ -347,8 +347,9 @@ console.log(selectedOptions)
             )}
           </form>
         </div>
+        <Footer />
       </div>
-      <Footer />
+      
     </div>
   );
 }
