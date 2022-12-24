@@ -1,15 +1,9 @@
 import styles from "./TableFilter.module.css";
 import { useState, useEffect } from "react";
-import data from "../../data/CVsData";
 import "./TableFilter.css";
-
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-const TableFilter = (props) => {
-  const tableData = props.tableData;
-  const setTableData = props.setTableData;
-  const page = props.page;
-  const setPage = props.setPage;
+const TableFilter = ({ setTableData, tableData, setPage, page, data }) => {
   const [Cities, setCities] = useState({
     Jerusalem: true,
     Jerusalem: true,
@@ -46,8 +40,8 @@ const TableFilter = (props) => {
   };
 
   useEffect(() => {
-    setTableData(data);
     let filteredData = [];
+
     data.map((row) => {
       let cFlag = false;
       let rFlag = false;
@@ -164,7 +158,8 @@ const TableFilter = (props) => {
     else setIsAllChecked(false);
     if (Designer && IT && Accountant) setAllPosition(true);
     else setAllPosition(false);
-  }, [Cities, AllPositions]);
+  }, [Cities, AllPositions, Designer, IT, Accountant]);
+
   const cityCheck = (event) => {
     setCities({ ...Cities, [event.target.id]: event.target.checked });
   };
