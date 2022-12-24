@@ -10,7 +10,11 @@ function Home() {
   return (
     <div>
       <NavBar />
+      <br></br>
+      <br></br>
+      <section>
       <Header />
+      </section>
       <AboutUs />
       <div className="container">
         <div className="row">

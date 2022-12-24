@@ -24,7 +24,7 @@ function Header() {
           </div>
           <div className="carousel-item">
             <img
-              src="./images/home-page-img.jpg"
+              src="https://www.stechguide.com/wp-content/uploads/2021/07/Tips-for-Recruiting-the-Most-Talented-Workers-1024x682.jpg"
               className="d-block w-100"
               alt="..."
             />

@@ -45,3 +45,49 @@
     height: 95px;
     border-radius: 4px;
 }
+
+#chart .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    /* margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x)); */
+}
+/* #report{
+    float:left;
+    margin-right: 450px;
+    margin: center;
+    float: right;
+} */
+
+#report .table-dark {
+    --bs-table-bg: #36b9cc;
+    --bs-table-striped-bg: #f6c23e;
+}
+
+#report #Table_tableBottom__Ywmuc {
+    background-color: #36b9cc;
+}
+
+#report .TableFooter_activeButton__SmQD\+ {
+    color: white;
+    background: #36b9cc;
+}
+
+
+#report .TableFooter_flButton__PuzX8 {
+    color: #f6c23e;
+}
+
+#report #Table_moreInfo__V6VlW {
+    background-color: #36b9cc;
+    color: white;
+}
+
+#report #Table_table__06QsS tr:nth-child(even) #Table_moreInfo__V6VlW {
+    background-color: #f6c23e;
+}
+

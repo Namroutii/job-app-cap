@@ -5,7 +5,7 @@ function AboutUs() {
       <div className="container">
         <div className="content-section">
           <div className="title">
-            <h1>About Us</h1>
+            <h3>About Us</h3>
           </div>
           <div className="content">
             <p>
