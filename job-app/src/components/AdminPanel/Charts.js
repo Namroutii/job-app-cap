@@ -12,13 +12,12 @@ const data = [
 export default function Charts() {
     return (
         <section>
-        <div className="row">
-        <div className="col-md-12">
-            
-        </div>
+            <h3 className="section-title">Activities</h3>
+        <div className="row w-100">
+        
 
         <div className="section-col-md-6">
-            <h3 className="section-title">Line Chart</h3>
+            
             <div className="section-content">
             <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={data} margin={{ top: 15, right: 0, bottom: 15, left: 0 }}>
@@ -35,7 +34,7 @@ export default function Charts() {
         </div>
 
         <div className="section-col-md-6">
-            <h3 className="section-title">Bar Chart</h3>
+            {/* <h3 className="section-title">Bar Chart</h3> */}
             <div className="section-content">
             <ResponsiveContainer width="100%" height={300}>
                 <BarChart data={data} margin={{ top: 15, right: 0, bottom: 15, left: 0 }}>
