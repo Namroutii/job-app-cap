@@ -111,3 +111,9 @@
 .tableContainer::-webkit-scrollbar-thumb:hover {
   background: #295984;
 }
+#noDataFound {
+  background-color: #e2e2e2;
+  color: black !important;
+  text-align: center;
+  font-weight: bold;
+}

@@ -49,3 +49,28 @@
   color: white;
   border-color: #295984;
 }
+.adminFooter {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adminFooter button {
+  width: 130px;
+  border-radius: 20px;
+  padding: 4px;
+  background-color: #ecb056;
+  border: none;
+}
+.denyButton {
+  margin-right: 40px;
+}
+.deleteButton {
+  margin-left: 40px;
+  color: red;
+}
+.reportDetailsComponent {
+  padding-top: 15px;
+}
+.reportDetailsComponent h2 {
+  color: red;
+}

@@ -5,6 +5,11 @@ import Footer from "../../components/footer/Footer";
 import NavBarGetCvs from "../../components/NavigationBars/NavBarGetCvs";
 
 function getCV() {
+  const deletedIds = JSON.parse(localStorage.getItem("deletedCVs")) || [];
+  const filteredData = data.filter(
+    (obj1) => !deletedIds.some((obj2) => obj2[0].id === obj1.id)
+  );
+
   return (
     <div id="get-cv-container">
       <div id="nav-bar">
@@ -14,7 +19,13 @@ function getCV() {
         <img src="./images/get-cv-img.jpg" id="get-cv-img" />
         <h1 id="get-cv-header">Find Employees</h1>
       </div>
-      <Table data={data} rowsPerPage={23} />
+
+      <Table
+        data={filteredData}
+        rowsPerPage={23}
+        withFilter={true}
+        forPage="get-cv"
+      />
 
       <Footer />
     </div>
