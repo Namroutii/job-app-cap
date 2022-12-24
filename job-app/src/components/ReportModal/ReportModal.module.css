@@ -43,6 +43,7 @@ p {
   border-radius: 20px;
   padding: 3px;
   font-weight: bold;
+  border: none;
 }
 #cancelBtn {
   margin-right: 20px;
@@ -52,5 +53,4 @@ p {
   margin-left: 20px;
   background-color: #ecb056;
   color: red;
-  border-color: red;
 }

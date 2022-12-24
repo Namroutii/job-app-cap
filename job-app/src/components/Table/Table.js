@@ -6,13 +6,25 @@ import "./Table.css";
 import FullCVModal from "../FullCVModal/FullCVModal";
 import TableFilter from "../TableFilter/TableFilter";
 import ReportModal from "../ReportModal/ReportModal";
-const Table = ({ data, rowsPerPage }) => {
+const Table = ({ data, rowsPerPage, withFilter, forPage }) => {
   const [page, setPage] = useState(1);
   const [tableData, setTableData] = useState(data);
   const { slice, range } = useTable(tableData, page, rowsPerPage);
-
-  return (
-    <div id={styles.mainContainer}>
+  const [hiddenPopup, setHiddenPopup] = useState(true);
+  const [isDataExist, setIsDataExist] = useState("");
+  useEffect(() => {
+    if (tableData.length < 1)
+      setIsDataExist(
+        <tr>
+          <td id={styles.noDataFound} colSpan={7}>
+            No Data Found!
+          </td>
+        </tr>
+      );
+  }, [tableData]);
+  let filter = "";
+  if (withFilter)
+    filter = (
       <TableFilter
         tableData={tableData}
         setTableData={setTableData}
@@ -20,6 +32,17 @@ const Table = ({ data, rowsPerPage }) => {
         page={page}
         setPage={setPage}
       />
+    );
+
+  return (
+    <div id={styles.mainContainer}>
+      {filter}
+      <div
+        id={hiddenPopup ? "hiddenPopup" : "visiblePopup"}
+        onClick={() => setHiddenPopup(true)}
+      >
+        The CV has been reported. Thanks for the feedback!
+      </div>
       <div className={styles.tableContainer}>
         <div id={styles.scrollDiv}>
           <table id={styles.table} className="table  table-striped">
@@ -35,9 +58,9 @@ const Table = ({ data, rowsPerPage }) => {
               </tr>
             </thead>
             <tbody>
+              {isDataExist}
               {slice.map((el) => {
                 let idH = "#r" + el.id;
-
                 return (
                   <tr className="table-dark" key={el.id}>
                     <td className={styles.tableCell}>{el.name}</td>
@@ -56,9 +79,17 @@ const Table = ({ data, rowsPerPage }) => {
                       >
                         More Info
                       </button>
-                      <ReportModal />
-
-                      <FullCVModal row={el} />
+                      <ReportModal
+                        row={el}
+                        hiddenPopup={hiddenPopup}
+                        setHiddenPopup={setHiddenPopup}
+                      />
+                      <FullCVModal
+                        row={el}
+                        forPage={forPage}
+                        tableData={tableData}
+                        setTableData={setTableData}
+                      />
                     </td>
                   </tr>
                 );
