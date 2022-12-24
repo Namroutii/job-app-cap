@@ -23,8 +23,8 @@ const Footer = () => {
                         <span className="fw-bold email">Email: hireme@gmail.com </span>
                     </div>
                     <div className="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d751.7271817053502!2d35.220692674590744!3d32.22736666315977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1671897002489!5m2!1sar!2s" 
-                            allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d751.7271817053502!2d35.220692674590744!3d32.22736666315977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1671897002489!5m2!1sar!2s"
+                            allowFullScreen="" rerrerPolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
                     <p className="lead copy-right">&copy; C.A.P. NNU </p>
