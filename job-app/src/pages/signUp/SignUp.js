@@ -1,5 +1,7 @@
 import "./SignUp.css"
-// import NavBarLogin from "../../components/NavBarLogin/NavBarLogin.";
+
+import NavBarLogin from "../../components/NavigationBars/NavBarLogin.";
+
 import Footer from "../../components/footer/Footer";
 import Name from "../../components/Inputs/Name";
 import Email from "../../components/Inputs/Email";
