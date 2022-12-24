@@ -9,7 +9,7 @@ footer {
 }
 
 .footer-logo {
-    width: auto;
+    max-width: 100%;
     height: auto;
 }
 
@@ -31,7 +31,7 @@ footer {
 
 .loc,.email,.phone {
     color: #cacfcf;
-    font-size:x-large;
+    font-size: 140% 150% 160%;
     width: 100%;
     text-align: center;
 }
