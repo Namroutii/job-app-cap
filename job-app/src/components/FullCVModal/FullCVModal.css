@@ -12,3 +12,42 @@
   margin-bottom: 20px;
   color: #4088c5;
 }
+#hiddenPopup {
+  position: absolute;
+  visibility: hidden;
+  transition: 0;
+}
+#visibleDeletePopup {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+  white-space: normal;
+  background-color: #ecb056;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: red;
+  font-size: 20px;
+}
+
+#visibleDenyPopup {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  white-space: normal;
+  background-color: #ecb056;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: white;
+  font-size: 20px;
+}
