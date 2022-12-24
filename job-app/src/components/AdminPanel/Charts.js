@@ -30,14 +30,14 @@ export default function Charts() {
                 <YAxis />
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                 <Legend/>
-                <Line type="monotone" dataKey="sales" stroke="#FB8833" />
-                <Line type="monotone" dataKey="leads" stroke="#17A8F5" />
+                <Line type="monotone" dataKey="sales" stroke="#36b9cc" />
+                <Line type="monotone" dataKey="leads" stroke="#f6c23e" />
                 </LineChart>
             </ResponsiveContainer>
             </div>
         </div>
 
-        <div className="section--col-md-6">
+        <div className="section-col-md-6">
             <h3 className="section-title">Bar Chart</h3>
             <div className="section-content">
             <ResponsiveContainer width="100%" height={300}>
@@ -47,8 +47,8 @@ export default function Charts() {
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                 <Tooltip />
                 <Legend/>
-                <Bar dataKey="sales" fill="#FB8833" />
-                <Bar dataKey="leads" fill="#17A8F5" />
+                <Bar dataKey="sales" fill="#36b9cc" />
+                <Bar dataKey="leads" fill="#f6c23e" />
                 </BarChart>
             </ResponsiveContainer>
             </div>
