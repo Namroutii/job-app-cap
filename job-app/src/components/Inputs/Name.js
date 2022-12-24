@@ -17,6 +17,7 @@ const Name = (props) => {
             <div className="input">
                 <label htmlFor="name-input" className="form-label label-text">{props.children}</label>
                 <input type="text"
+                ref={props.refer}
                     className={switchClass}
                     id="name-input" placeholder={props.children}
                     onChange={(e) => {
