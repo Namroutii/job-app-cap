@@ -5,7 +5,7 @@ const Button = () => {
     <div>
   
         <div className="d-grid gap-2">
-          <button className="btn btn-primary" type="submit">
+          <button className="btn btn-primary" >
             Submit
           </button>
         </div>

@@ -1,19 +1,19 @@
 
 import "./Inputs.css";
-const Selects = () => {
+const Selects = (props) => {
   return (
     <>
       
       <div className="input">
       <label htmlFor="select-degree" className="label-form"> Degree:</label>
-        <select id="select-degree" className="form-select">
-          <option value={0}>Select your Degree:</option>
-          <option value="1">Bachelor  </option>
-          <option value="2">Below Tawjihi  </option>
-          <option value="3"> Tawjihi  </option>
-          <option value="4">Diploma  </option>
-          <option value="5">Master  </option>
-          <option value="6">Doctorate </option>
+        <select  ref={props.refer} id="select-degree" className="form-select" required>
+          <option value={'NAN'}>Select your Degree:</option>
+          <option value="Bachelor">Bachelor  </option>
+          <option value="Below Tawjihi">Below Tawjihi  </option>
+          <option value="Tawjihi"> Tawjihi  </option>
+          <option value="Diploma ">Diploma  </option>
+          <option value="Master">Master  </option>
+          <option value="Doctorate">Doctorate </option>
         </select>
       </div>
 

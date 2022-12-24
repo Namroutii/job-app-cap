@@ -1,6 +1,5 @@
 import "./Inputs.css";
 import { useState } from "react";
-
 const Name = (props) => {
     const [name, setName] = useState("");
     const [switchClass, setSwitchClass] = useState("form-control fab-TextInput");

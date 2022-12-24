@@ -1,5 +1,5 @@
 export default [
-  {
+  { 
     name: "Unity Calhoun",
     age: 53,
     city: "Jerusalem",

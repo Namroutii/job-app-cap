@@ -18,6 +18,7 @@ const Password = () => {
             <label htmlFor="password-input" className="label-form">Password</label>
             <div className="input">
                 <input
+                
                     id="password-input"
                     type="password"
                     className={switchClass}
