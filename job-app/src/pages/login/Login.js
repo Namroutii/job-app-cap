@@ -4,8 +4,8 @@ import NavBarLogin from "../../components/NavigationBars/NavBarLogin.";
 import "./Login.css"
 function Login() {
   return (
-    <>
-      <NavBarLogin />
+     <>
+     <NavBarLogin />
       <div className="login-page">
         <LoginForm />
       </div>

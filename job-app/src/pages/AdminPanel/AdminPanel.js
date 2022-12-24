@@ -2,7 +2,9 @@ import AdminPanelCard from "../../components/AdminPanelCard/AdminPanelCard";
 import "./AdminPanel.css";
 import Charts from "../../components/AdminPanel/Charts";
 import NavBarAdminPanel from "../../components/NavigationBars/NavBarAdminPanel";
-import data from "../../data/CVsData"
+import data from "../../data/CVsData";
+import Table from "../../components/Table/Table";
+
 function AdminPanel() {
     let temp;
     let ageSum = 0;
@@ -43,6 +45,11 @@ function AdminPanel() {
     function GetObjKey(obj, value) {
         return Object.keys(obj).find(key => obj[key] === value);
     }
+    const reportedIds = JSON.parse(localStorage.getItem("reportedCVs")) || [];
+    const filteredData = data.filter((obj1) =>
+    reportedIds.some((obj2) => obj2.id === obj1.id)
+    );
+
     return (
         <div>
             <div className="container">
@@ -65,6 +72,14 @@ function AdminPanel() {
                 </div>
             </div>
             <Charts />
+            <div id = "report">
+                <Table width="100%" height={300}
+                data = {filteredData}
+                rowsPerPage = {23}
+                withFilter = {false}
+                forPage = "admin"
+                />
+            </div>
         </div>
     )
 }
