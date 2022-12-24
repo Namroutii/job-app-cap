@@ -6,7 +6,7 @@ const Email = () => {
   const [switchClass, setSwitchClass] = useState(false);
 
   const checkEmail = () => {
-    if ((email.length > 0) && (email.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i))) {
+    if (email.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i)) {
       setSwitchClass(true)
     }
     else {
@@ -17,7 +17,7 @@ const Email = () => {
   return (
     <>
       <div className="input">
-      <label htmlFor="email-input" className="label-form">Email</label>
+        <label htmlFor="email-input" className="label-form">Email</label>
         <input
           id="email-input"
           type="email"

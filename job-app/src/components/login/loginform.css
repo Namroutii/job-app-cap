@@ -2,7 +2,7 @@
     background-color: white;
     width: 400px;
     height: 50%;
-    border-radius: 50px;
+    border-radius: 12px;
     box-shadow: 0 3px 25px #052236;
     margin: auto;
     display: flex;
@@ -15,8 +15,8 @@
     border: none;
     background-color: #F1F1E6;
     width: 75%;
-    border-radius: 12px;
-    text-align: center;
+    border-radius: 6px;
+    text-align: left;
     padding: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -35,15 +35,28 @@
     align-items: center;
     transition: 1.5s;
     border: none;
-    border-radius: 12px;
+    border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .login-btn:hover {
     transform: scale(1.25);
+}
+
+.signUp-btn {
+    width: 40%;
+    height: 48px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .face-login {
@@ -53,6 +66,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    border-radius: 6px;
 }
 
 .login-text {
