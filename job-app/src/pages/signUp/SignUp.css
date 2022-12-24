@@ -10,6 +10,8 @@
         url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
     background-size: cover;
     background-position: center;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .signUp-cover {
@@ -17,6 +19,7 @@
     border-radius: 15px;
     box-shadow: 0 3px 25px #052236;
     padding: 10px 60px;
+    width: 600px;
 }
 
 .signUp-header {

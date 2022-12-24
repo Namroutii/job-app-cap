@@ -1,9 +1,10 @@
 .cover {
     background-color: white;
-    width: 33%;
+    width: 400px;
     height: 50%;
-    border-radius: 50px;
+    border-radius: 12px;
     box-shadow: 0 3px 25px #052236;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,8 +15,8 @@
     border: none;
     background-color: #F1F1E6;
     width: 75%;
-    border-radius: 12px;
-    text-align: center;
+    border-radius: 6px;
+    text-align: left;
     padding: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -34,39 +35,38 @@
     align-items: center;
     transition: 1.5s;
     border: none;
-    border-radius: 12px;
+    border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .login-btn:hover {
     transform: scale(1.25);
 }
 
-.alt-login {
-    width: 80%;
-    height: 48px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.alt-login div {
+.signUp-btn {
     width: 40%;
-    height: 90%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 48px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 16px;
     cursor: pointer;
 }
 
-.google {
-    background-image: url("../../../public/images/google1.png");
-}
-
-.facebook {
-    background-image: url("../../../public/images/Facebook12.png");
+.face-login {
+    width: 70%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 6px;
 }
 
 .login-text {
