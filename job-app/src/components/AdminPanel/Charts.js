@@ -5,10 +5,7 @@ import "./ChartsStyle.css";
 
 const data = [
     { label: 'Today Active', sales: 21, leads: 41 },
-    // { label: 'Bounce Rate', sales: 35, leads: 79 },
-    // { label: 'New Users', sales: 75, leads: 57 },
     { label: 'Total Users', sales: 51, leads: 47 },
-    // { label: 'Number of meeting', sales: 41, leads: 63 },
     { label: 'Search Engines', sales: 47, leads: 71 }
 ];
 
@@ -17,7 +14,7 @@ export default function Charts() {
         <section>
         <div className="row">
         <div className="col-md-12">
-            {/* <h2>Charts with recharts library</h2> */}
+            
         </div>
 
         <div className="section-col-md-6">
