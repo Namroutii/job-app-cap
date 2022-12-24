@@ -1,5 +1,6 @@
 footer {
     background-color: #052236;
+    margin-top: 2%;
 }
 
 .footer-motto {
@@ -9,9 +10,9 @@ footer {
 }
 
 .footer-logo {
-    width: auto;
+    max-width: 100%;
     height: auto;
-    align-items: center;
+    min-width: 120px;
 }
 
 .logo-motto {
@@ -32,9 +33,9 @@ footer {
 
 .loc,.email,.phone {
     color: #cacfcf;
-    font-size:x-large;
+    font-size: 140% 150% 160%;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .fa {
@@ -42,8 +43,8 @@ footer {
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5% 2%;
-    border-radius: 30%;
+    margin: 1% 1%;  
+    border-radius: 10%;
     border-color: white;
     border-style: solid;
     border-width: 1px;
@@ -67,15 +68,25 @@ footer {
     color: white;
 }
 
+.fa-slack{
+    color: white;
+}
 .copy-right{
     color:#cacfcf;
     font-family: Georgia, serif;
+}
 
-}
-.contact-info-title , .social-title{
-    color:#cacfcf;
-    font-family: Georgia, serif;
-}
 .footer-body{
     width: 100%;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+iframe{
+    height: auto;
+    width: 80%;
+    min-width: 200px;
 }
