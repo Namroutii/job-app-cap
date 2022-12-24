@@ -1,4 +1,4 @@
-import "./NavBarGetCvs";
+import "./NavBar.css";
 import { Link } from "react-router-dom";
 function NavBarGetCvs() {
   return (

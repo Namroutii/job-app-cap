@@ -28,7 +28,7 @@ function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span className="nav-links">Dropdown</span>
+                <span className="nav-links">Services</span>
               </Link>
               <ul className="dropdown-menu">
                 <li>

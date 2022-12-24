@@ -16,8 +16,8 @@ const URLva = (props) => {
 
     return (
         <>
-            <label htmlFor="urlVa-input" className="label-form">{props.children} </label>
             <div className="input">
+            <label htmlFor="urlVa-input" className="label-form">{props.children} </label>
                 <input
                     id="urlVa-input"
                     type="url"

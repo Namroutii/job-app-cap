@@ -1,5 +1,5 @@
 import "./SignUp.css"
-import NavBarLogin from "../../components/NavBarLogin/NavBarLogin.";
+// import NavBarLogin from "../../components/NavBarLogin/NavBarLogin.";
 import Footer from "../../components/footer/Footer";
 import Name from "../../components/Inputs/Name";
 import Email from "../../components/Inputs/Email";
@@ -14,7 +14,7 @@ function SignUp() {
 
     return (
         <>
-            <NavBarLogin />
+            {/* <NavBarLogin /> */}
             <div className="signUp-page">
                 <form className="signUp-cover" onSubmit={handleSubmit}>
                     <h1 className="signUp-header">Sign Up</h1>

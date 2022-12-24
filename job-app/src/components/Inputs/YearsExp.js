@@ -18,8 +18,8 @@ const YearsExp = (props) => {
 
     return (
         <>
-            <label htmlFor="yearsExp-input" className="label-form">{props.children} </label>
             <div className="input">
+            <label htmlFor="yearsExp-input" className="label-form">{props.children} </label>
                 <input
                     id="yearsExp-input"
                     className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}

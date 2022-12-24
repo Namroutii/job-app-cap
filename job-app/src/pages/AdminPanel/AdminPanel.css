@@ -45,3 +45,9 @@
     height: 95px;
     border-radius: 4px;
 }
+
+#report .table-dark {
+    --bs-table-bg: #cc43ce;
+    --bs-table-striped-bg: #cb1b53;
+}
+

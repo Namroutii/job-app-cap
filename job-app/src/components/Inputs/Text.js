@@ -7,30 +7,30 @@ const Text = (props) => {
 
   const checkName = () => {
     if (props.children === "Full Name") {
-
-      if (name.length < 10)
-        setCheck("");
+      if (name.length < 10) setCheck("");
       else setCheck("");
     }
   };
 
   return (
     <>
-      <label className="label-text "> {props.children} </label>
-      <div className="input">
-        <input
-          className="fab-TextInput "
-          placeholder={props.children}
-          onChange={(e) => {
-            setName(e.target.value);
-            checkName();
-          }}
-          required
-          type="text"
-
-        /> <br />
-
-        <span className="validation">{check}</span>
+    <div className="input">
+      <label htmlFor={props.children} className="label-text "> {props.children} </label>
+      <input
+        className="fab-TextInput "
+        placeholder={props.children}
+        onChange={(e) => {
+          setName(e.target.value);
+          checkName();
+         
+        }}
+        id={props.children}
+        required
+        type="text"
+      />
+      
+      
+      <span className="validation">{check}</span>
       </div>
     </>
   );
