@@ -4,7 +4,7 @@
 }
 
 #logo {
-    width: 130px;
+    width: 10rem;
 
 }
 
@@ -27,6 +27,10 @@
 
 .navbar-nav .dropdown-item {
     color: #adb5bd;
+}
+
+.dropdown-item:hover {
+    background-color: #0b2d4c;
 }
 
 .dropdown-toggle::after {
