@@ -22,7 +22,7 @@ function Home() {
                 quickly as possible." link="/get-cv" />
           </div>
           <div className='col-12 col-md-10 col-lg-6 col-xl-4'>
-            <Services imag="./images/Filter.jpg" info="Filter" paragraph="   When reviewing resumes, it might be challenging to find the
+            <Services imag="./images/Filter-employee.jpg" info="Filter" paragraph="   When reviewing resumes, it might be challenging to find the
                 information you're looking for, whether it's years of experience
                 or age. With a touch of a button, so we are in HireMe we've
                 given you fast ways to quickly find the ideal candidate. Here,
