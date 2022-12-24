@@ -24,6 +24,8 @@ const YearsExp = (props) => {
             <div className="input">
                 <label htmlFor="yearsExp-input" className="label-form">{props.children} </label>
                 <input
+                required
+                ref={props.refer}
                     id="yearsExp-input"
                     className={switchClass}
                     type="phone"
