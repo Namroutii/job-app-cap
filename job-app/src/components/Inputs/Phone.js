@@ -3,9 +3,7 @@ import { useState } from "react";
 
 const Phone = (props) => {
   const [number, setNumber] = useState("");
-  const [switchClass, setSwitchClass] = useState(false);
-
-
+  const [switchClass, setSwitchClass] = useState("form-control fab-TextInput");
   const checkNumber = () => {
     let stringNumber = String(number);
     /*
@@ -17,20 +15,19 @@ const Phone = (props) => {
         }
     */
     if (stringNumber[0] === '0' && stringNumber[1] === '5' && (stringNumber[2] === '6' || stringNumber[2] === '9') && stringNumber.length === 9) {
-      setSwitchClass(true)
+      setSwitchClass("form-control fab-TextInput is-valid")
     }
     else {
-      setSwitchClass(false)
+      setSwitchClass("form-control fab-TextInput is-invalid")
     }
   };
-
   return (
     <>
       <div className="input">
         <label htmlFor="phone-input" className="label-form">{props.children} </label>
         <input
           id="phone-input"
-          className={switchClass ? "form-control fab-TextInput is-valid" : "form-control fab-TextInput is-invalid"}
+          className={switchClass}
           type="phone"
           placeholder={props.children}
           onChange={(e) => {
